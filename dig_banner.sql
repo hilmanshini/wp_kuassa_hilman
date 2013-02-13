@@ -35,6 +35,7 @@ CREATE TABLE IF NOT EXISTS `dig_banner` (
   `banner_onpage` varchar(255) DEFAULT NULL,
   `banner_dateadd` datetime DEFAULT NULL,
   `banner_dateupdate` datetime DEFAULT NULL,
+  `banner_image` varchar(255),
   PRIMARY KEY (`banner_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
