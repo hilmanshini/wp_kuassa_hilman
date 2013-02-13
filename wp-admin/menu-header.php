@@ -167,10 +167,14 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 		}
 		echo "</li>";
 	}
+}
 
-	echo '<li id="collapse-menu" class="hide-if-no-js"><div id="collapse-button"><div></div></div>';
-	echo '<span>' . esc_html__( 'Collapse menu' ) . '</span>';
-	echo '</li>';
+function getAttrPos($inputpost)
+{
+   if (strpos($_SERVER['SCRIPT_NAME'], $inputpost)){
+	return true;
+   }
+   return false;
 }
 
 ?>
@@ -180,11 +184,36 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 <div id="adminmenushadow"></div>
 <ul id="adminmenu" role="navigation">
 
+
+
+
 <?php
 
 _wp_menu_output( $menu, $submenu );
 do_action( 'adminmenu' );
 
 ?>
+<li id="menu-settings" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last">
+	<a aria-haspopup="true" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last"
+	   href="dig_module_overview.php">
+		<div class="wp-menu-arrow">
+			<div></div>
+		</div>
+		<div class="wp-menu-image"><br></div>
+		<div class="wp-menu-name">Module Management</div></a>
+		<ul class="wp-submenu wp-submenu-wrap" style=""> 
+			<li class="wp-first-item <?php echo (getAttrPos('dig_banner')) ? 'current' : ''; ?>">
+				<a class="wp-first-item" href="dig_banner_index.php">Banner</a>
+			</li>
+			<li <?php echo (getAttrPos('dig_product')) ? 'current' : ''; ?>><a href="dig_product_index.php">Product</a></li>
+		</ul>
+</li>
+<?php
+
+	echo '<li id="collapse-menu" class="hide-if-no-js"><div id="collapse-button"><div></div></div>';
+	echo '<span>' . esc_html__( 'Collapse menu' ) . '</span>';
+	echo '</li>';
+?>
+
 </ul>
 </div>
