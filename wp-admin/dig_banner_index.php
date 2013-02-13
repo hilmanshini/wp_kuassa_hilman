@@ -38,10 +38,7 @@ $args = array(
 	'post_status' => 'publish'
 ); 
 $pages = get_pages($args);
- 
-
 $keyword  = $_GET['keyword']; 
-
 ?>
 
 <style type="text/css">
@@ -82,7 +79,8 @@ $(function(){
                     <td>
                         <select name="onpage">
 			    <?php foreach($pages as $row) : ?>
-				<option value="<?php echo $row['post_name']; ?>"><?php echo $row['']; ?></option>
+				<option <?php if ($row->post_name == $_GET['onpage']) echo 'selected="selected"'; ?>
+					       value="<?php echo $row->post_name; ?>"><?php echo $row->post_name; ?></option>
 			    <?php endforeach; ?>
 			</select>
                     </td>
@@ -115,7 +113,7 @@ $(function(){
     <?php } ?>
     <!-- end paginate top -->
     
-     <input type="button" class="button button-highlighted"      onclick="javascript: setOpts( 540,940,'Tambah Banner',
+    <input type="button" class="button button-highlighted"      onclick="javascript: setOpts( 540,940,'Tambah Banner',
                        '<?php echo get_bloginfo('url').'/wp-admin/dig_banner_add.php'; ?>');"
         value="Tambah Banner" /> 
     
