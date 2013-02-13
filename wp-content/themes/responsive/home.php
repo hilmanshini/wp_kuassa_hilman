@@ -29,7 +29,7 @@ get_header();
 
 get_header('special');
 ?>
-adfasdfasdfs
+
         <div id="featured" class="grid col-940">
         
         <div class="grid col-460">
