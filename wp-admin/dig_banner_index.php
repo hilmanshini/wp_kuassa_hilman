@@ -18,8 +18,30 @@ include('./admin-header.php');
 
 wp_enqueue_style('admincontent', get_bloginfo('url').'/wp-admin/css/admin-content.css', __FILE__,
                      array());
-
 wp_head();
+
+$args = array(
+	'sort_order' => 'ASC',
+	'sort_column' => 'post_date',
+	'hierarchical' => 1,
+	'exclude' => '',
+	'include' => '',
+	'meta_key' => '',
+	'meta_value' => '',
+	'authors' => '',
+	'child_of' => 0,
+	'parent' => 0,
+	'exclude_tree' => '',
+	'number' => '',
+	'offset' => 0,
+	'post_type' => 'page',
+	'post_status' => 'publish'
+); 
+$pages = get_pages($args);
+ 
+
+$keyword  = $_GET['keyword']; 
+
 ?>
 
 <style type="text/css">
@@ -35,12 +57,11 @@ html{
 var $ = jQuery.noConflict();
 
 $(function(){
-      $("#btn_tampilkan_list").click(function(){
-             window.location.href='dig_banner_index.php';    
-      });  
+    $("#btn_tampilkan_list").click(function(){
+        window.location.href='dig_banner_index.php';    
+    });  
  });
 </script>
-
 
 <div class="wrap">
     <div class="icon32" id="icon-options-general"><br></div>
@@ -59,7 +80,11 @@ $(function(){
 		<tr valign="top">
                     <th scope="row"><label for="page">On Page  </label></th>
                     <td>
-                        
+                        <select name="onpage">
+			    <?php foreach($pages as $row) : ?>
+				<option value="<?php echo $row['post_name']; ?>"><?php echo $row['']; ?></option>
+			    <?php endforeach; ?>
+			</select>
                     </td>
                 </tr>
                 <tr valign="top">
@@ -73,6 +98,43 @@ $(function(){
             </table>
         </form>                
     </fieldset>
+    
+    <!-- message -->
+    <?php  if ($_SESSION['msg']!=null) { ?>
+        <div class="updated below-h2" id="message"><p><?php echo $_SESSION['msg']; ?> </p></div>
+    <?php } if ($_SESSION['msg']!=null) unset($_SESSION['msg']); ?>
+    <!-- message -->
+    
+    <!-- paginate top -->
+    <?php if ( $page_links ) { ?>
+    <div class="tablenav">
+        <div class="tablenav-pages">
+            <?php echo $page_links_text; ?>
+        </div>
+    </div>
+    <?php } ?>
+    <!-- end paginate top -->
+    
+     <input type="button" class="button button-highlighted"      onclick="javascript: setOpts( 540,940,'Tambah Banner',
+                       '<?php echo get_bloginfo('url').'/wp-admin/dig_banner_add.php'; ?>');"
+        value="Tambah Banner" /> 
+    
+     <div align="center">
+      <div id="poststuff" class="metabox-holder">
+       <div class="table_over">
+           <table class="main_table" cellpading="0" cellspacing="0" style="width:100%;">
+              <tr class="grid_1">
+                    <th style="width:160px;">Option</th>
+                    <th width="200">Banner</th>
+		    <th style="width: 70px;">Page</th>
+		    <th style="width: 170px;">Banner Image</th>
+                    <th>Status</th>
+              </tr> 
+            </table>
+        </div>
+      </div>
+    </div>
+    
 </div>
  
 
