@@ -104,16 +104,7 @@ if ( !defined('ABSPATH')) exit;
  				  }
 			?> 
                                    
-        </div><!-- end of #featured-image --> 
-        
-	 <?php
-	 $posts_array = query_posts( 'cat=5,6,7,8' );
-	 ;echo '<pre>';
-	 print_r($posts_array);die;
-	 ?>
-	 
-	 
-	 
+        </div><!-- end of #featured-image -->  
         </div><!-- end of #featured --> 
                
 <?php get_sidebar('home'); ?>
