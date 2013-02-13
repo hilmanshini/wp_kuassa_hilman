@@ -1,0 +1,1 @@
+cd ~/www && rsync -timeout=50000 -av --exclude ".git" --exclude ".gitignore" --exclude "wp-config.php"  wp_kuassa/   -e "ssh -p 22" theinfin@theinfinitelabs.com:/home/theinfin/public_html/staging/
