@@ -36,7 +36,7 @@ if ( !defined('ABSPATH')) exit;
 
 <?php wp_enqueue_style('responsive-style', get_stylesheet_uri(), false, '1.8.7');?>
 
-<?php wp_head(); ?>
+<?php/* wp_head();*/ ?>
 </head>
 
 <body <?php body_class(); ?>>

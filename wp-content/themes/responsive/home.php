@@ -21,8 +21,15 @@ if ( !defined('ABSPATH')) exit;
  * @since          available since Release 1.0
  */
 ?>
-<?php get_header();  ?>
+<?php
 
+get_header();
+
+// nyoba get header
+
+get_header('special');
+?>
+adfasdfasdfs
         <div id="featured" class="grid col-940">
         
         <div class="grid col-460">
@@ -109,7 +116,7 @@ if ( !defined('ABSPATH')) exit;
 	 <?php
 	 $posts_array = query_posts( 'cat=5,6,7,8' );
 	 ;echo '<pre>';
-	 print_r($posts_array);die;
+	 print_r($posts_array);
 	 ?>
 	 
 	 
