@@ -38,7 +38,54 @@ $args = array(
 	'post_status' => 'publish'
 ); 
 $pages = get_pages($args);
-$keyword  = $_GET['keyword']; 
+$keyword  = $_GET['keyword'];
+
+$where = " 1 = 1 ";
+
+$keyword  = $_GET['keyword'];
+$onpage = $_GET['onpage'];
+if (trim($keyword)!="") { 
+    $where .= " and (
+	    banner_name LIKE '%$keyword%' 
+            )
+    ";
+}
+
+if (trim($onpage)!="") { 
+    $where .= " and (
+	     	banner_onpage =  '$onpage' 
+            )
+    ";
+}
+
+$sql = "SELECT * from dig_banner where $where ";
+                        
+$count  =$wpdb->get_var("SELECT count(*)
+  FROM dig_banner  
+			WHERE $where 					
+	");
+
+	
+$per_page = 15;
+$start = 0;
+try {    $start = (is_numeric($_GET['start'])) ? $_GET['start'] : 1;  } catch (Exception $e) {    $start = 1; }  			  
+$from = $start*$per_page - $per_page;
+
+$lists = $wpdb->get_results(" $sql limit $from, $per_page");
+$page_links = paginate_links( array(
+	'base' => add_query_arg( 'start', '%#%' ),
+	'format' => '',
+	'prev_text' => __('&laquo;'),
+	'next_text' => __('&raquo;'),
+	'total' =>  ceil($count / $per_page) ,
+	'current' => $start
+));
+$page_links_text = sprintf( '<span class="displaying-num">' . __( 'Displaying %s&#8211;%s of %s' ) . '</span>%s',
+                    number_format_i18n( ( $start - 1 ) * $per_page + 1 ),
+                    number_format_i18n( min( $start * $per_page, $count ) ),
+                    number_format_i18n( $count ),
+                        $page_links
+                    );
 ?>
 
 <style type="text/css">
@@ -58,6 +105,20 @@ $(function(){
         window.location.href='dig_banner_index.php';    
     });  
  });
+
+function confirmdelete(banner_id)
+{
+    var answer = confirm('Anda yakin ?  ');
+    if (answer){      
+        $.post('<?php echo get_bloginfo('url'); ?>/wp-admin/dig_banner_delete.php',
+               {
+                    'act' : 'delete' ,
+                    'banner_id' : banner_id
+               }, function(data){
+            window.location.reload(false);            
+        });
+    }       
+}
 </script>
 
 <div class="wrap">
@@ -127,7 +188,40 @@ $(function(){
 		    <th style="width: 70px;">Page</th>
 		    <th style="width: 170px;">Banner Image</th>
                     <th>Status</th>
-              </tr> 
+              </tr>
+	      
+	      <?php    foreach($lists as $key=>$row){ ?>
+                <tr class="<?php echo ($key%2==1) ? 'grid_2' : 'grid_3'; ?>">
+                   <td>
+                    <a href="javascript:void(0);"
+                       onclick="javascript: setOpts( 540,940,'Edit Manufacture',
+                       '<?php echo get_bloginfo('url').'/wp-admin/crp-editmanufacture.php?manufacture_id='.$row->manufacture_id.'&start='.$start; ?>');">
+                            Edit
+                        </a> |
+                    <a href="javascript:void(0);" onclick="javascript: confirmdelete('<?php echo $row->manufacture_id; ?>');">Delete</a>
+                   </td>
+                   <td>
+                      <?php echo $row->banner_name; ?>
+                   </td>
+		  
+		  <td>
+                      <?php echo $row->banner_onpage; ?>
+                   </td>
+		   
+                   <td>
+		    <?php  if (is_file(WP_CONTENT_DIR.'/banner/'.$row->banner_image)) :  ?>
+                       <img style="width:137.5px;height:68.75px;"	
+				src="<?php echo  WP_CONTENT_URL.'/banner/'.$row->banner_image; ?>" />
+                    <?php else : ?>
+		        <img style="width:137.5px;height:68.75px;"	
+				src="<?php echo  WP_CONTENT_URL.'/images_notfound.jpg'; ?>" />
+		    <?php endif; ?>
+		   </td>
+                    <td>
+                        <?php echo $row->manufacture_description ; ?>
+                   </td>
+                </tr>
+              <?php } ?>
             </table>
         </div>
       </div>
