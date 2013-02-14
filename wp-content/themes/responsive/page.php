@@ -21,7 +21,15 @@ if ( !defined('ABSPATH')) exit;
 <?php get_header(); ?>
 
         <div id="content" class="grid col-620">
-        
+	    
+	    <?php if (is_page('about-us')) : ?>
+		ini halaman about us
+	    <?php endif; ?>
+	    
+	    	    <?php if (is_page('community')) : ?>
+		ini halaman communityt
+	    <?php endif; ?>
+	    
 <?php if (have_posts()) : ?>
 
 		<?php while (have_posts()) : the_post(); ?>
