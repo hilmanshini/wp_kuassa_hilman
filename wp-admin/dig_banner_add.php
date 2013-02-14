@@ -13,7 +13,7 @@ if ( ! current_user_can( 'manage_options' ) )
 	wp_die( __( 'You do not have sufficient permissions to manage options for this site.' ) );
         
 session_start(); 
-$title = __('Banner Management');
+$title = __('Add Banner');
 include('./admin-header.php');
 
 wp_enqueue_style('admincontent', get_bloginfo('url').'/wp-admin/css/admin-content.css', __FILE__,
@@ -125,14 +125,14 @@ function confirmdelete(banner_id)
     <div class="icon32" id="icon-options-general"><br></div>
     <h2><?php echo $title; ?></h2>
     <fieldset class="fieldset">
-        <legend class="legend">Search</legend>
-        <form method="get"  action="dig_banner_index.php" id="frm-search">
+        <legend class="legend">Add</legend>
+        <form method="POST" enctype="multipart/form-data"  method="POST"  action="dig_banner_check_add.php" id="frm-search">
             <table class="form-table">
                  <tr valign="top">
-                    <th scope="row"><label for="keyword">Keyword  </label></th>
+                    <th scope="row"><label for="keyword">name  </label></th>
                     <td>
                          <input type="text" class="regular-text"
-                                size="60" maxlength="60" name="keyword" value="<?php echo stripslashes  ($keyword); ?>"/> 
+                                size="60" maxlength="60" name="name" value="<?php echo stripslashes  ($keyword); ?>"/> 
                     </td>
                 </tr>
 		<tr valign="top">
@@ -147,8 +147,21 @@ function confirmdelete(banner_id)
                     </td>
                 </tr>
                 <tr valign="top">
+                    <th scope="row"><label for="keyword">File </label></th>
+                    <td>
+                        <input type="file" maxlength="60" name="file" /> 
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="keyword">Image Link </label></th>
+                    <td>
+                        <input type="text" class="regular-text"
+                                size="60" maxlength="60" name="link" value="<?php echo stripslashes  ($keyword); ?>"/> 
+                    </td>
+                </tr>
+                <tr valign="top">
                     <th scope="row" colspan="2">
-                        <input type="submit" class="button button-highlighted"  id="btn_cari"  value="Filter Data" name="cari" />
+                        <input type="submit" class="button button-highlighted"  id="btn_cari"  value="Submit" name="cari" />
 			<?php if (isset($_GET['cari'])){ ?>
                             <input type="button" class="button button-highlighted"  id="btn_tampilkan_list"  value="Tampilkan Semua" />
                         <?php } ?>
@@ -174,60 +187,10 @@ function confirmdelete(banner_id)
     <?php } ?>
     <!-- end paginate top -->
     
-    <input type="button" class="button button-highlighted"      onclick="javascript: window.location.href = 'dig_banner_add.php'"
-        value="Tambah Banner" /> 
     
      <div align="center">
       <div id="poststuff" class="metabox-holder">
-       <div class="table_over">
-           <table class="main_table" cellpading="0" cellspacing="0" style="width:100%;">
-              <tr class="grid_1">
-                    <th style="width:160px;">Option</th>
-                    <th width="200">Banner</th>
-		    <th style="width: 70px;">Page</th>
-		    <th style="width: 170px;">Banner Image</th>
-                    <th>Status</th>
-              </tr>
-	      
-	      <?php    foreach($lists as $key=>$row){ ?>
-                <tr class="<?php echo ($key%2==1) ? 'grid_2' : 'grid_3'; ?>">
-                   <td>
-                    <a href="javascript:void(0);"
-                       onclick="javascript: setOpts( 540,940,'Edit Manufacture',
-                       '<?php echo get_bloginfo('url').'/wp-admin/crp-editmanufacture.php?manufacture_id='.$row->manufacture_id.'&start='.$start; ?>');">
-                            Edit
-                        </a> |
-                    <a href="javascript:void(0);" onclick="javascript: confirmdelete('<?php echo $row->manufacture_id; ?>');">Delete</a>
-                   </td>
-                   <td>
-                      <?php echo $row->banner_name; ?>
-                   </td>
-		  
-		  <td>
-                      <?php echo $row->banner_onpage; ?>
-                   </td>
-		   
-                   <td>
-                       
-                      <?php
-                       $image = 'http://'.$row->banner_image;
-                       WP_CONTENT_URL.'/dig_banner/'.$row->banner_image;
-                       ?>
-		    <?php  if (is_file($image)) :  ?>
-                       <img style="width:137.5px;height:68.75px;"	
-				src="<?php echo  $image; ?>" />
-                    <?php else : ?>
-		        <img style="width:137.5px;height:68.75px;"	
-				src="<?php echo  $image; ?>" />
-		    <?php endif; ?>
-		   </td>
-                    <td>
-                        <?php echo $row->manufacture_description ; ?>
-                   </td>
-                </tr>
-              <?php } ?>
-            </table>
-        </div>
+       
       </div>
     </div>
     
