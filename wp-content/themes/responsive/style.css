@@ -1349,7 +1349,7 @@ form div {
 
 /* =Templates (Landing Page)
 -------------------------------------------------------------- */
-.page-template-landing-page-php .menu, 
+.page-template-landing-page-php .menu-responsive, 
 .page-template-landing-page-php .top-menu,
 .page-template-landing-page-php .tinynav,
 .page-template-landing-page-php .footer-menu, 
@@ -1707,7 +1707,7 @@ form div {
 
 /* =Header Menu (Primary)
 -------------------------------------------------------------- */
-.menu {
+.menu-responsive {
 	background-color: #585858;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#585858), to(#3d3d3d));
 	background-image: -webkit-linear-gradient(top, #585858, #3d3d3d);
@@ -1720,15 +1720,15 @@ form div {
 	margin: 0 auto;
 }
 
-.menu, 
-.menu ul {
+.menu-responsive, 
+.menu-responsive ul {
 	display: block;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-.menu li {
+.menu-responsive li {
 	border: 0;
 	display: block;
 	float: left;
@@ -1738,16 +1738,16 @@ form div {
 	z-index: 5;
 }
 
-.menu li:hover {
+.menu-responsive li:hover {
 	white-space: normal;
 	z-index: 10000;
 }
 
-.menu li li {
+.menu-responsive li li {
 	float: none;
 }
 
-.menu ul {
+.menu-responsive ul {
 	left: 0;
 	position: absolute;
 	top: 0;
@@ -1755,18 +1755,18 @@ form div {
 	z-index: 10;
 }
 
-.menu li:hover > ul {
+.menu-responsive li:hover > ul {
 	top: 100%;
 	visibility: visible;
 }
 
-.menu li li:hover > ul {
+.menu-responsive li li:hover > ul {
 	left: 100%;
 	top: 0;
 }
 
-.menu:after, 
-.menu ul:after {
+.menu-responsive:after, 
+.menu-responsive ul:after {
 	clear: both;
 	content: '.';
 	display: block;
@@ -1775,30 +1775,30 @@ form div {
 	visibility: hidden;
 }
 
-.menu, 
-.menu ul {
+.menu-responsive, 
+.menu-responsive ul {
 	min-height: 0;
 }
 
-.menu ul,
-.menu ul ul {
+.menu-responsive ul,
+.menu-responsive ul ul {
 	margin: 0;
 	padding: 0;
 }
 
-.menu ul li a:hover, 
-.menu li li a:hover {
+.menu-responsive ul li a:hover, 
+.menu-responsive li li a:hover {
 	color: #484848;
 	text-decoration: none;
 }
 
-.menu ul {
+.menu-responsive ul {
     margin-top: 1px;
 	min-width: 15em;
 	width: auto;
 }
 
-.menu a {
+.menu-responsive a {
 	border-left: 1px solid #585858;
 	color: #fff;
     cursor: pointer;
@@ -1814,7 +1814,7 @@ form div {
 	text-shadow: 0 -1px 0 #000;
 }
 
-.menu a:hover {
+.menu-responsive a:hover {
 	background-color: #808080;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#808080), to(#363636));
 	background-image: -webkit-linear-gradient(top, #808080, #363636);
@@ -1826,19 +1826,19 @@ form div {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#808080, endColorstr=#363636);
 }
 
-.menu .current_page_item a,
-.menu .current-menu-item a {
+.menu-responsive .current_page_item a,
+.menu-responsive .current-menu-item a {
 	background-color: #343434;
 }
 
-.home .menu .current_page_item a {
+.home .menu-responsive .current_page_item a {
     background: none;
 	background-color: transparent;
     background-image: none;
     filter: none;
 }
 
-.menu li li {
+.menu-responsive li li {
 	background: #fff;
 	background-image: none;
 	border: 1px solid #e5e5e5;
@@ -1848,7 +1848,7 @@ form div {
 	width: auto;
 }
 
-.menu li li a {
+.menu-responsive li li a {
 	background: transparent !important;
 	border: none;
 	color: #444;
@@ -1862,7 +1862,7 @@ form div {
 	white-space: nowrap;
 }
 
-.menu li li a:hover {
+.menu-responsive li li a:hover {
 	background: #f5f5f5 !important;
 	background-image: none;
 	border: none;
@@ -1870,26 +1870,26 @@ form div {
 	filter: none;
 }
 
-.menu ul > li + li {
+.menu-responsive ul > li + li {
 	border-top: 0;
 }
 
-.menu li li:hover > ul {
+.menu-responsive li li:hover > ul {
 	left: 100%;
 	top: 0;
 }
 
-.menu > li:first-child > a {
+.menu-responsive > li:first-child > a {
 	border-left: none;
 }
 
 /* =Primary Main Menu IE Fixes
 -------------------------------------------------------------- */
-.ie7 .menu ul {
+.ie7 .menu-responsive ul {
 	background: url(images/ie7-fix.gif) repeat;
 }
 
-.ie7 .menu li li a  {
+.ie7 .menu-responsive li li a  {
     min-width: 100%;
 }
 
@@ -2825,7 +2825,7 @@ BDO[DIR="rtl"] {
         text-align: center;
     }
 	
-    .js .menu,
+    .js .menu-responsive,
 	.js .sub-header-menu {
 		display: none;
 	}
@@ -2901,8 +2901,8 @@ BDO[DIR="rtl"] {
         text-align: center;
     }
 	
-    .menu ul, 
-	.menu li, 
+    .menu-responsive ul, 
+	.menu-responsive li, 
 	.top-menu, 
 	.footer-menu li, 
 	.sub-header-menu li {

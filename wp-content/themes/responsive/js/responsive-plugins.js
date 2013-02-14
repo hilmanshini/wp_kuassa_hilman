@@ -17,7 +17,7 @@ jQuery(document).ready(function(){
 // Note: This will be the quickest way to add your own custom vendor as well as test your player's compatibility with FitVids.
 
 // Responsive Menu (TinyNav)
-jQuery(".menu").tinyNav({
+jQuery(".menu-mobile").tinyNav({
 	active: 'current_page_item', // Set the "active" class for default menu
 	label: '', // String: Sets the <label> text for the <select> (if not set, no label will be added)
     header: '' // String: Specify text for "header" and show header instead of the active item

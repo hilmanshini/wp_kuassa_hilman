@@ -154,7 +154,7 @@ color:#333
 margin : 0px;
 }
 .container_middle{ 
-background:#fff
+    padding: 0;
 }  
 .container_footer{ 
 background:url(../img/pattern/95.jpg); 
@@ -186,9 +186,16 @@ color:#555
 float: left;
 border-left: thin solid #C2C2C2;
 border-right: thin solid #C2C2C2;
+display: inline-block;
 }
 
 /* bagian normal */
+#horizontal{
+    float: left;
+    width: 65%;
+    height: 46px;
+    display: inline-block;
+}
 nav#horizontal{ 
 padding:0; 
 margin:0; 
@@ -199,18 +206,21 @@ border:0;
 margin:0; 
 padding:0; 
 position:relative; 
-font-family:'Helvetica Neue',Helvetica,Arial,sans-serif
+font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
 float: left;
+display: inline-block;
+width: 100%;
 }  
 #nav li a,#nav li{ 
-float:left
+float:left;
 }  
 #nav li{ 
 list-style:none; 
 position:relative; 
-margin:0 9px; 
+margin:0 2.5%; 
 z-index:9100;
 line-height: 15px;
+display: inline-block;
 }  
 #nav li span.menuChildren{ 
 display:block; 
@@ -232,20 +242,15 @@ font-size:12px
 }  
 .nav_simple li a{ 
 color:#333; 
-padding:5px 12px 5px; 
-margin:10px 5px 10px 0; 
 font-weight:bold; 
 text-transform:uppercase; 
 border:0; 
--webkit-border-radius:3px; 
--moz-border-radius:3px; 
-border-radius:3px;
 font-family: 'avenir';
-font-size: 1em;
+font-size: 100%;
+line-height: 46px;
 }  
 .nav_simple li a:hover,.nav_simple li a.hov{ 
-color:#fff; 
-background:#d74142
+color: #FF855C; 
 }  
 .nav_simple li ul{ 
 visibility:hidden; 
@@ -363,6 +368,7 @@ display:none
 float: right;
 border-left: thin solid #C2C2C2;
 border-right: thin solid #C2C2C2;
+display: block;
 }
 /* head right panel */
 #right-panel > ul {
@@ -1829,7 +1835,7 @@ background:url(../img/hr.png)
 
 /* heading style */
 #main_template h1{
-    color: #FFFFFF;
+    /*color: #FFFFFF;
     float: left;
     font-family: 'msyi';
     font-size: 28px;
@@ -1837,7 +1843,7 @@ background:url(../img/hr.png)
     line-height: 14px;
     text-transform : uppercase;
     font-weight: bold;
-    margin: 29px 0 31px;
+    margin: 29px 0 31px;*/
 }
 h1.hhr,h2.hhr,h3.hhr,h4.hhr,h5.hhr,h6.hhr{ 
 line-height:1.6; 

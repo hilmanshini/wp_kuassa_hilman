@@ -18,6 +18,9 @@ function xycss_display_media_query(){
 $(document).ready(function(){
 	$('body').append('<div id="media-query"></div>');
 	xycss_display_media_query();
+	
+	$('ul.menu').addClass('nav_simple')
+	.attr('id','nav');
 });
 $(window).resize(function() {
 	xycss_display_media_query();
