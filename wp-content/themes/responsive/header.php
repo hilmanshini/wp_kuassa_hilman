@@ -103,7 +103,7 @@ wp_enqueue_script('top_script', get_template_directory_uri() . '/js/scripts-top.
                                                 <a class="ss-icon" href="#"></a>
                                                 <div class="openbox">
                                                     <form action="" method="get">
-                                                        <input type="text" id="search-input" name="search" placeholder="Type to search" autocomplete="off">
+                                                        <input type="text" id="search-input" name="search" placeholder="type to search" autocomplete="off">
                                                         <button class="top-button" type="submit"> &#10004;</button>
                                                     </form>
                                                 </div>

@@ -474,13 +474,20 @@ display: block;
     display: inline-block;
 }
 #right-panel > ul > li.search:hover > .openbox {
-    left: -222px !important;
+    left: -220px !important;
     height: 35px;
 }
 #right-panel > ul > li.subcribe:hover > .openbox {
     left: -170px !important;
     width: 260px;
     height: 35px;
+}
+#right-panel input[type='text']{
+    border-radius: 0;
+    border: none;
+    color: #000;
+    font-family: 'msyi';
+    font-size: 19px;
 }
 .openbox .form{
   padding: 0px !important;
@@ -559,6 +566,10 @@ display: block;
     width: 100%;
     text-align: center;
 }
+.community-wrapper ul.social li span.logo img{
+    text-align: center;
+    margin: 0 auto;
+}
 .community-wrapper ul.social li span.iframe{
     margin-bottom: 12px;
     float: left;
@@ -582,6 +593,11 @@ display: block;
 .community-wrapper ul.social li .wrap_it{
 max-width:54px; 
 margin:0 auto;
+text-align: center;
+}
+.community-wrapper ul.social li .wrap_it img{
+    text-align: center;
+    margin: 0 auto;
 }
 /* menu category article */
 .category_blog {
@@ -1264,7 +1280,7 @@ opacity:.8
 
 /* preloader buat image pake js juga sih */
 .preloader{ 
-background:url(../img/loader1.gif) center center no-repeat #fff
+background:url(../images/loader1.gif) center center no-repeat #fff;
 }  
 .preloader{ 
 display:block; 
