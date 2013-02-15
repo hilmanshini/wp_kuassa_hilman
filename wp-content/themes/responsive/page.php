@@ -30,6 +30,353 @@ if ( !defined('ABSPATH')) exit;
 		ini halaman communityt
 	    <?php endif; ?>
 	    
+	    <?php if(is_page('blog')) : ?>
+	    <?php
+		wp_enqueue_style('flexslider_style', get_stylesheet_directory_uri().'../css/flexslider/flexslider.css', false, false);
+	    ?>
+	    <?php
+		// include flexslider
+		wp_enqueue_script('jquery_flexslider', get_template_directory_uri() . '/js/flexslider/jquery.flexslider.js', array('jquery'), false , true);
+		
+	    ?>
+		<script type="text/javascript">
+		      $(function(){
+			SyntaxHighlighter.all();
+		      });
+		      $(window).load(function(){
+			$('.flexslider').flexslider({
+			  animation: "slide",
+			  direction: "horizontal",
+			  animationLoop: false,
+			  itemWidth: 325,
+			  itemMargin: 1,
+			  start: function(slider){
+			    $('body').removeClass('loading');
+			  }
+			});
+		      });
+		</script>
+	    <?php
+		// include Syntax Highlighter
+		wp_enqueue_script('addFlexshCore', get_template_directory_uri() . '/js/flexslider/shCore.js', array('jquery'), false , true);
+		wp_enqueue_script('addFlexshBrushXml', get_template_directory_uri() . '/js/flexslider/shBrushXml.js', array('jquery'), false , true);
+		wp_enqueue_script('addFlexshBrushJScript', get_template_directory_uri() . '/js/flexslider/shBrushJScript.js', array('jquery'), false , true);
+		
+		// include Optional FlexSlider Additions
+		wp_enqueue_script('jquery_easing', get_template_directory_uri() . '/js/flexslider/jquery.easing.js', array('jquery'), false , true);
+		wp_enqueue_script('jquery_mousewheel', get_template_directory_uri() . '/js/flexslider/jquery.mousewheel.js', array('jquery'), false , true);
+		wp_enqueue_script('jquery_flexslider_demo', get_template_directory_uri() . '/js/flexslider/demo.js', array('jquery'), false , true);
+	    
+	    ?>
+	    <!-- bagian category blog -->
+	    <div class="category_blog clearfix line ">
+		    <ul class="categories">
+			    <li class="first"><a href="">Blog</a></li>
+			    <li class="second"><a href="">News</a></li>
+			    <li class="second"><a href="">Events</a></li>
+			    <li class="last"><a href="">Videos</a></li>
+		    </ul>
+	    </div>
+	    <!-- end of category list -->
+	    <!-- bagian blog list-->
+	    <div class="container_blog clearfix line">
+			    <div class="left_column line ">
+				    <div class="grid_6 left_nav line">
+					    <a href="" class="navlist">Newer Article </a>
+				    </div>
+				    <div class="grid_6 right_nav line ">
+					    <a href="" class="navlist">Older Article </a>
+				    </div>
+				    <div class="main_list clearfix line">
+					    <ul class="list_blog">
+						    <li class="line grid_6">
+							    <a href="" class="blog_content">
+								    <div class="thumbnail">
+									    <img src="<?php echo get_template_directory_uri().'/images/blog_dummy_img.png'; ?>" alt="thumbnail blog">
+								    
+									    <div class="ic_caption">
+										    <span class="category">Interviews</span>
+										    <span class="comments">1 Comment</span>
+										    <h3>Tim Carter</h3>
+									    </div>
+								    </div>
+							    </a>
+							    <div class="description">
+								    <p>
+									    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+								    </p>
+							    </div>
+						    </li>
+						    <li class="line grid_6">
+							    <a href="" class="blog_content">
+								    <div class="thumbnail">
+									    <img src="<?php echo get_template_directory_uri().'/images/blog_dummy_img2.png'; ?>" alt="thumbnail blog">
+								    
+									    <div class="ic_caption">
+										    <span class="category">Interviews</span>
+										    <span class="comments">1 Comment</span>
+										    <h3>Tim Carter</h3>
+									    </div>
+								    </div>
+							    </a>
+							    <div class="description">
+								    <p>
+									    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+								    </p>
+							    </div>
+							    
+						    </li>
+						    <li class="line grid_6">
+							    <a href="" class="blog_content">
+								    <div class="thumbnail">
+									    <img src="<?php echo get_template_directory_uri().'/images/blog_dummy_img2.png'; ?>" alt="thumbnail blog">
+								    
+									    <div class="ic_caption">
+										    <span class="category">Interviews</span>
+										    <span class="comments">1 Comment</span>
+										    <h3>Tim Carter</h3>
+									    </div>
+								    </div>
+							    </a>
+							    <div class="description">
+								    <p>
+									    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+								    </p>
+							    </div>
+							    
+						    </li>
+						    <li class="line grid_6">
+							    <a href="" class="blog_content">
+								    <div class="thumbnail">
+									    <img src="<?php echo get_template_directory_uri().'/images/blog_dummy_img.png'; ?>" alt="thumbnail blog">
+								    
+									    <div class="ic_caption">
+										    <span class="category">Interviews</span>
+										    <span class="comments">1 Comment</span>
+										    <h3>Tim Carter</h3>
+									    </div>
+								    </div>
+							    </a>
+							    <div class="description">
+								    <p>
+									    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+								    </p>
+							    </div>
+						    </li>
+						    <li class="line grid_6">
+							    <a href="" class="blog_content">
+								    <div class="thumbnail">
+									    <img src="<?php echo get_template_directory_uri().'/images/blog_dummy_img.png'; ?>" alt="thumbnail blog">
+								    
+									    <div class="ic_caption">
+										    <span class="category">Interviews</span>
+										    <span class="comments">1 Comment</span>
+										    <h3>Tim Carter</h3>
+									    </div>
+								    </div>
+							    </a>
+							    <div class="description">
+								    <p>
+									    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+								    </p>
+							    </div>
+						    </li>
+						    
+					    </ul>
+				    </div>
+				    <div class="grid_6 left_nav line">
+					    <a href="" class="navlist">Newer Article </a>
+				    </div>
+				    <div class="grid_6 right_nav line ">
+					    <a href="" class="navlist">Older Article </a>
+				    </div>
+			    </div>
+			    <div class="grid_4 right_column ">
+				    <div class="archive clearfix line">
+					    <h3> Archieve</h3>
+					    <ul class="archieve_column grid_12 line">
+						    <li>
+							    <a href="">2010</a>
+						    </li>
+						    <li>
+							    <a href="">2011</a>
+						    </li>
+						    <li>
+							    <a href="">2012</a>
+						    </li>
+						    <li>
+							    <a href="">2013</a>
+						    </li>
+					    </ul>
+				    </div>
+				    <div class="note_column line">
+					    <ul class="banner">
+						    <li><a href=""><img src="<?php echo get_template_directory_uri().'/images/right_column_blog.png'; ?>" alt="new updates"></a></li>
+						    <li><a href=""><img src="<?php echo get_template_directory_uri().'/images/right_column_blog_2.png'; ?>" alt="new updates"></a></li>
+					    </ul>
+					    <div class="clear"></div>
+				    </div>
+				    <div class="stories_column line">
+					    <h3> Recomended Stories</h3>
+					    <ul class="recommended">
+						    <li>
+							    <a href="" class="clearfix">
+								    <div class="thumb">
+									    <img src="<?php echo get_template_directory_uri().'/images/blog_comunity.png'; ?>">
+								    </div>
+								    <div class="description">
+									    <h4>Interview</h4>
+									    <span class="desc">
+										    dimitar berbatov
+									    </span>
+								    </div>
+							    </a>
+						    </li>
+						    <li>
+							    <a href="" class="clearfix">
+								    <div class="thumb">
+									    <img src="<?php echo get_template_directory_uri().'/images/blog_comunity.png'; ?>">
+								    </div>
+								    <div class="description">
+									    <h4>Interview</h4>
+									    <span class="desc">
+										    dimitar berbatov
+									    </span>
+								    </div>
+							    </a>
+						    </li>
+						    <li>
+							    <a href="" class="clearfix">
+								    <div class="thumb">
+									    <img src="<?php echo get_template_directory_uri().'/images/blog_comunity.png'; ?>">
+								    </div>
+								    <div class="description">
+									    <h4>Interview</h4>
+									    <span class="desc">
+										    dimitar berbatov
+									    </span>
+								    </div>
+							    </a>
+						    </li>
+						    <li>
+							    <a href="" class="clearfix">
+								    <div class="thumb">
+									    <img src="<?php echo get_template_directory_uri().'/images/blog_comunity.png'; ?>">
+								    </div>
+								    <div class="description">
+									    <h4>Interview</h4>
+									    <span class="desc">
+										    dimitar berbatov
+									    </span>
+								    </div>
+							    </a>
+						    </li>
+						    <li>
+							    <a href="" class="clearfix">
+								    <div class="thumb">
+									    <img src="<?php echo get_template_directory_uri().'/images/blog_comunity.png'; ?>">
+								    </div>
+								    <div class="description">
+									    <h4>Interview</h4>
+									    <span class="desc">
+										    dimitar berbatov
+									    </span>
+								    </div>
+							    </a>
+						    </li>
+					    </ul>
+				    </div>
+			    </div>
+	    </div>
+	    <!-- you may like this -->
+	    <div class="heading">
+	    <h2 class="list-heading">You May Also Intersted to </h2>
+	    </div>
+	    <div class="container_12 line">
+		    <div class="slider">
+			    <div class="flexslider carousel">
+				    <div class="flex-viewport">
+					    <ul class="slides">
+						<li class="ic_container">
+						    <a href="">
+							    <img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
+							    <div class="overlay"></div>
+							    <div class="ic_caption">
+								    <span class="category">Article</span>
+								    <span class="comments">1 Comments</span>
+								    <h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
+							    </div>
+						    </a>
+						</li>
+						<li class="ic_container">
+						    <a href="">
+							    <img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
+						    </a>
+						</li>
+						<li class="ic_container">
+						    <a href="">
+							    <img src="<?php echo get_template_directory_uri().'/images/slider_3.png'; ?>">
+							    <div class="overlay"></div>
+							    <div class="ic_caption">
+								    <span class="category"></span>
+								    <span class="comments"></span>
+								    <h2>AMPLIFIKATION CREME RELEASED.</h2>
+							    </div>
+						    </a>
+						    <li class="ic_container">
+						    <a href="">
+							    <img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
+							    <div class="overlay"></div>
+							    <div class="ic_caption">
+								    <span class="category">Article</span>
+								    <span class="comments">1 Comments</span>
+								    <h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
+							    </div>
+						    </a>
+						</li>
+						<li class="ic_container">
+						    <a href="">
+							    <img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
+						    </a>
+						</li>
+						<li class="ic_container">
+						    <a href="">
+							    <img src="<?php echo get_template_directory_uri().'/images/slider_3.png'; ?>">
+							    <div class="overlay"></div>
+							    <div class="ic_caption">
+								    <span class="category"></span>
+								    <span class="comments"></span>
+								    <h2>AMPLIFIKATION CREME RELEASED.</h2>
+							    </div>
+						    </a>
+						</li>
+						<li class="ic_container">
+						    <a href="">
+							    <img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
+							    <div class="overlay"></div>
+							    <div class="ic_caption">
+								    <span class="category">Article</span>
+								    <span class="comments">1 Comments</span>
+								    <h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
+							    </div>
+						    </a>
+						</li>
+						<li class="ic_container">
+						    <a href="">
+							    <img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
+						    </a>
+						</li>
+					    </ul>
+				    </div>
+				    <ul class="flex-direction-nav">
+					    <li><a class="flex-prev" href="#">Previous</a></li>
+					    <li><a class="flex-next" href="#">Next</a></li>
+				    </ul>
+			    </div>
+		    </div>
+	    </div>
+	    <?php endif; ?>
+	    
 <?php if (have_posts()) : ?>
 
 		<?php while (have_posts()) : the_post(); ?>

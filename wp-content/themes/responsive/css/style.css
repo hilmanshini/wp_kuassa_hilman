@@ -815,6 +815,9 @@ ul.list_blog li{
 .right_column ul.archieve_column li a:hover{
     color: #FF5500;
 }
+ul.banner{
+    margin-right: 26px !important;
+}
 ul.banner , ul.recommended{
     list-style: none;
     padding: 0;
