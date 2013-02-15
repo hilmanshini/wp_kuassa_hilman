@@ -21,19 +21,229 @@ if ( !defined('ABSPATH')) exit;
 <?php get_header(); ?>
 
         <div id="content" class="grid col-620">
-	    
+	    <!-- halaman about-us -->
 	    <?php if (is_page('about-us')) : ?>
 		ini halaman about us
 	    <?php endif; ?>
+	    <!-- end of halaman about-us -->
 	    
-	    	    <?php if (is_page('community')) : ?>
+	    <!-- halaman community -->
+	    <?php if (is_page('community')) : ?>
 		ini halaman communityt
 	    <?php endif; ?>
+	    <!-- end of halaman community -->
 	    
+	    <!-- halaman download -->
+	    <?php if (is_page('downloads')) : ?>
+		<h1>Downloads</h1>
+		<div class="heading">
+		<h2 class="list-heading">Trial Versions</h2>
+		</div>
+		<div class="list_download clearfix line">
+			<div class="grid_12 line">
+				<div class="download_wrapper">
+					<ul class="list_downloads">
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_2.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_3.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_3.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_2.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="heading">
+		<h2 class="list-heading">Free Versions</h2>
+		</div>
+		<div class="list_download clearfix line">
+			<div class="grid_12 line">
+				<div class="download_wrapper">
+					<ul class="list_downloads">
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_2.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_3.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_3.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+						<li class="grid_4 line">
+							<a href="">
+								<div class="thumbnail">
+									<img src="<?php echo get_template_directory_uri().'/images/product_2.png'; ?>">
+								</div>
+								<div class="description">
+									<span class="trademark">KUASSA</span>
+									<span class="type">Amplifikation One</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	    <?php endif; ?>
+	    <!-- end of halaman download -->
+	    
+	    <!-- halaman blog -->
 	    <?php if(is_page('blog')) : ?>
 	    <?php
-		wp_enqueue_style('flexslider_style', get_stylesheet_directory_uri().'../css/flexslider/flexslider.css', false, false);
+		wp_enqueue_style('flexslider_style', get_stylesheet_directory_uri().'/css/flexslider/flexslider.css', false, false);
 	    ?>
+	    
 	    <?php
 		// include flexslider
 		wp_enqueue_script('jquery_flexslider', get_template_directory_uri() . '/js/flexslider/jquery.flexslider.js', array('jquery'), false , true);
@@ -376,6 +586,7 @@ if ( !defined('ABSPATH')) exit;
 		    </div>
 	    </div>
 	    <?php endif; ?>
+	    <!-- end of halaman blog -->
 	    
 <?php if (have_posts()) : ?>
 

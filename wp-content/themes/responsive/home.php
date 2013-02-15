@@ -31,7 +31,7 @@ get_header('special');
 ?>
 	<!--== FLex slider style ==-->
 	<?php
-	    wp_enqueue_style('flexslider_style', get_stylesheet_directory_uri().'../css/flexslider/flexslider.css', false, false);
+	    wp_enqueue_style('flexslider_style', get_stylesheet_directory_uri().'/css/flexslider/flexslider.css', false, false);
 	?>
 	
 	
