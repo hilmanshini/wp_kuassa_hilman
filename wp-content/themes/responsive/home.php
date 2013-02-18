@@ -328,6 +328,7 @@ get_header('special');
 <?php
     // include flexslider
     wp_enqueue_script('jquery_flexslider', get_template_directory_uri() . '/js/flexslider/jquery.flexslider.js', array('jquery'), false , true);
+    wp_enqueue_style('demo-flexslider', get_stylesheet_directory_uri().'/css/flexslider/demo.css', false, true);
     
 ?>
     <script type="text/javascript">
