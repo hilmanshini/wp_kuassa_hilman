@@ -121,14 +121,11 @@ if ( !defined('ABSPATH')) exit;
     </div><!-- end #footer-wrapper -->
     
 </div><!-- end #footer -->
-
-<?php wp_footer(); ?>
-
 <?php
 // bottom script 
-wp_enqueue_script('bootsrap', get_template_directory_uri() . '/js/bootstrap.js', array('jquery'), false , true);
+wp_enqueue_script('bootstrap', get_template_directory_uri() . '../js/bootstrap.js', array('jquery'), false , true);
 wp_enqueue_script('jquery_plugins', get_template_directory_uri() . '/js/jquery.plugins.js', array('jquery'), false , true);
-wp_enqueue_script('pretty_photo', get_template_directory_uri() . '/js/prettyphoto/jquery.prettyPhoto.js', array('jquery'), false , true);
+wp_enqueue_script('pretty_photo', get_template_directory_uri() . '/js/prettyphoto/js/jquery.prettyPhoto.js', array('jquery'), false , true);
 
 // media element for video
 wp_enqueue_script('mediaelement', get_template_directory_uri() . '/js/mediaelement/lib/mediaelement.js', array('jquery'), false , true);
@@ -137,5 +134,9 @@ wp_enqueue_script('mediaelementplayer', get_template_directory_uri() . '/js/medi
 // script bottom
 wp_enqueue_script('bottom_script', get_template_directory_uri() . '/js/scripts-bottom.js', array('jquery'), false , true);
 ?>
+
+<?php wp_footer(); ?>
+
+
 </body>
 </html>
