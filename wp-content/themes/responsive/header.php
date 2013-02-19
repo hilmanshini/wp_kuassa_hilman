@@ -65,7 +65,7 @@ wp_enqueue_script('top_script', get_template_directory_uri() . '/js/scripts-top.
 <?php responsive_header(); // before header hook ?>
 <div class="head-wrapper clearfix">
     <?php responsive_in_header(); // header hook ?>
-	<div class="main_header clearfix">
+	<div class="main_header layout_boxed clearfix">
         <div class="container_header clearfix"> <!-- wrapper biar 1100px -->
             <div class="main_menu_place clearfix ">
                     <div class="container_12 clearfix">

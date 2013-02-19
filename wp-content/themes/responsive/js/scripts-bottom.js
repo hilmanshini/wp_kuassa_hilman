@@ -29,7 +29,9 @@ $(document).ready(function(){
 
 	$(window).scroll(function () {
 		if ($(this).scrollTop() > 136) {
-			$('.main_menu_place').addClass("menu_fixed");
+			$('.main_menu_place').hide()
+			.fadeIn('fast')
+			.addClass("menu_fixed");
 		} else {
 			$('.main_menu_place').removeClass("menu_fixed");
 		}
