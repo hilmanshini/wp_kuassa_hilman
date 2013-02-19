@@ -8,3 +8,12 @@ pilih database : theinfin_wp_new_kuassa
       config db server :
          user : theinfin_newkuas
          pass : kuassa123
+setiap kali ada perubahan, export database local (kasih option drop table dr phpmyadmin)
+kecuali table wp_options, import ulang database ke server : theinfin_wp_new_kuassa
+(INGAT !!!, JANGAN SAMPAI salah nimpa database ;) )
+
+staging version upload ke server hosting di folder :
+    /home/theinfin/public_html/staging/
+
+setiap kali ada perubahan diupload aja yg diubah apa aja, atau dizip terus diupload, nanti diextract di sana, kecuali wp-config.php
+
