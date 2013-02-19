@@ -5,3 +5,6 @@
 	 ?>
 	 
          
+	 
+	 theinfin_wp_new_kuassa
+	 kuassa123

@@ -1,0 +1,10 @@
+cpanel :
+user : theinfin
+pass : bnmjkl10p
+
+phpmyadmin :
+masuk cpanel, klik phpmyadmin
+pilih database : theinfin_wp_new_kuassa
+      config db server :
+         user : theinfin_newkuas
+         pass : kuassa123
