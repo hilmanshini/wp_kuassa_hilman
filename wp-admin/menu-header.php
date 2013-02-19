@@ -206,8 +206,10 @@ do_action( 'adminmenu' );
 				<a class="wp-first-item" href="dig_banner_index.php">Banner</a>
 			</li>
 			<li <?php echo (getAttrPos('dig_product')) ? 'current' : ''; ?>><a href="dig_product_index.php">Product</a></li>
+                        <li ><a href="dig_index_banner.php">asd</a></li>
 		</ul>
 </li>
+
 <?php
 
 	echo '<li id="collapse-menu" class="hide-if-no-js"><div id="collapse-button"><div></div></div>';
