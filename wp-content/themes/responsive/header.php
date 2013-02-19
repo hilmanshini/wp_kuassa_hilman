@@ -51,6 +51,7 @@ wp_enqueue_script('visual_media', get_template_directory_uri() . '/js/visual-med
 
 // begin script
 wp_enqueue_script('preloadify', get_template_directory_uri() . '/js/jquery.preloadify.js', array('jquery'), false , false);
+wp_enqueue_script('jquery_plugins', get_template_directory_uri() . '/js/jquery.plugins.js', array('jquery'), false , false); // masalah dengan flexslider default
 wp_enqueue_script('top_script', get_template_directory_uri() . '/js/scripts-top.js', array('jquery'), false , false);
 ?>
 	
