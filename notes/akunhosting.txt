@@ -1,4 +1,4 @@
-cpanel :
+cpanel : http://kuassa.com/cpanel
 user : theinfin
 pass : bnmjkl10p
 
