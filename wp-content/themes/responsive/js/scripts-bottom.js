@@ -119,36 +119,7 @@ $('.tooltip_right').tooltip({placement: 'right'});
 $(".container_video, .post_video").fitVids();
   
 /* =========================================== Slider */
-/* Flex
- */
-$('div[id^=portfolioSlider]').flexslider({
-	animation: 'slide',
-	controlNav: false,
-});
-$('div[id^=sliderfade]').flexslider({
-	animation: 'fade',
-	controlNav: false,
-});
-$('div[id^=sliderslide]').flexslider({
-	animation: 'slide',
-	controlNav: false,
-});
-$('div[id^=blogSlider]').flexslider({
-	controlNav: false,
-	animation: "slide",
-	slideshow: false
-});
-$('#mainSlider').flexslider({
-	smoothHeight: true,
 
-	before: function(slider){
-		$(".flex-caption").css({"opacity":"0", "marginLeft":"80px"});
-	},
-	after: function(slider){
-		$(".flex-caption").css({"opacity":"1", "marginLeft":"25px"});;
-	}
-
-});
 
 /* =========================================== SELF HOSTED VIDEO/AUDIO */
 jQuery(document).ready(function($) {
