@@ -31,7 +31,7 @@ get_header('special');
 ?>
 	<!--== FLex slider style ==-->
 	<?php
-	    wp_enqueue_style('flexslider_style', get_stylesheet_directory_uri().'/css/flexslider/flexslider.css', false, false);
+	    //wp_enqueue_style('flexslider_style', get_stylesheet_directory_uri().'/css/flexslider/flexslider.css', false, false);
 	?>
 	
 	
@@ -55,10 +55,8 @@ get_header('special');
         <h2 class="list-heading">Latest News</h2>
 	</div>
 	<div class="container_12 line">
-		<div class="slider">
-			<div class="flexslider carousel">
-				<div class="flex-viewport">
-					<ul class="slides">
+			    <div class="slider clearfix">
+					<ul class="carousel" id="my-carousel">
 					    <li class="ic_container">
 						<a href="">
 							<img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
@@ -129,11 +127,7 @@ get_header('special');
 						</a>
 					    </li>
 					</ul>
-				</div>
-				<ul class="flex-direction-nav">
-					<li><a class="flex-prev" href="#">Previous</a></li>
-					<li><a class="flex-next" href="#">Next</a></li>
-				</ul>
+					<div class="clear"></div>
 			</div>
 		</div>
 	</div>
@@ -323,41 +317,41 @@ get_header('special');
 	 
 	 
 	 
-        </div><!-- end of #featured --> 
+        </div><!-- end of #featured -->
+    
 <!-- script for home page -->
 <?php
-    // include flexslider
-    wp_enqueue_script('jquery_flexslider', get_template_directory_uri() . '/js/flexslider/jquery.flexslider.js', array('jquery'), false , true);
-    wp_enqueue_style('demo-flexslider', get_stylesheet_directory_uri().'/css/flexslider/demo.css', false, true);
+    // include responsive carousel
+    //wp_enqueue_style('responsive-carousel', get_stylesheet_directory_uri().'/js/carousel/responsive-carousel.css', false, true);
+    wp_enqueue_style('my-carousel', get_stylesheet_directory_uri().'/css/my-carousel.css', false, true);
     
 ?>
-    <script type="text/javascript">
-	  $(window).load(function(){
-	    $('.flexslider').flexslider({
-	      animation: "slide",
-	      direction: "horizontal",
-	      animationLoop: false,
-	      itemWidth: 325,
-	      itemMargin: 1,
-	      start: function(slider){
-		$('body').removeClass('loading');
-	      }
-	    });
-	  });
-    </script>
 <?php
-    // include Syntax Highlighter
-    wp_enqueue_script('addFlexshCore', get_template_directory_uri() . '/js/flexslider/shCore.js', array('jquery'), false , true);
-    wp_enqueue_script('addFlexshBrushXml', get_template_directory_uri() . '/js/flexslider/shBrushXml.js', array('jquery'), false , true);
-    wp_enqueue_script('addFlexshBrushJScript', get_template_directory_uri() . '/js/flexslider/shBrushJScript.js', array('jquery'), false , true);
+    // include Carousel
+    wp_enqueue_script('myCarousel-min', get_template_directory_uri() . '/js/myCarousel-min.js', array('jquery'), false , true);
+    //wp_enqueue_script('responsive-carousel.touch', get_template_directory_uri() . '/js/carousel/responsive-carousel.touch.js', array('jquery'), false , true);
+    //wp_enqueue_script('responsive-carousel.drag', get_template_directory_uri() . '/js/carousel/responsive-carousel.drag.js', array('jquery'), false , true);
+    //wp_enqueue_script('responsive-carousel.dynamic-containers', get_template_directory_uri() . '/js/carousel/responsive-carousel.dynamic-containers.js', array('jquery'), false , true);
     
     // include Optional FlexSlider Additions
-    wp_enqueue_script('jquery_easing', get_template_directory_uri() . '/js/flexslider/jquery.easing.js', array('jquery'), false , true);
-    wp_enqueue_script('jquery_mousewheel', get_template_directory_uri() . '/js/flexslider/jquery.mousewheel.js', array('jquery'), false , true);
-    wp_enqueue_script('jquery_flexslider_demo', get_template_directory_uri() . '/js/flexslider/demo.js', array('jquery'), false , true);
+    //wp_enqueue_script('jquery_easing', get_template_directory_uri() . '/js/flexslider/jquery.easing.js', array('jquery'), false , true);
+    //wp_enqueue_script('jquery_mousewheel', get_template_directory_uri() . '/js/flexslider/jquery.mousewheel.js', array('jquery'), false , true);
+    //wp_enqueue_script('jquery_flexslider_demo', get_template_directory_uri() . '/js/flexslider/demo.js', array('jquery'), false , true);
 
 ?>
-
+<script>
+$(function () {
+	$("#my-carousel").myCarousel({
+		numberVisibleItems:   '3',
+		animationSpeed: 1500,
+		carouselSpeed: 2500,
+		automaticPlay: false,
+		pauseOnHover: true,
+		easing: "swing"	
+	});
+	
+});
+</script>
 
 <?php get_sidebar('home'); ?>
 <?php get_footer(); ?>
