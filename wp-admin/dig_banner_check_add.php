@@ -22,13 +22,13 @@ require_once('./admin.php');
 
 if (!current_user_can('manage_options'))
     wp_die(__('You do not have sufficient permissions to manage options for this site.'));
-$allowed = array('gif', 'png', 'jpg');
+$allowed = array('gif', 'png', 'jpg','jpeg');
 $filename = strtolower($_FILES['file']['name']);
 $ext = pathinfo($filename, PATHINFO_EXTENSION);
 if (!in_array($ext, $allowed)) {
     session_start();
     $_SESSION['msg'] = 'invalid content type';
-    //header("Location: ./dig_banner_add.php?asd");
+    header("Location: ./dig_banner_add.php?asd");
 } else {
     session_start();
     try {
