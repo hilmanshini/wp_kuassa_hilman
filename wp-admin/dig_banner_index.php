@@ -192,12 +192,10 @@ function confirmdelete(banner_id)
 	      <?php    foreach($lists as $key=>$row){ ?>
                 <tr class="<?php echo ($key%2==1) ? 'grid_2' : 'grid_3'; ?>">
                    <td>
-                    <a href="javascript:void(0);"
-                       onclick="javascript: setOpts( 540,940,'Edit Manufacture',
-                       '<?php echo get_bloginfo('url').'/wp-admin/crp-editmanufacture.php?manufacture_id='.$row->manufacture_id.'&start='.$start; ?>');">
+                       <a href="editbanner/editbanner.php?id=<?php echo $row->banner_id ?>">
                             Edit
                         </a> |
-                    <a href="javascript:void(0);" onclick="javascript: confirmdelete('<?php echo $row->manufacture_id; ?>');">Delete</a>
+                    <a href="editbanner/deletebanner.php?id=<?php echo $row->banner_id ?>">Delete</a>
                    </td>
                    <td>
                       <?php echo $row->banner_name; ?>
