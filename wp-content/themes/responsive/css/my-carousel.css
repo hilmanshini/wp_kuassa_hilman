@@ -19,7 +19,7 @@
 .mc-nav-left {
 	width:6%;
 	float:left;
-	background:transparent url(../images/prev.png) no-repeat top left;
+	background:transparent url(../images/prev.png) no-repeat center;
 	cursor:pointer;
 	opacity:0.7;
 	margin:0px;
@@ -34,7 +34,7 @@
 .mc-nav-right {
 	width:6%;
 	opacity:0.7;
-	background:transparent url(../images/next.png) no-repeat top left;
+	background:transparent url(../images/next.png) no-repeat center;
 	cursor:pointer;
 	z-index:100;
 	float:left;

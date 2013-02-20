@@ -24,20 +24,6 @@ $(document).ready(function() {
 	//Add arrow up for level 1
 	$('#nav ul').prepend('<li class="mn_arr"><em></em></li>').css('padding', '0 0 5px');
 });
-/* make this menu sticky when the user scroll the page. */
-$(document).ready(function(){
-
-	$(window).scroll(function () {
-		if ($(this).scrollTop() > 136) {
-			$('.main_menu_place').hide()
-			.fadeIn('fast')
-			.addClass("menu_fixed");
-		} else {
-			$('.main_menu_place').removeClass("menu_fixed");
-		}
-	});
-
-});
 
 /* Select nav */
 $(function () {

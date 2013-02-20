@@ -67,7 +67,7 @@ wp_enqueue_script('top_script', get_template_directory_uri() . '/js/scripts-top.
     <?php responsive_in_header(); // header hook ?>
 	<div class="main_header layout_boxed clearfix">
         <div class="container_header clearfix"> <!-- wrapper biar 1100px -->
-            <div class="main_menu_place clearfix ">
+            <div class="main_menu_place clearfix menu_fixed ">
                     <div class="container_12 clearfix">
                             <div class="grid_12 clearfix">
                                     <!-- logo layer -->
@@ -77,7 +77,7 @@ wp_enqueue_script('top_script', get_template_directory_uri() . '/js/scripts-top.
                                     <!-- end of logo layer -->
                                     <!--================== BEGIN main menu -->
                                     <div id="horizontal" >
-					<p class="mobile-nav">Dropdown <span>+</span></p>
+					<!-- <p class="mobile-nav">Dropdown <span>+</span></p> -->
 						    
 							    <?php wp_nav_menu(array(
 								'container'       => '',

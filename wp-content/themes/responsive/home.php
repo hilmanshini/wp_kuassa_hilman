@@ -342,9 +342,9 @@ get_header('special');
 <script>
 $(function () {
 	$("#my-carousel").myCarousel({
-		numberVisibleItems:   '4',
-		animationSpeed: 1500,
-		carouselSpeed: 2500,
+		numberVisibleItems:   '3',
+		animationSpeed: 700,
+		carouselSpeed: 500,
 		automaticPlay: false,
 		pauseOnHover: true,
 		easing: "swing"	

@@ -23,7 +23,124 @@ if ( !defined('ABSPATH')) exit;
         <div id="content" class="grid col-620">
 	    <!-- halaman about-us -->
 	    <?php if (is_page('about-us')) : ?>
-		ini halaman about us
+		<h1 class="heading-title">About Us</h1>
+		<div class="content-about">
+		<div class="desc-about">
+		<p> <b>Kuassa</b> is a software developer specializing on guitar amplification and audio processing. Our root is coming from passion to create great tools for every musician's creative process. As musicians ourselves, we believe that straight outstanding tonal quality are more important than anything else, including tons of features that might won't be that useful or may distracts you from your main objective: creating great music. 
+	The name <b>"Kuassa"</b>, are derived from Indonesian word: kuasa, which means power, might, or authority. We simply took this word, and use it as our brand to always remind us that a right mixture between left and right part of human brain can create something that emotionally sings to your soul, while logically effective.
+	</p>
+	      </div>
+	      <div class="teams">
+		<div class="wrapper-teams">
+		<div class="list-people">
+		  <div class="profile">
+		    <div class="photo">
+		    <img src="<?php echo get_template_directory_uri().'/images/team/photo1.gif';?>" alt"Arie Ardiansyah">
+		    </div>
+		    <div class="desc">
+		      <p>
+			<span class="name">Arie Ardiansyah:</span> Our CTO, responsible for DSP algorithms, product development, and R&D for Kuassa.Playing guitars, sing, and write songs for Bandung's Synth-Punk Band: <i>Disconnected</i>. Maker of <a href="http://aradaz.blogspot.com/" target="blank"><i>Aradaz Amp</i></a> free plugins.
+		      </p>
+		    </div>
+		    </div>
+		</div>
+		
+		<div class="list-people">
+		  <div class="profile">
+		    <div class="photo">
+		    <img src="<?php echo get_template_directory_uri().'/images/team/photo2.gif';?>" alt"Arie Ardiansyah">
+		    </div>
+		    <div class="desc">
+		      <p>
+			<span class="name">Grahadea Kusuf:</span> Our CEO, responsible for all business related and corporate stuff. Playing synths, composing, and producing for Bandung's electronic-pop band called <i>Homogenic</i>.
+		      </p>
+		    </div>
+		    </div>
+		</div>
+		
+		<div class="list-people">
+		  <div class="profile">
+		    <div class="photo">
+		    <img src="<?php echo get_template_directory_uri().'/images/team/photo3.gif';?>" alt"Arie Ardiansyah">
+		    </div>
+		    <div class="desc">
+		      <p>
+			<span class="name">Adhitya Wibisana:</span> Our Engineering Director, responsible for detailed product concept, audio engineering, technical related stuff, and support. Head engineer and producer for Infinitelabs Studio. Playing Bass for Industrial rock band: Helmproyek.
+		      </p>
+		    </div>
+		    </div>
+		</div>
+		
+		<div class="list-people">
+		  <div class="profile">
+		    <div class="photo">
+		    <img src="<?php echo get_template_directory_uri().'/images/team/photo4.gif';?>" alt"Arie Ardiansyah">
+		    </div>
+		    <div class="desc">
+		      <p>
+			<span class="name">Edwin Yudayana:</span> Our IT Director, lead developer, responsible for back-end technology, and roadmap development.
+		      </p>
+		    </div>
+		    </div>
+		</div>
+		
+		<div class="list-people">
+		  <div class="profile">
+		    <div class="photo">
+		    <img src="<?php echo get_template_directory_uri().'/images/team/photo5.gif';?>" alt"Arie Ardiansyah">
+		    </div>
+		    <div class="desc">
+		      <p>
+			<span class="name">Rendy Fajar:</span> Our Creative Director, Responsible for design and visual elements for the company, e.g. corporate identity, visual communications, UI designs, and Marketing tools. Playing drums for Bandung's Indie Pop band called Olive Tree, and Industrial Rock band, Helmproyek.
+		      </p>
+		    </div>
+		    </div>
+		</div>
+		
+		<div class="list-people">
+		  <div class="profile">
+		    <div class="photo">
+		    <img src="<?php echo get_template_directory_uri().'/images/team/photo6.gif';?>" alt"Arie Ardiansyah">
+		    </div>
+		    <div class="desc">
+		      <p>
+			<span class="name">Rizky Syafani:</span> Marketing and Communications manager, responsible for marketing, promotion, and brand campaign.
+		      </p>
+		    </div>
+		    </div>
+		</div>
+		<div class="clear"></div>
+	      </div>
+	      </div>
+	      <div class="clear"></div>
+	      <div class="desc-value">
+	      <h2>Our Values</h2>
+		<p>
+		<ol>
+		  <li>We prefers quality over quantity. On most occasions, having 100 amp, 80 FXs, and 90 Cabinets won't guarantee you for making good guitar tracks.</li>
+		  <li>We focused everything we've got on something that matters the most: the TONE!</li>
+		  <li>We make everything as easy and accessible as possible. We want you to immediately start playing and forget the user manual. (Even though we're still making one  <span class="emoticon"><img src="<?php echo get_template_directory_uri().'/images/emoticon/bigsmile.png';?>" alt":D" style="vertical-align: bottom;"></span>)</li>
+		  <li>Putting low price tag doesn't mean our products are inferior (and vice-versa). We're just trying to be fair with our pricing.</li>
+		  <li>Using Guitar Amp Software means you are being Eco-Friendly. Less power consumption, less waste, and therefore reduces your carbon footprint when compared with real hardware.</li>
+		</ol>
+		</p>
+	      </div>
+		    <div class="address">
+			<div class="header">PT. Kuassa <br/>R&D Studio and Office</div>
+			<div class="full-description">
+			    <p>Jl. Sukasenang V no.14<br>
+			       Bandung, 40134<br>
+			       West Java, INDONESIA</p>
+			    <p><a href="http://www.kuassa.com">http://www.kuassa.com</a></p>
+			    <p>
+				General Inquires: <a href="info@kuassa.com">info@kuassa.com</a><br>
+				Technical Support: <a href="support@kuassa.com">support@kuassa.com</a>
+			    </p>
+			</div>
+		    </div>
+	      </div>
+	    </div>
+	    <div class="clear"></div>
 	    <?php endif; ?>
 	    <!-- end of halaman about-us -->
 	    
@@ -32,6 +149,98 @@ if ( !defined('ABSPATH')) exit;
 		ini halaman communityt
 	    <?php endif; ?>
 	    <!-- end of halaman community -->
+	    
+	    <!-- halaman support -->
+	    <?php if(is_page('support')): ?>
+	    <?php
+	    // include accordion css
+		wp_enqueue_style('accordion-support', get_stylesheet_directory_uri().'/css/accordion.css', false, true);
+	    ?>
+	    <script  type="text/javascript" language="javascript">
+		    $(document).ready(function(){
+			    
+			    $('.adCntnr div.acco2:eq(0)').find('div.expand:eq(0)').addClass('openAd').end()
+			    .find('div.collapse-content:gt(0)').hide().end()
+			    
+			    .find('div.expand').click(function() {
+			    $(this).toggleClass('openAd').siblings().removeClass('openAd').end()
+			    .next('div.collapse-content').slideToggle().siblings('div.collapse-content:visible').slideUp();
+			    return false;
+			     });
+		    })
+	    </script>
+	    
+	    <div id="content">
+	    <h1 class="heading-title">TECHNICAL SUPPORT</h1>
+	      <!-- support-->
+	      <div class="content-support">
+		  <div class="left-column">
+		      <div class="faq">
+			  <div class="header">
+			      <h2>FREQUENTLY ASKED QUESTIONS</h2>
+			  </div>
+			  <div class="list-faq">
+			      <div class="adCntnr" >
+				  <div class="acco2">
+				      <div class="expand">
+					  <a title="expand/collapse" href="#">SALES SUPPORT >></a>
+				      </div>
+				      <div class="collapse-content">
+				      <div class="accCntnt">
+					  <p>
+					    <ul>
+						    <li>
+							    Q : fdasfasfas</li>
+						    <li>
+							    A : fdasfasf</li>
+						    <li>
+							    Q : fdafasf</li>
+						    <li>
+							    A : fdfasf</li>
+					    </ul>
+					  </p>
+				      </div>
+				      </div>
+				  </div>
+			  </div>
+			  </div>
+		      </div>
+		  </div>
+		  <div class="right-column">
+		      <div class="visit-forum">
+			  <div class="subhead-visit">
+			      <h2>VISIT OUR FORUM</h2>
+			  </div>
+			  <div class="kvr-img">
+			     <a href="http://www.kvraudio.com/forum/viewforum.php?f=160">
+				  <img src="<?php echo get_template_directory_uri().'/images/kvr.jpg';?>" alt="kvr-forum">
+			     </a>
+			  </div>
+			  <div class="link-forum">
+			      <a href="http://www.kvraudio.com/forum/viewforum.php?f=160">http://www.kvraudio.com/forum/viewforum.php?f=160</a>
+			  </div>
+			  <div class="subhead-visit">
+			      <h2>EMAIL US</h2>
+			  </div>
+			  <div class="text">
+			      <p>Can't find the answer you are looking for ?<br>
+			      Don't hesistate to drop us a message at:<br>
+			      </p>
+			      <p><b>General & Sales : info@kuassa.com</b><br><br>
+			      <b>Tech.Support : support@kuassa.com</b>
+			      </p>
+			  </div>
+		      </div>
+		      
+		      <div class="featured">
+			  <a href=""><img src="<?php echo get_template_directory_uri().'/images/featured.jpg';?>" title="featured"></a>
+		      </div>
+		  </div>
+		  <div class="clear"></div>
+	      </div>
+	      <div class="clear"></div>
+	    <?php endif; ?>
+	    <!-- end of halaman support -->
 	    
 	    <!-- halaman download -->
 	    <?php if (is_page('downloads')) : ?>
@@ -241,43 +450,27 @@ if ( !defined('ABSPATH')) exit;
 	    <!-- halaman blog -->
 	    <?php if(is_page('blog')) : ?>
 	    <?php
-		wp_enqueue_style('flexslider_style', get_stylesheet_directory_uri().'/css/flexslider/flexslider.css', false, false);
+		wp_enqueue_style('my-carousel', get_stylesheet_directory_uri().'/css/my-carousel.css', false, true);
 	    ?>
 	    
 	    <?php
 		// include flexslider
-		wp_enqueue_script('jquery_flexslider', get_template_directory_uri() . '/js/flexslider/jquery.flexslider.js', array('jquery'), false , true);
+		wp_enqueue_script('myCarousel-min', get_template_directory_uri() . '/js/myCarousel-min.js', array('jquery'), false , true);
 		
 	    ?>
-		<script type="text/javascript">
-		      $(function(){
-			SyntaxHighlighter.all();
-		      });
-		      $(window).load(function(){
-			$('.flexslider').flexslider({
-			  animation: "slide",
-			  direction: "horizontal",
-			  animationLoop: false,
-			  itemWidth: 325,
-			  itemMargin: 1,
-			  start: function(slider){
-			    $('body').removeClass('loading');
-			  }
+		<script>
+		$(function () {
+			$("#my-carousel").myCarousel({
+				numberVisibleItems:   '4',
+				animationSpeed: 700,
+				carouselSpeed: 500,
+				automaticPlay: false,
+				pauseOnHover: true,
+				easing: "swing"	
 			});
-		      });
+			
+		});
 		</script>
-	    <?php
-		// include Syntax Highlighter
-		wp_enqueue_script('addFlexshCore', get_template_directory_uri() . '/js/flexslider/shCore.js', array('jquery'), false , true);
-		wp_enqueue_script('addFlexshBrushXml', get_template_directory_uri() . '/js/flexslider/shBrushXml.js', array('jquery'), false , true);
-		wp_enqueue_script('addFlexshBrushJScript', get_template_directory_uri() . '/js/flexslider/shBrushJScript.js', array('jquery'), false , true);
-		
-		// include Optional FlexSlider Additions
-		wp_enqueue_script('jquery_easing', get_template_directory_uri() . '/js/flexslider/jquery.easing.js', array('jquery'), false , true);
-		wp_enqueue_script('jquery_mousewheel', get_template_directory_uri() . '/js/flexslider/jquery.mousewheel.js', array('jquery'), false , true);
-		wp_enqueue_script('jquery_flexslider_demo', get_template_directory_uri() . '/js/flexslider/demo.js', array('jquery'), false , true);
-	    
-	    ?>
 	    <!-- bagian category blog -->
 	    <div class="category_blog clearfix line ">
 		    <ul class="categories">
@@ -504,85 +697,80 @@ if ( !defined('ABSPATH')) exit;
 	    </div>
 	    <div class="container_12 line">
 		    <div class="slider">
-			    <div class="flexslider carousel">
-				    <div class="flex-viewport">
-					    <ul class="slides">
+			    <div class="slider clearfix">
+					<ul class="carousel" id="my-carousel">
+					    <li class="ic_container">
+						<a href="">
+							<img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
+							<div class="overlay"></div>
+							<div class="ic_caption">
+								<span class="category">Article</span>
+								<span class="comments">1 Comments</span>
+								<h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
+							</div>
+						</a>
+					    </li>
+					    <li class="ic_container">
+						<a href="">
+							<img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
+						</a>
+					    </li>
+					    <li class="ic_container">
+						<a href="">
+							<img src="<?php echo get_template_directory_uri().'/images/slider_3.png'; ?>">
+							<div class="overlay"></div>
+							<div class="ic_caption">
+								<span class="category"></span>
+								<span class="comments"></span>
+								<h2>AMPLIFIKATION CREME RELEASED.</h2>
+							</div>
+						</a>
 						<li class="ic_container">
-						    <a href="">
-							    <img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
-							    <div class="overlay"></div>
-							    <div class="ic_caption">
-								    <span class="category">Article</span>
-								    <span class="comments">1 Comments</span>
-								    <h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
-							    </div>
-						    </a>
-						</li>
-						<li class="ic_container">
-						    <a href="">
-							    <img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
-						    </a>
-						</li>
-						<li class="ic_container">
-						    <a href="">
-							    <img src="<?php echo get_template_directory_uri().'/images/slider_3.png'; ?>">
-							    <div class="overlay"></div>
-							    <div class="ic_caption">
-								    <span class="category"></span>
-								    <span class="comments"></span>
-								    <h2>AMPLIFIKATION CREME RELEASED.</h2>
-							    </div>
-						    </a>
-						    <li class="ic_container">
-						    <a href="">
-							    <img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
-							    <div class="overlay"></div>
-							    <div class="ic_caption">
-								    <span class="category">Article</span>
-								    <span class="comments">1 Comments</span>
-								    <h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
-							    </div>
-						    </a>
-						</li>
-						<li class="ic_container">
-						    <a href="">
-							    <img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
-						    </a>
-						</li>
-						<li class="ic_container">
-						    <a href="">
-							    <img src="<?php echo get_template_directory_uri().'/images/slider_3.png'; ?>">
-							    <div class="overlay"></div>
-							    <div class="ic_caption">
-								    <span class="category"></span>
-								    <span class="comments"></span>
-								    <h2>AMPLIFIKATION CREME RELEASED.</h2>
-							    </div>
-						    </a>
-						</li>
-						<li class="ic_container">
-						    <a href="">
-							    <img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
-							    <div class="overlay"></div>
-							    <div class="ic_caption">
-								    <span class="category">Article</span>
-								    <span class="comments">1 Comments</span>
-								    <h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
-							    </div>
-						    </a>
-						</li>
-						<li class="ic_container">
-						    <a href="">
-							    <img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
-						    </a>
-						</li>
-					    </ul>
-				    </div>
-				    <ul class="flex-direction-nav">
-					    <li><a class="flex-prev" href="#">Previous</a></li>
-					    <li><a class="flex-next" href="#">Next</a></li>
-				    </ul>
-			    </div>
+						<a href="">
+							<img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
+							<div class="overlay"></div>
+							<div class="ic_caption">
+								<span class="category">Article</span>
+								<span class="comments">1 Comments</span>
+								<h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
+							</div>
+						</a>
+					    </li>
+					    <li class="ic_container">
+						<a href="">
+							<img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
+						</a>
+					    </li>
+					    <li class="ic_container">
+						<a href="">
+							<img src="<?php echo get_template_directory_uri().'/images/slider_3.png'; ?>">
+							<div class="overlay"></div>
+							<div class="ic_caption">
+								<span class="category"></span>
+								<span class="comments"></span>
+								<h2>AMPLIFIKATION CREME RELEASED.</h2>
+							</div>
+						</a>
+					    </li>
+					    <li class="ic_container">
+						<a href="">
+							<img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
+							<div class="overlay"></div>
+							<div class="ic_caption">
+								<span class="category">Article</span>
+								<span class="comments">1 Comments</span>
+								<h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
+							</div>
+						</a>
+					    </li>
+					    <li class="ic_container">
+						<a href="">
+							<img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
+						</a>
+					    </li>
+					</ul>
+					<div class="clear"></div>
+			</div>
 		    </div>
 	    </div>
 	    <?php endif; ?>
