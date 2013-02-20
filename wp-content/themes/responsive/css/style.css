@@ -187,15 +187,15 @@ float: left;
 border-left: thin solid #C2C2C2;
 border-right: thin solid #C2C2C2;
 display: inline-block;
-width: 19.454%;
 }
 
 /* bagian normal */
 #horizontal{
     float: left;
-    width: 64.989%;
+    width: 65%;
     height: 46px;
     display: inline-block;
+    position: relative;
 }
 nav#horizontal{ 
 padding:0; 
@@ -371,7 +371,7 @@ border-left: thin solid #C2C2C2;
 border-right: thin solid #C2C2C2;
 display: block;
 z-index: 999999;
-width: 15.196%;
+position: relative;
 }
 /* head right panel */
 #right-panel > ul {
@@ -741,6 +741,7 @@ ul.list_blog li{
     border-radius: none;
     box-shadow: none;
     display: block;
+    border-radius: 0;
 }
 .main_list .blog_content .thumbnail h3{
     font-size: 25px;
@@ -3333,6 +3334,7 @@ display:inline-block
 #selectnav1{
     border: none !important;
     width: 100%;
+    margin: 0 auto;
 }
 .selectnav{
     widht: 100% !important;

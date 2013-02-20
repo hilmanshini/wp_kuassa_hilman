@@ -54,18 +54,18 @@ if ( !defined('ABSPATH')) exit;
 								<ul class="listing line">
 									<li class="fb list">
 											<span class="logo"><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_fb.png'; ?>"></span>
-											<span class="iframe"><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_share.png'; ?>"></span>
+											<span class="iframe"><a href=""><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_share.png'; ?>"></a></span>
 											<span class="count">13</span>
 									</li>
 									<li class="twitter list">
 											<span class="logo"><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_twitter.png'; ?>"></span>
-											<span class="iframe"><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_tweet.png'; ?>"></span>
+											<span class="iframe"><a href=""><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_tweet.png'; ?>"></a></span>
 											<span class="count">13</span>
 									</li>
 									<li class="gplus">
 										<!-- nothing -->
 											<span class="logo"><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_gplus.png'; ?>"></span>
-											<span class="iframe"><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_plus.png'; ?>"></span>
+											<span class="iframe"><a href=""><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_plus.png'; ?>"></a></span>
 											<span class="count">13</span>
 									</li>
 								</ul>
@@ -242,9 +242,8 @@ if ( !defined('ABSPATH')) exit;
 	</div>
 	<div class="container_12 line">
 		<div class="slider">
-			<div class="flexslider carousel">
-				<div class="flex-viewport">
-					<ul class="slides">
+				<div class="slider clearfix">
+					<ul class="carousel" id="my-carousel">
 					    <li class="ic_container">
 						<a href="">
 							<img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
@@ -315,51 +314,32 @@ if ( !defined('ABSPATH')) exit;
 						</a>
 					    </li>
 					</ul>
+					<div class="clear"></div>
 				</div>
-				<ul class="flex-direction-nav">
-					<li><a class="flex-prev" href="#">Previous</a></li>
-					<li><a class="flex-next" href="#">Next</a></li>
-				</ul>
-			</div>
 		</div>
 	</div>
 	<?php
-	    wp_enqueue_style('flexslider_style', get_stylesheet_directory_uri().'/css/flexslider/flexslider.css', false, false);
+	    wp_enqueue_style('my-carousel', get_stylesheet_directory_uri().'/css/my-carousel.css', false, true);
 	?>
+	
 	<?php
 	    // include flexslider
-	    wp_enqueue_script('jquery_flexslider', get_template_directory_uri() . '/js/flexslider/jquery.flexslider.js', array('jquery'), false , true);
+	    wp_enqueue_script('myCarousel-min', get_template_directory_uri() . '/js/myCarousel-min.js', array('jquery'), false , true);
 	    
 	?>
-	    <script type="text/javascript">
-		  $(function(){
-		    SyntaxHighlighter.all();
-		  });
-		  $(window).load(function(){
-		    $('.flexslider').flexslider({
-		      animation: "slide",
-		      direction: "horizontal",
-		      animationLoop: false,
-		      itemWidth: 325,
-		      itemMargin: 1,
-		      start: function(slider){
-			$('body').removeClass('loading');
-		      }
+	    <script>
+	    $(function () {
+		    $("#my-carousel").myCarousel({
+			    numberVisibleItems:   '4',
+			    animationSpeed: 700,
+			    carouselSpeed: 500,
+			    automaticPlay: false,
+			    pauseOnHover: true,
+			    easing: "swing"	
 		    });
-		  });
+		    
+	    });
 	    </script>
-	<?php
-	    // include Syntax Highlighter
-	    wp_enqueue_script('addFlexshCore', get_template_directory_uri() . '/js/flexslider/shCore.js', array('jquery'), false , true);
-	    wp_enqueue_script('addFlexshBrushXml', get_template_directory_uri() . '/js/flexslider/shBrushXml.js', array('jquery'), false , true);
-	    wp_enqueue_script('addFlexshBrushJScript', get_template_directory_uri() . '/js/flexslider/shBrushJScript.js', array('jquery'), false , true);
-	    
-	    // include Optional FlexSlider Additions
-	    wp_enqueue_script('jquery_easing', get_template_directory_uri() . '/js/flexslider/jquery.easing.js', array('jquery'), false , true);
-	    wp_enqueue_script('jquery_mousewheel', get_template_directory_uri() . '/js/flexslider/jquery.mousewheel.js', array('jquery'), false , true);
-	    wp_enqueue_script('jquery_flexslider_demo', get_template_directory_uri() . '/js/flexslider/demo.js', array('jquery'), false , true);
-	
-	?>
         <div id="content" class="grid col-620">
         
 <?php if (have_posts()) : ?>
