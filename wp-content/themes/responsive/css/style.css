@@ -196,6 +196,7 @@ display: inline-block;
     height: 46px;
     display: inline-block;
     position: relative;
+    border: solid thin #f00;
 }
 nav#horizontal{ 
 padding:0; 
@@ -1067,7 +1068,7 @@ ul.list_downloads li .description .type{
     text-align : center;
 }
 .menu_fixed{ 
-z-index:9990; 
+z-index:999999; 
 position:fixed; 
 left:0; 
 top:0; 
