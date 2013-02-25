@@ -18,11 +18,6 @@ if ( !defined('ABSPATH')) exit;
  * @since          available since Release 1.0
  */
 ?>
-    </div><!-- end of #wrapper -->
-    <?php responsive_wrapper_end(); // after wrapper hook ?>
-</div><!-- end of #container -->
-<?php responsive_container_end(); // after container hook ?>
-
 <div id="footer" class="clearfix">
 
     <div id="footer-wrapper">

@@ -196,7 +196,6 @@ display: inline-block;
     height: 46px;
     display: inline-block;
     position: relative;
-    border: solid thin #f00;
 }
 nav#horizontal{ 
 padding:0; 
@@ -755,6 +754,7 @@ ul.list_blog li{
 }
 .main_list .blog_content .thumbnail:hover h3{
     color: #FF5500;
+    transition: all 0.2s ease-in-out 0s;
 }
 .main_list .blog_content  .ic_caption span {
     font-family: 'msyi';
@@ -1011,6 +1011,7 @@ ul.list_downloads li a{
 }
 ul.list_downloads li a:hover{
     color: #FF6702;
+    transition: all 0.2s ease-in-out 0s;
 }
 ul.list_downloads li .description .trademark{
     float: left;
