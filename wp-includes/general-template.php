@@ -83,14 +83,12 @@ function get_sidebar( $name = null ) {
 	do_action( 'get_sidebar', $name );
 
 	$templates = array();
-	if ( isset($name) )
-		$templates[] = "sidebar-{$name}.php";
+	
 
 	$templates[] = 'sidebar.php';
 
 	// Backward compat code will be removed in a future release
-	if ('' == locate_template($templates, true))
-		load_template( ABSPATH . WPINC . '/theme-compat/sidebar.php');
+	
 }
 
 /**

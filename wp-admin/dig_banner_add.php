@@ -139,7 +139,16 @@ function confirmdelete(banner_id)
                     <th scope="row"><label for="page">On Page  </label></th>
                     <td>
                         <select name="onpage">
+                            <?php 
+                            $a->post_name = "blog1";
+                            $c->post_name = "home";
+                            $b->post_name = "blog2";
+                            array_push($pages, $a);
+                            array_push($pages, $b);
+                            array_push($pages, $c);
+                            ?>
 			    <?php foreach($pages as $row) : ?>
+                                
 				<option <?php if ($row->post_name == $_GET['onpage']) echo 'selected="selected"'; ?>
 					       value="<?php echo $row->post_name; ?>"><?php echo $row->post_name; ?></option>
 			    <?php endforeach; ?>
@@ -157,6 +166,12 @@ function confirmdelete(banner_id)
                     <td>
                         <input type="text" class="regular-text"
                                 size="60" maxlength="60" name="link" value="<?php echo stripslashes  ($keyword); ?>"/> 
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="keyword">Set Active </label></th>
+                    <td>
+                        <input type="checkbox" name="current"/>
                     </td>
                 </tr>
                 <tr valign="top">
