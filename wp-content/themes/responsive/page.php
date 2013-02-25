@@ -734,7 +734,188 @@ if ( !defined('ABSPATH')) exit;
             
             <!-- halaman product detail -->
             <?php if(is_page('product_detail')): ?>
-                ini product detail 
+                <?php
+                    wp_enqueue_style('my-carousel', get_stylesheet_directory_uri().'/css/my-carousel.css', false, true);
+                ?>
+
+                <?php
+                    // include flexslider
+                    wp_enqueue_script('myCarousel-min', get_template_directory_uri() . '/js/myCarousel-min.js', array('jquery'), false , true);
+
+                ?>
+		<script>
+		$(function () {
+			$("#my-carousel").myCarousel({
+				numberVisibleItems:   '4',
+				animationSpeed: 700,
+				carouselSpeed: 500,
+				automaticPlay: false,
+				pauseOnHover: true,
+				easing: "swing"	
+			});
+			
+		});
+		</script>
+                <div class="grid_12 product_detail clearfix">
+                <div class="social_share line grid_1">
+                        <ul class="listing line">
+                                <li class="fb list">
+                                                <span class="logo"><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_fb.png'; ?>"></span>
+                                                <span class="iframe"><a href=""><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_share.png'; ?>"></a></span>
+                                                <span class="count">13</span>
+                                </li>
+                                <li class="twitter list">
+                                                <span class="logo"><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_twitter.png'; ?>"></span>
+                                                <span class="iframe"><a href=""><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_tweet.png'; ?>"></a></span>
+                                                <span class="count">13</span>
+                                </li>
+                                <li class="gplus">
+                                        <!-- nothing -->
+                                                <span class="logo"><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_gplus.png'; ?>"></span>
+                                                <span class="iframe"><a href=""><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_plus.png'; ?>"></a></span>
+                                                <span class="count">13</span>
+                                </li>
+                        </ul>
+                </div>
+                <div class="product_title">
+                    <div class="black_box">
+                        <h1>AMPLIFICATION VERMILION</h1>
+                        <span class="prod_description">PRODUCT DESCRIPTION</span>
+                        <div class="bottom_column">
+                            <span class="price">$139.00</span>
+                            <button class="try">TRY</button>
+                            <button class="buy">BUY</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview_wrapper">
+                    <div class="compatible">
+                        <p>
+                            compatible with : <img src=""/> <img src=""/> <img src=""/> <img src=""/> <img src=""/>
+                        </p>
+                    </div>
+                    <div class="overview_detail">
+                        <h2>Overview</h2>
+                        <p>
+                            Kuassa, Inc. has once again entered the world of guitar amplification software with Kuassa Amplifikation Creme, featuring ultra-precise digitally engineered head and matching cabinets with built-in overdrive section consisting three kinds of legendary overdrive pedals built right to the amp giving you a full control of harmonically-rich distortion crammed with intense dynamics.
+                        </p>
+                        <p>
+                            Kuassa Amplifikation Creme are truly a must-have addition for all Amplifikation One fans. Distinguished by its darker, fuller, and heavier tonal character discovered on High-Gain or Metal guitar amplifiers, Kuassa Amplifikation Creme‘s three amp types and channels can give you a sonic arsenal from sparkling clean tones to searing guitar riffs, able to match the sound quality of high-end tube powered guitar amplifiers.
+                        </p>
+                        <h2>Requirements</h2>
+                        <p></p>
+                        <h2>Key Features</h2>
+                        <p>Kuassa, Inc. has once again entered the world of guitar amplification software with Kuassa Amplifikation Creme, featuring ultra-precise digitally engineered head and matching cabinets with built-in overdrive section consisting three kinds of legendary overdrive pedals built right to the amp giving you a full control of harmonically-rich distortion crammed with intense dynamics.</p>
+                    </div>
+                    <div class="interface">
+                        <h2>Interface </h2><span class="description_heading">hover on image for descriptions</span>
+                        <div class="simulator">
+                            ini bagian simulator
+                        </div>
+                    </div>
+                    <div class="video_product">
+                        <div class="video_container_mejs">
+                            ini bagian video product
+                        </div>
+                    </div>
+                    <div class="audio_sample">
+                        <div class="audio_container_mejs sound_cloud">
+                            ini bagian audio sound_cloud
+                        </div>
+                    </div>
+                    <div class="what_the_say">
+                        <ul class="fade">
+                            <li>
+                                <span>Keren</span>
+                                <p>- Balloteli</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <div class="clearfix"></div>
+            <!-- featured works -->
+            <div class="heading">
+                <h2 class="list-heading">Featured Works</h2>
+            </div>
+            <div class="container_12 line">
+                <div class="slider">
+                    <div class="slider clearfix">
+                        <ul class="carousel" id="my-carousel">
+                            <li class="ic_container">
+                                <a href="">
+                                    <img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
+                                    <div class="overlay"></div>
+                                    <div class="ic_caption">
+                                        <span class="category">Article</span>
+                                        <span class="comments">1 Comments</span>
+                                        <h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="ic_container">
+                                <a href="">
+                                    <img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
+                                </a>
+                            </li>
+                            <li class="ic_container">
+                                <a href="">
+                                    <img src="<?php echo get_template_directory_uri().'/images/slider_3.png'; ?>">
+                                    <div class="overlay"></div>
+                                    <div class="ic_caption">
+                                        <span class="category"></span>
+                                        <span class="comments"></span>
+                                        <h2>AMPLIFIKATION CREME RELEASED.</h2>
+                                    </div>
+                                </a>
+                            <li class="ic_container">
+                                <a href="">
+                                    <img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
+                                    <div class="overlay"></div>
+                                    <div class="ic_caption">
+                                        <span class="category">Article</span>
+                                        <span class="comments">1 Comments</span>
+                                        <h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="ic_container">
+                                <a href="">
+                                    <img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
+                                </a>
+                            </li>
+                            <li class="ic_container">
+                                <a href="">
+                                    <img src="<?php echo get_template_directory_uri().'/images/slider_3.png'; ?>">
+                                    <div class="overlay"></div>
+                                    <div class="ic_caption">
+                                        <span class="category"></span>
+                                        <span class="comments"></span>
+                                        <h2>AMPLIFIKATION CREME RELEASED.</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="ic_container">
+                                <a href="">
+                                    <img src="<?php echo get_template_directory_uri().'/images/slider_1.png'; ?>">
+                                    <div class="overlay"></div>
+                                    <div class="ic_caption">
+                                        <span class="category">Article</span>
+                                        <span class="comments">1 Comments</span>
+                                        <h2>AMPLIFIKATION CREME PATCH 1.66 RELEASED.</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="ic_container">
+                                <a href="">
+                                    <img src="<?php echo get_template_directory_uri().'/images/slider_2.png'; ?>">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div> 
             <?php endif; ?>
             <!-- end of halaman product detail -->
             
