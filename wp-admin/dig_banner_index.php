@@ -195,7 +195,18 @@ function confirmdelete(banner_id)
                        <a href="editbanner/editbanner.php?id=<?php echo $row->banner_id ?>">
                             Edit
                         </a> |
-                    <a href="editbanner/deletebanner.php?id=<?php echo $row->banner_id ?>">Delete</a>
+                        <?php 
+                         if ( $row->banner_status == 1) {
+                             ?>
+                         <a href="#" onclick="alert('this banner is active , activate other banner and then delete it')">Delete</a>
+                        <?php
+                         } else {
+                             ?>
+                         <a href="editbanner/deletebanner.php?id=<?php echo $row->banner_id ?>">Delete</a>
+                         <?php
+                         }
+                        ?>
+                    
                    </td>
                    <td>
                       <?php echo $row->banner_name; ?>
@@ -220,6 +231,7 @@ function confirmdelete(banner_id)
 		    <?php endif; ?>
 		   </td>
                     <td>
+                        <?php if ( $row->banner_status == 1) { echo "active";} else { echo  "not active";}; ?>
                         <?php echo $row->manufacture_description ; ?>
                    </td>
                 </tr>
