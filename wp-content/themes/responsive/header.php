@@ -133,6 +133,11 @@ wp_enqueue_script('top_script', get_template_directory_uri() . '/js/scripts-top.
     </div>
 <?php responsive_header_end(); // after header hook ?>
 <?php responsive_wrapper(); // before wrapper ?>
+<?php if(is_page('product_detail')): ?>
+<div class="additional_bg clearfix">
+		  <img src="<?php echo get_template_directory_uri().'/images/bg_product.jpg'; ?>" width="100%" />
+</div>
+<?php endif; ?>
 <div id="main_template" class="layout_boxed clearfix line">
     <?php responsive_in_wrapper(); // wrapper hook ?>
     

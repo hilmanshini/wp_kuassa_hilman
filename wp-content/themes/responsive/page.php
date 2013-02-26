@@ -756,8 +756,8 @@ if ( !defined('ABSPATH')) exit;
 			
 		});
 		</script>
-                <div class="grid_12 product_detail clearfix">
-                <div class="social_share line grid_1">
+                <div class=" product_detail clearfix">
+                <div class="social_share line clearfix">
                         <ul class="listing line">
                                 <li class="fb list">
                                                 <span class="logo"><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_fb.png'; ?>"></span>
@@ -777,24 +777,31 @@ if ( !defined('ABSPATH')) exit;
                                 </li>
                         </ul>
                 </div>
-                <div class="product_title">
-                    <div class="black_box">
+                <div class="product_title left-only">
+                    <div class="black_box clearfix">
                         <h1>AMPLIFICATION VERMILION</h1>
                         <span class="prod_description">PRODUCT DESCRIPTION</span>
                         <div class="bottom_column">
                             <span class="price">$139.00</span>
-                            <button class="try">TRY</button>
-                            <button class="buy">BUY</button>
+                            <button class="button try ">TRY</button>
+                            <button class="button buy">BUY</button>
                         </div>
                     </div>
+		    <div class="clearfix"></div>
                 </div>
-                <div class="overview_wrapper">
-                    <div class="compatible">
+		<div class="clearfix"></div>
+                <div class="overview_wrapper clearfix">
+                    <div class="compatible clearfix">
                         <p>
-                            compatible with : <img src=""/> <img src=""/> <img src=""/> <img src=""/> <img src=""/>
+                            <span>compatible with :</span>
+			    <img src="<?php echo get_template_directory_uri().'/images/product_detail_30.png'; ?>"/>
+			    <img src="<?php echo get_template_directory_uri().'/images/product_detail_31.png'; ?>"/>
+			    <img src="<?php echo get_template_directory_uri().'/images/product_detail_32.png'; ?>"/>
+			    <img src="<?php echo get_template_directory_uri().'/images/product_detail_33.png'; ?>"/>
+			    <img src="<?php echo get_template_directory_uri().'/images/product_detail_34.png'; ?>"/>
                         </p>
                     </div>
-                    <div class="overview_detail">
+                    <div class="overview_detail" id="block_column">
                         <h2>Overview</h2>
                         <p>
                             Kuassa, Inc. has once again entered the world of guitar amplification software with Kuassa Amplifikation Creme, featuring ultra-precise digitally engineered head and matching cabinets with built-in overdrive section consisting three kinds of legendary overdrive pedals built right to the amp giving you a full control of harmonically-rich distortion crammed with intense dynamics.
@@ -807,23 +814,26 @@ if ( !defined('ABSPATH')) exit;
                         <h2>Key Features</h2>
                         <p>Kuassa, Inc. has once again entered the world of guitar amplification software with Kuassa Amplifikation Creme, featuring ultra-precise digitally engineered head and matching cabinets with built-in overdrive section consisting three kinds of legendary overdrive pedals built right to the amp giving you a full control of harmonically-rich distortion crammed with intense dynamics.</p>
                     </div>
-                    <div class="interface">
+                    <div class="interface" id="block_column">
                         <h2>Interface </h2><span class="description_heading">hover on image for descriptions</span>
                         <div class="simulator">
                             ini bagian simulator
                         </div>
                     </div>
-                    <div class="video_product">
+                    <div class="video_product" id="block_column">
+		      <h2>Video </h2>
                         <div class="video_container_mejs">
                             ini bagian video product
                         </div>
                     </div>
-                    <div class="audio_sample">
+                    <div class="audio_sample" id="block_column">
+		      <h2 class="left-only">Audio Samples</h2>
                         <div class="audio_container_mejs sound_cloud">
                             ini bagian audio sound_cloud
                         </div>
                     </div>
-                    <div class="what_the_say">
+                    <div class="what_the_say" id="block_column">
+		      <h2>What They Say </h2>
                         <ul class="fade">
                             <li>
                                 <span>Keren</span>
