@@ -271,7 +271,9 @@ border-radius:0;
 -webkit-transition:all .2s; 
 -moz-transition:all .2s; 
 -o-transition:all .2s; 
-transition:all .2s
+transition:all .2s;
+display: none !important;
+visibility: hidden;
 }  
 #nav li:hover>ul{ 
 position:absolute; 
@@ -281,7 +283,7 @@ opacity:1;
 -webkit-transition:all .3s; 
 -moz-transition:all .3s; 
 -o-transition:all .3s; 
-transition:all .3s
+transition:all .3s;
 }  
 .nav_simple li ul li{ 
 padding:0 5px
@@ -3541,6 +3543,8 @@ img.product-img{
 #wpadminbar{
     display: none;
     visibility: hidden;
+    height: 0px;
+    position: absolute;
 }
 
 /* product detail */

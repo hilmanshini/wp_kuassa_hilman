@@ -577,15 +577,15 @@ if (!defined('ABSPATH'))
                                     <div class="box-preview">
                                         <!--  button panel float -->
                                         <div class="button-panel">
-                                            <a href=""><input id="buy" type="button" class="small" value="Free" /></a>
-                                            <a href=""><input id="try" type="button" class="small" value="TRY" /> </a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="buy" type="button" class="small" value="Free" /></a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="try" type="button" class="small" value="TRY" /> </a>
                                         </div>
                                         <div class="imageproduct">
                                             <img src="<?php echo $product['thumb']; ?>" />
                                         </div>
                                     </div>
                                     <div class="brand">
-                                        <a href="" >
+                                        <a href="http://localhost/wp_kuassa/product/product_detail/" >
                                             <div class="brand-box">
                                                     <img src="<?php echo $row['thumb']; ?>" alt="brand-img">
                                             </div>
@@ -601,15 +601,15 @@ if (!defined('ABSPATH'))
                                     <div class="box-preview">
                                         <!--  button panel float -->
                                         <div class="button-panel">
-                                            <a href=""><input id="buy" type="button" class="small" value="BUY" /></a>
-                                            <a href=""><input id="try" type="button" class="small" value="TRY" /> </a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="buy" type="button" class="small" value="BUY" /></a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="try" type="button" class="small" value="TRY" /> </a>
                                         </div>
                                         <div class="imageproduct">
                                             <img src="<?php echo $product['thumb']; ?>" />
                                         </div>
                                     </div>
                                     <div class="brand">
-                                        <a href="" >
+                                        <a href="http://localhost/wp_kuassa/product/product_detail/" >
                                             <div class="brand-box">
                                                     <img src="<?php echo $row['thumb']; ?>" alt="brand-img">
                                             </div>
@@ -624,15 +624,15 @@ if (!defined('ABSPATH'))
                                     <div class="box-preview">
                                         <!--  button panel float -->
                                         <div class="button-panel">
-                                            <a href=""><input id="buy" type="button" class="small" value="Free" /></a>
-                                            <a href=""><input id="try" type="button" class="small" value="TRY" /> </a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="buy" type="button" class="small" value="Free" /></a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="try" type="button" class="small" value="TRY" /> </a>
                                         </div>
                                         <div class="imageproduct">
                                             <img src="<?php echo $product['thumb']; ?>" />
                                         </div>
                                     </div>
                                     <div class="brand">
-                                        <a href="" >
+                                        <a href="http://localhost/wp_kuassa/product/product_detail/" >
                                             <div class="brand-box">
                                                     <img src="<?php echo $row['thumb']; ?>" alt="brand-img">
                                             </div>
@@ -648,15 +648,15 @@ if (!defined('ABSPATH'))
                                     <div class="box-preview">
                                         <!--  button panel float -->
                                         <div class="button-panel">
-                                            <a href=""><input id="buy" type="button" class="small" value="BUY" /></a>
-                                            <a href=""><input id="try" type="button" class="small" value="TRY" /> </a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="buy" type="button" class="small" value="BUY" /></a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="try" type="button" class="small" value="TRY" /> </a>
                                         </div>
                                         <div class="imageproduct">
                                             <img src="<?php echo $product['thumb']; ?>" />
                                         </div>
                                     </div>
                                     <div class="brand">
-                                        <a href="" >
+                                        <a href="http://localhost/wp_kuassa/product/product_detail/" >
                                             <div class="brand-box">
                                                     <img src="<?php echo $row['thumb']; ?>" alt="brand-img">
                                             </div>
@@ -671,15 +671,15 @@ if (!defined('ABSPATH'))
                                     <div class="box-preview">
                                         <!--  button panel float -->
                                         <div class="button-panel">
-                                            <a href=""><input id="buy" type="button" class="small" value="Free" /></a>
-                                            <a href=""><input id="try" type="button" class="small" value="TRY" /> </a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="buy" type="button" class="small" value="Free" /></a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="try" type="button" class="small" value="TRY" /> </a>
                                         </div>
                                         <div class="imageproduct">
                                             <img src="<?php echo $product['thumb']; ?>" />
                                         </div>
                                     </div>
                                     <div class="brand">
-                                        <a href="" >
+                                        <a href="http://localhost/wp_kuassa/product/product_detail/" >
                                             <div class="brand-box">
                                                     <img src="<?php echo $row['thumb']; ?>" alt="brand-img">
                                             </div>
@@ -695,15 +695,15 @@ if (!defined('ABSPATH'))
                                     <div class="box-preview">
                                         <!--  button panel float -->
                                         <div class="button-panel">
-                                            <a href=""><input id="buy" type="button" class="small" value="BUY" /></a>
-                                            <a href=""><input id="try" type="button" class="small" value="TRY" /> </a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="buy" type="button" class="small" value="BUY" /></a>
+                                            <a href="http://localhost/wp_kuassa/product/product_detail/"><input id="try" type="button" class="small" value="TRY" /> </a>
                                         </div>
                                         <div class="imageproduct">
                                             <img src="<?php echo $product['thumb']; ?>" />
                                         </div>
                                     </div>
                                     <div class="brand">
-                                        <a href="" >
+                                        <a href="http://localhost/wp_kuassa/product/product_detail/" >
                                             <div class="brand-box">
                                                     <img src="<?php echo $row['thumb']; ?>" alt="brand-img">
                                             </div>
@@ -822,8 +822,8 @@ if (!defined('ABSPATH'))
                     </div>
                     <div class="video_product" id="block_column">
 		      <h2>Video </h2>
-                        <div class="video_container_mejs">
-                            ini bagian video product
+                        <div class="post_video">
+                            <iframe width="560" height="315" src="http://www.youtube.com/embed/UFvCriG2wTM" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="audio_sample" id="block_column">
@@ -940,7 +940,7 @@ if (!defined('ABSPATH'))
 				<div class="download_wrapper">
 					<ul class="list_downloads">
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
 								</div>
@@ -951,7 +951,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_2.png'; ?>">
 								</div>
@@ -962,7 +962,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
 								</div>
@@ -973,7 +973,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_3.png'; ?>">
 								</div>
@@ -984,7 +984,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
 								</div>
@@ -995,7 +995,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_3.png'; ?>">
 								</div>
@@ -1006,7 +1006,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
 								</div>
@@ -1017,7 +1017,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_2.png'; ?>">
 								</div>
@@ -1040,7 +1040,7 @@ if (!defined('ABSPATH'))
 				<div class="download_wrapper">
 					<ul class="list_downloads">
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
 								</div>
@@ -1051,7 +1051,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_2.png'; ?>">
 								</div>
@@ -1062,7 +1062,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
 								</div>
@@ -1073,7 +1073,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_3.png'; ?>">
 								</div>
@@ -1084,7 +1084,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
 								</div>
@@ -1095,7 +1095,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_3.png'; ?>">
 								</div>
@@ -1106,7 +1106,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_1.png'; ?>">
 								</div>
@@ -1117,7 +1117,7 @@ if (!defined('ABSPATH'))
 							</a>
 						</li>
 						<li class="grid_4 line">
-							<a href="">
+							<a href="http://localhost/wp_kuassa/downloads/download-detail/">
 								<div class="thumbnail">
 									<img src="<?php echo get_template_directory_uri().'/images/product_2.png'; ?>">
 								</div>
@@ -1234,7 +1234,7 @@ if (!defined('ABSPATH'))
 				    <div class="main_list clearfix line">
 					    <ul class="list_blog">
 						    <li class="line grid_6">
-							    <a href="" class="blog_content">
+							    <a href="http://localhost/wp_kuassa/2013/02/15/dummy-for-blog-page/" class="blog_content">
 								    <div class="thumbnail">
 									    <img src="<?php echo get_template_directory_uri().'/images/blog_dummy_img.png'; ?>" alt="thumbnail blog">
 								    
@@ -1252,7 +1252,7 @@ if (!defined('ABSPATH'))
 							    </div>
 						    </li>
 						    <li class="line grid_6">
-							    <a href="" class="blog_content">
+							    <a href="http://localhost/wp_kuassa/2013/02/15/dummy-for-blog-page/" class="blog_content">
 								    <div class="thumbnail">
 									    <img src="<?php echo get_template_directory_uri().'/images/blog_dummy_img2.png'; ?>" alt="thumbnail blog">
 								    
@@ -1271,7 +1271,7 @@ if (!defined('ABSPATH'))
 							    
 						    </li>
 						    <li class="line grid_6">
-							    <a href="" class="blog_content">
+							    <a href="http://localhost/wp_kuassa/2013/02/15/dummy-for-blog-page/" class="blog_content">
 								    <div class="thumbnail">
 									    <img src="<?php echo get_template_directory_uri().'/images/blog_dummy_img2.png'; ?>" alt="thumbnail blog">
 								    
@@ -1290,7 +1290,7 @@ if (!defined('ABSPATH'))
 							    
 						    </li>
 						    <li class="line grid_6">
-							    <a href="" class="blog_content">
+							    <a href="http://localhost/wp_kuassa/2013/02/15/dummy-for-blog-page/" class="blog_content">
 								    <div class="thumbnail">
 									    <img src="<?php echo get_template_directory_uri().'/images/blog_dummy_img.png'; ?>" alt="thumbnail blog">
 								    
@@ -1308,7 +1308,7 @@ if (!defined('ABSPATH'))
 							    </div>
 						    </li>
 						    <li class="line grid_6">
-							    <a href="" class="blog_content">
+							    <a href="http://localhost/wp_kuassa/2013/02/15/dummy-for-blog-page/" class="blog_content">
 								    <div class="thumbnail">
 									    <img src="<?php echo get_template_directory_uri().'/images/blog_dummy_img.png'; ?>" alt="thumbnail blog">
 								    
