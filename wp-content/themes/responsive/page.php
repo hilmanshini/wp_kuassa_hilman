@@ -741,6 +741,7 @@ if (!defined('ABSPATH'))
                 <?php
                     // include flexslider
                     wp_enqueue_script('myCarousel-min', get_template_directory_uri() . '/js/myCarousel-min.js', array('jquery'), false , true);
+		    wp_enqueue_script('swiffy', "https://www.gstatic.com/swiffy/v5.0/runtime.js", array('jquery'), false, true);
 
                 ?>
 		<script>
@@ -827,9 +828,10 @@ if (!defined('ABSPATH'))
                         </div>
                     </div>
                     <div class="audio_sample" id="block_column">
-		      <h2 class="left-only">Audio Samples</h2>
-                        <div class="audio_container_mejs sound_cloud">
-                            ini bagian audio sound_cloud
+		      <h2>Audio Samples</h2>
+                        <div class="sound_cloud post_audio">
+                            <iframe width="100%" class="clearfix" scrolling="no" height="350" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F543627&amp;color=573a22&amp;auto_play=false&amp;show_artwork=true"></iframe>
+			    <div class="clear"></div>
                         </div>
                     </div>
                     <div class="what_the_say" id="block_column">
