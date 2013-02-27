@@ -3680,6 +3680,9 @@ img.product-img{
     padding: 26px 50px;
     border-bottom: solid thin #D7D7D7;
 }
+.product_detail  .overview_wrapper .overview_detail{
+    padding-top: 0px !important;
+}
 .product_detail  .overview_wrapper h2{
     text-transform: uppercase;
 }
