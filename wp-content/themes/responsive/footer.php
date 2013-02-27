@@ -118,7 +118,7 @@ if ( !defined('ABSPATH')) exit;
 </div><!-- end #footer -->
 <?php
 // bottom script 
-wp_enqueue_script('bootstrap', get_template_directory_uri() . '../js/bootstrap.js', array('jquery'), false , true);
+wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array('jquery'), false , true);
 wp_enqueue_script('pretty_photo', get_template_directory_uri() . '/js/prettyphoto/js/jquery.prettyPhoto.js', array('jquery'), false , true);
 
 // media element for video
