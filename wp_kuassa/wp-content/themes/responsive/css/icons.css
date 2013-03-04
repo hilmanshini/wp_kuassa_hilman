@@ -1,0 +1,1342 @@
+/*
+Template icons Stylesheet
+*/
+/* 48px icons */
+[class^="icn48_"],
+[class*=" icn48_"]{
+	background: url(../img/icn48.png) no-repeat top left;
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+}
+.icn48black{
+	background-image: url(../img/icn48black.png);
+}
+.icn48white{
+	background-image: url(../img/icn48white.png);
+}
+.icn48gray{
+	background-image: url(../img/icn48gray.png);
+}
+.icn48_3d{ background-position: 0 0;} 
+.icn48_abacus{ background-position: 0 -98px;} 
+.icn48_access_point{ background-position: 0 -196px;} 
+.icn48_add{ background-position: 0 -294px;} 
+.icn48_address_book{ background-position: 0 -392px;} 
+.icn48_administrator{ background-position: 0 -490px;} 
+.icn48_adobe{ background-position: 0 -588px;} 
+.icn48_agent{ background-position: 0 -686px;} 
+.icn48_aim{ background-position: 0 -784px;} 
+.icn48_airbrush{ background-position: 0 -882px;} 
+.icn48_alarm{ background-position: 0 -980px;} 
+.icn48_alien{ background-position: 0 -1078px;} 
+.icn48_alien2{ background-position: 0 -1176px;} 
+.icn48_alien_gray{ background-position: 0 -1274px;} 
+.icn48_align_horizontal_bottom{ background-position: 0 -1372px;} 
+.icn48_align_horizontal_center{ background-position: 0 -1470px;} 
+.icn48_align_horizontal_top{ background-position: 0 -1568px;} 
+.icn48_align_vertical_center{ background-position: 0 -1666px;} 
+.icn48_align_vertical_left{ background-position: 0 -1764px;} 
+.icn48_align_vertical_right{ background-position: 0 -1862px;} 
+.icn48_animation{ background-position: -98px 0;} 
+.icn48_anonymous{ background-position: -98px -98px;} 
+.icn48_antenna{ background-position: -98px -196px;} 
+.icn48_antenna2{ background-position: -98px -294px;} 
+.icn48_arrow_bidirectional{ background-position: -98px -392px;} 
+.icn48_arrow_down{ background-position: -98px -490px;} 
+.icn48_arrow_left{ background-position: -98px -588px;} 
+.icn48_arrow_right{ background-position: -98px -686px;} 
+.icn48_arrow_up{ background-position: -98px -784px;} 
+.icn48_arrowhead_down{ background-position: -98px -882px;} 
+.icn48_arrowhead_left{ background-position: -98px -980px;} 
+.icn48_arrowhead_right{ background-position: -98px -1078px;} 
+.icn48_arrowhead_up{ background-position: -98px -1176px;} 
+.icn48_asymmetric_network{ background-position: -98px -1274px;} 
+.icn48_atm{ background-position: -98px -1372px;} 
+.icn48_atm_euro{ background-position: -98px -1470px;} 
+.icn48_atm_pound{ background-position: -98px -1568px;} 
+.icn48_atm_yen{ background-position: -98px -1666px;} 
+.icn48_attachment{ background-position: -98px -1764px;} 
+.icn48_audio_compress{ background-position: -98px -1862px;} 
+.icn48_audio_console{ background-position: -196px 0;} 
+.icn48_audio_equalizer{ background-position: -196px -98px;} 
+.icn48_audio_fade{ background-position: -196px -196px;} 
+.icn48_audio_knob{ background-position: -196px -294px;} 
+.icn48_audio_knob2{ background-position: -196px -392px;} 
+.icn48_audio_volume_bars{ background-position: -196px -490px;} 
+.icn48_audio_volume_slider{ background-position: -196px -588px;} 
+.icn48_audio_wave{ background-position: -196px -686px;} 
+.icn48_backup{ background-position: -196px -784px;} 
+.icn48_backup2{ background-position: -196px -882px;} 
+.icn48_backup_server{ background-position: -196px -980px;} 
+.icn48_balance{ background-position: -196px -1078px;} 
+.icn48_ball_baseball{ background-position: -196px -1176px;} 
+.icn48_ball_basketball{ background-position: -196px -1274px;} 
+.icn48_ball_beach{ background-position: -196px -1372px;} 
+.icn48_ball_billard{ background-position: -196px -1470px;} 
+.icn48_ball_bowling{ background-position: -196px -1568px;} 
+.icn48_ball_football{ background-position: -196px -1666px;} 
+.icn48_ball_football2{ background-position: -196px -1764px;} 
+.icn48_ball_tennis{ background-position: -196px -1862px;} 
+.icn48_ball_volleyball{ background-position: -294px 0;} 
+.icn48_band_aid{ background-position: -294px -98px;} 
+.icn48_bank{ background-position: -294px -196px;} 
+.icn48_bank2{ background-position: -294px -294px;} 
+.icn48_bank_euro{ background-position: -294px -392px;} 
+.icn48_bank_euro2{ background-position: -294px -490px;} 
+.icn48_bank_pound{ background-position: -294px -588px;} 
+.icn48_bank_pound2{ background-position: -294px -686px;} 
+.icn48_bank_transaction{ background-position: -294px -784px;} 
+.icn48_bank_yen{ background-position: -294px -882px;} 
+.icn48_bank_yen2{ background-position: -294px -980px;} 
+.icn48_barcode{ background-position: -294px -1078px;} 
+.icn48_bell{ background-position: -294px -1176px;} 
+.icn48_bezier{ background-position: -294px -1274px;} 
+.icn48_bill{ background-position: -294px -1372px;} 
+.icn48_bill2{ background-position: -294px -1470px;} 
+.icn48_binoculars{ background-position: -294px -1568px;} 
+.icn48_binoculars2{ background-position: -294px -1666px;} 
+.icn48_bit{ background-position: -294px -1764px;} 
+.icn48_black_list{ background-position: -294px -1862px;} 
+.icn48_black_list_folder{ background-position: -392px 0;} 
+.icn48_blu-ray_disk{ background-position: -392px -98px;} 
+.icn48_blur{ background-position: -392px -196px;} 
+.icn48_bomb{ background-position: -392px -294px;} 
+.icn48_book{ background-position: -392px -392px;} 
+.icn48_bookmark{ background-position: -392px -490px;} 
+.icn48_bread{ background-position: -392px -588px;} 
+.icn48_briefcase{ background-position: -392px -686px;} 
+.icn48_brightness{ background-position: -392px -784px;} 
+.icn48_broadband{ background-position: -392px -882px;} 
+.icn48_broken_link{ background-position: -392px -980px;} 
+.icn48_broken_link2{ background-position: -392px -1078px;} 
+.icn48_brush{ background-position: -392px -1176px;} 
+.icn48_brush_wide{ background-position: -392px -1274px;} 
+.icn48_buddhist_temple{ background-position: -392px -1372px;} 
+.icn48_buddhist_temple2{ background-position: -392px -1470px;} 
+.icn48_building{ background-position: -392px -1568px;} 
+.icn48_burn_disk{ background-position: -392px -1666px;} 
+.icn48_bus{ background-position: -392px -1764px;} 
+.icn48_byte{ background-position: -392px -1862px;} 
+.icn48_cabinet{ background-position: -490px 0;} 
+.icn48_calculator{ background-position: -490px -98px;} 
+.icn48_calculator_buttons{ background-position: -490px -196px;} 
+.icn48_calendar{ background-position: -490px -294px;} 
+.icn48_calendar_month{ background-position: -490px -392px;} 
+.icn48_calendar_year{ background-position: -490px -490px;} 
+.icn48_camera{ background-position: -490px -588px;} 
+.icn48_cancel{ background-position: -490px -686px;} 
+.icn48_cartoon{ background-position: -490px -784px;} 
+.icn48_cashbox{ background-position: -490px -882px;} 
+.icn48_cat{ background-position: -490px -980px;} 
+.icn48_cd_catalogue{ background-position: -490px -1078px;} 
+.icn48_cd_disk{ background-position: -490px -1176px;} 
+.icn48_certificate{ background-position: -490px -1274px;} 
+.icn48_certificate1{ background-position: -490px -1372px;} 
+.icn48_certificate2{ background-position: -490px -1470px;} 
+.icn48_chat_emoticon{ background-position: -490px -1568px;} 
+.icn48_chat_exclamation{ background-position: -490px -1666px;} 
+.icn48_chatroom{ background-position: -490px -1764px;} 
+.icn48_check{ background-position: -490px -1862px;} 
+.icn48_check2{ background-position: -588px 0;} 
+.icn48_checkmark{ background-position: -588px -98px;} 
+.icn48_chopsticks_bowl{ background-position: -588px -196px;} 
+.icn48_chroma_key{ background-position: -588px -294px;} 
+.icn48_church{ background-position: -588px -392px;} 
+.icn48_church2{ background-position: -588px -490px;} 
+.icn48_clapperboard{ background-position: -588px -588px;} 
+.icn48_clip{ background-position: -588px -686px;} 
+.icn48_clipboard{ background-position: -588px -784px;} 
+.icn48_clock{ background-position: -588px -882px;} 
+.icn48_close{ background-position: -588px -980px;} 
+.icn48_cloud{ background-position: -588px -1078px;} 
+.icn48_cocktail{ background-position: -588px -1176px;} 
+.icn48_coffee{ background-position: -588px -1274px;} 
+.icn48_coffee1{ background-position: -588px -1372px;} 
+.icn48_coin_dollar{ background-position: -588px -1470px;} 
+.icn48_coin_euro{ background-position: -588px -1568px;} 
+.icn48_coin_pound{ background-position: -588px -1666px;} 
+.icn48_coin_silhouette{ background-position: -588px -1764px;} 
+.icn48_coin_yen{ background-position: -588px -1862px;} 
+.icn48_coinstack{ background-position: -686px 0;} 
+.icn48_color{ background-position: -686px -98px;} 
+.icn48_company{ background-position: -686px -196px;} 
+.icn48_company2{ background-position: -686px -294px;} 
+.icn48_connect{ background-position: -686px -392px;} 
+.icn48_contract{ background-position: -686px -490px;} 
+.icn48_contract2{ background-position: -686px -588px;} 
+.icn48_contrast{ background-position: -686px -686px;} 
+.icn48_cookie{ background-position: -686px -784px;} 
+.icn48_copy{ background-position: -686px -882px;} 
+.icn48_copy2{ background-position: -686px -980px;} 
+.icn48_corel{ background-position: -686px -1078px;} 
+.icn48_couple{ background-position: -686px -1176px;} 
+.icn48_credit_card{ background-position: -686px -1274px;} 
+.icn48_credit_card2{ background-position: -686px -1372px;} 
+.icn48_crop{ background-position: -686px -1470px;} 
+.icn48_cross{ background-position: -686px -1568px;} 
+.icn48_cupcake{ background-position: -686px -1666px;} 
+.icn48_currency_sign_{ background-position: -686px -1764px;} 
+.icn48_currency_sign_baht{ background-position: -686px -1862px;} 
+.icn48_currency_sign_denar{ background-position: -784px 0;} 
+.icn48_currency_sign_dinar{ background-position: -784px -98px;} 
+.icn48_currency_sign_dollar{ background-position: -784px -196px;} 
+.icn48_currency_sign_dollar2{ background-position: -784px -294px;} 
+.icn48_currency_sign_euro{ background-position: -784px -392px;} 
+.icn48_currency_sign_peso{ background-position: -784px -490px;} 
+.icn48_currency_sign_pound{ background-position: -784px -588px;} 
+.icn48_currency_sign_rial2{ background-position: -784px -686px;} 
+.icn48_currency_sign_ruble{ background-position: -784px -784px;} 
+.icn48_currency_sign_rupee{ background-position: -784px -882px;} 
+.icn48_currency_sign_yen{ background-position: -784px -980px;} 
+.icn48_currency_sign_yen2{ background-position: -784px -1078px;} 
+.icn48_currency_sign_yuan{ background-position: -784px -1176px;} 
+.icn48_cutter{ background-position: -784px -1274px;} 
+.icn48_debt{ background-position: -784px -1372px;} 
+.icn48_delete{ background-position: -784px -1470px;} 
+.icn48_deposit{ background-position: -784px -1568px;} 
+.icn48_dial{ background-position: -784px -1666px;} 
+.icn48_diary{ background-position: -784px -1764px;} 
+.icn48_dimensions{ background-position: -784px -1862px;} 
+.icn48_disconnect{ background-position: -882px 0;} 
+.icn48_diskette{ background-position: -882px -98px;} 
+.icn48_dispatch{ background-position: -882px -196px;} 
+.icn48_dispatch_order{ background-position: -882px -294px;} 
+.icn48_distribute_horizontal_center{ background-position: -882px -392px;} 
+.icn48_distribute_horizontal_left{ background-position: -882px -490px;} 
+.icn48_distribute_horizontal_right{ background-position: -882px -588px;} 
+.icn48_distribute_vertica_bottom{ background-position: -882px -686px;} 
+.icn48_distribute_vertical_center{ background-position: -882px -784px;} 
+.icn48_distribute_vertical_top{ background-position: -882px -882px;} 
+.icn48_document{ background-position: -882px -980px;} 
+.icn48_document1{ background-position: -882px -1078px;} 
+.icn48_document2{ background-position: -882px -1176px;} 
+.icn48_document3{ background-position: -882px -1274px;} 
+.icn48_document4{ background-position: -882px -1372px;} 
+.icn48_dodge{ background-position: -882px -1470px;} 
+.icn48_dog{ background-position: -882px -1568px;} 
+.icn48_door{ background-position: -882px -1666px;} 
+.icn48_door2{ background-position: -882px -1764px;} 
+.icn48_download{ background-position: -882px -1862px;} 
+.icn48_drawing_board{ background-position: -980px 0;} 
+.icn48_dreamweaver{ background-position: -980px -98px;} 
+.icn48_dropper{ background-position: -980px -196px;} 
+.icn48_dvd_disk{ background-position: -980px -294px;} 
+.icn48_earphones{ background-position: -980px -392px;} 
+.icn48_edit{ background-position: -980px -490px;} 
+.icn48_eject{ background-position: -980px -588px;} 
+.icn48_ellipse{ background-position: -980px -686px;} 
+.icn48_encrypt{ background-position: -980px -784px;} 
+.icn48_envelope{ background-position: -980px -882px;} 
+.icn48_envelope2{ background-position: -980px -980px;} 
+.icn48_envelope_open{ background-position: -980px -1078px;} 
+.icn48_envelope_open2{ background-position: -980px -1176px;} 
+.icn48_eolic_power_-plant2{ background-position: -980px -1274px;} 
+.icn48_eraser{ background-position: -980px -1372px;} 
+.icn48_eye_closed{ background-position: -980px -1470px;} 
+.icn48_eye_open{ background-position: -980px -1568px;} 
+.icn48_factory{ background-position: -980px -1666px;} 
+.icn48_fast_forward{ background-position: -980px -1764px;} 
+.icn48_fax{ background-position: -980px -1862px;} 
+.icn48_file{ background-position: -1078px 0;} 
+.icn48_file_format_ai{ background-position: -1078px -98px;} 
+.icn48_file_format_bmp{ background-position: -1078px -196px;} 
+.icn48_file_format_gif{ background-position: -1078px -294px;} 
+.icn48_file_format_ico{ background-position: -1078px -392px;} 
+.icn48_file_format_jpg{ background-position: -1078px -490px;} 
+.icn48_file_format_png{ background-position: -1078px -588px;} 
+.icn48_file_format_psd{ background-position: -1078px -686px;} 
+.icn48_file_format_swf{ background-position: -1078px -784px;} 
+.icn48_file_format_tga{ background-position: -1078px -882px;} 
+.icn48_file_format_tiff{ background-position: -1078px -980px;} 
+.icn48_file_transfer{ background-position: -1078px -1078px;} 
+.icn48_file_transfer2{ background-position: -1078px -1176px;} 
+.icn48_fill{ background-position: -1078px -1274px;} 
+.icn48_film_reel{ background-position: -1078px -1372px;} 
+.icn48_fingerprint{ background-position: -1078px -1470px;} 
+.icn48_fingerprint2{ background-position: -1078px -1568px;} 
+.icn48_fingerprint_reader{ background-position: -1078px -1666px;} 
+.icn48_fingerprint_reader2{ background-position: -1078px -1764px;} 
+.icn48_firewal{ background-position: -1078px -1862px;} 
+.icn48_fireworks{ background-position: -1176px 0;} 
+.icn48_first{ background-position: -1176px -98px;} 
+.icn48_flash{ background-position: -1176px -196px;} 
+.icn48_flashlight{ background-position: -1176px -294px;} 
+.icn48_flip_horizontal{ background-position: -1176px -392px;} 
+.icn48_flip_vertical{ background-position: -1176px -490px;} 
+.icn48_flowchart{ background-position: -1176px -588px;} 
+.icn48_flower{ background-position: -1176px -686px;} 
+.icn48_folder{ background-position: -1176px -784px;} 
+.icn48_frames{ background-position: -1176px -882px;} 
+.icn48_frames2{ background-position: -1176px -980px;} 
+.icn48_games_card_clubs{ background-position: -1176px -1078px;} 
+.icn48_games_card_diamonds{ background-position: -1176px -1176px;} 
+.icn48_games_card_hearts{ background-position: -1176px -1274px;} 
+.icn48_games_card_spades{ background-position: -1176px -1372px;} 
+.icn48_games_control{ background-position: -1176px -1470px;} 
+.icn48_games_control2{ background-position: -1176px -1568px;} 
+.icn48_games_dice{ background-position: -1176px -1666px;} 
+.icn48_gateway{ background-position: -1176px -1764px;} 
+.icn48_gateway2{ background-position: -1176px -1862px;} 
+.icn48_gear{ background-position: -1274px 0;} 
+.icn48_geothermal_power_plant3{ background-position: -1274px -98px;} 
+.icn48_gift{ background-position: -1274px -196px;} 
+.icn48_gold{ background-position: -1274px -294px;} 
+.icn48_gold1{ background-position: -1274px -392px;} 
+.icn48_gold2{ background-position: -1274px -490px;} 
+.icn48_gold3{ background-position: -1274px -588px;} 
+.icn48_gradient_angle{ background-position: -1274px -686px;} 
+.icn48_gradient_diamond{ background-position: -1274px -784px;} 
+.icn48_gradient_linear{ background-position: -1274px -882px;} 
+.icn48_gradient_radial{ background-position: -1274px -980px;} 
+.icn48_gradient_reflected{ background-position: -1274px -1078px;} 
+.icn48_group{ background-position: -1274px -1176px;} 
+.icn48_hamburger{ background-position: -1274px -1274px;} 
+.icn48_hand_handshake{ background-position: -1274px -1372px;} 
+.icn48_hand_point{ background-position: -1274px -1470px;} 
+.icn48_hand_share{ background-position: -1274px -1568px;} 
+.icn48_hand_smudge{ background-position: -1274px -1666px;} 
+.icn48_hand_thumbsdown{ background-position: -1274px -1764px;} 
+.icn48_hand_thumbsup{ background-position: -1274px -1862px;} 
+.icn48_hanger{ background-position: -1372px 0;} 
+.icn48_hard_disk2{ background-position: -1372px -98px;} 
+.icn48_hard_hat{ background-position: -1372px -196px;} 
+.icn48_headset{ background-position: -1372px -294px;} 
+.icn48_heart{ background-position: -1372px -392px;} 
+.icn48_height{ background-position: -1372px -490px;} 
+.icn48_help{ background-position: -1372px -588px;} 
+.icn48_history{ background-position: -1372px -686px;} 
+.icn48_history2{ background-position: -1372px -784px;} 
+.icn48_history3{ background-position: -1372px -882px;} 
+.icn48_home{ background-position: -1372px -980px;} 
+.icn48_hourglass{ background-position: -1372px -1078px;} 
+.icn48_hub{ background-position: -1372px -1176px;} 
+.icn48_hydroelectric_power_-plant{ background-position: -1372px -1274px;} 
+.icn48_icecream{ background-position: -1372px -1372px;} 
+.icn48_id{ background-position: -1372px -1470px;} 
+.icn48_illustrator{ background-position: -1372px -1568px;} 
+.icn48_info{ background-position: -1372px -1666px;} 
+.icn48_intranet{ background-position: -1372px -1764px;} 
+.icn48_inventory{ background-position: -1372px -1862px;} 
+.icn48_inventory2{ background-position: -1470px 0;} 
+.icn48_inventory_category{ background-position: -1470px -98px;} 
+.icn48_invoice{ background-position: -1470px -196px;} 
+.icn48_ip{ background-position: -1470px -294px;} 
+.icn48_ipod{ background-position: -1470px -392px;} 
+.icn48_isdn{ background-position: -1470px -490px;} 
+.icn48_isp{ background-position: -1470px -588px;} 
+.icn48_key{ background-position: -1470px -686px;} 
+.icn48_kiss{ background-position: -1470px -784px;} 
+.icn48_lan_cable{ background-position: -1470px -882px;} 
+.icn48_lan_port{ background-position: -1470px -980px;} 
+.icn48_last{ background-position: -1470px -1078px;} 
+.icn48_lcd{ background-position: -1470px -1176px;} 
+.icn48_lightbulb_off{ background-position: -1470px -1274px;} 
+.icn48_lightbulb_on{ background-position: -1470px -1372px;} 
+.icn48_lightwave{ background-position: -1470px -1470px;} 
+.icn48_link{ background-position: -1470px -1568px;} 
+.icn48_link2{ background-position: -1470px -1666px;} 
+.icn48_list{ background-position: -1470px -1764px;} 
+.icn48_list2{ background-position: -1470px -1862px;} 
+.icn48_loan{ background-position: -1568px 0;} 
+.icn48_location{ background-position: -1568px -98px;} 
+.icn48_lock{ background-position: -1568px -196px;} 
+.icn48_lock_open{ background-position: -1568px -294px;} 
+.icn48_log{ background-position: -1568px -392px;} 
+.icn48_lollipop{ background-position: -1568px -490px;} 
+.icn48_mac_address{ background-position: -1568px -588px;} 
+.icn48_mask{ background-position: -1568px -686px;} 
+.icn48_mastercard{ background-position: -1568px -784px;} 
+.icn48_match_height{ background-position: -1568px -882px;} 
+.icn48_match_width{ background-position: -1568px -980px;} 
+.icn48_match_width_and_height{ background-position: -1568px -1078px;} 
+.icn48_meeting_software{ background-position: -1568px -1176px;} 
+.icn48_messenger{ background-position: -1568px -1274px;} 
+.icn48_microphone{ background-position: -1568px -1372px;} 
+.icn48_midi_keyboard{ background-position: -1568px -1470px;} 
+.icn48_mobile{ background-position: -1568px -1568px;} 
+.icn48_money_bag_dollar{ background-position: -1568px -1666px;} 
+.icn48_money_bag_euro{ background-position: -1568px -1764px;} 
+.icn48_money_bag_pound{ background-position: -1568px -1862px;} 
+.icn48_money_bag_yen{ background-position: -1666px 0;} 
+.icn48_monitor{ background-position: -1666px -98px;} 
+.icn48_monument{ background-position: -1666px -196px;} 
+.icn48_moon{ background-position: -1666px -294px;} 
+.icn48_mosque{ background-position: -1666px -392px;} 
+.icn48_mosque2{ background-position: -1666px -490px;} 
+.icn48_motion_blur{ background-position: -1666px -588px;} 
+.icn48_mouse{ background-position: -1666px -686px;} 
+.icn48_move{ background-position: -1666px -784px;} 
+.icn48_music_beamed_note{ background-position: -1666px -882px;} 
+.icn48_music_eighth_note{ background-position: -1666px -980px;} 
+.icn48_music_library{ background-position: -1666px -1078px;} 
+.icn48_network{ background-position: -1666px -1176px;} 
+.icn48_network_card{ background-position: -1666px -1274px;} 
+.icn48_network_monitor{ background-position: -1666px -1372px;} 
+.icn48_network_software{ background-position: -1666px -1470px;} 
+.icn48_next{ background-position: -1666px -1568px;} 
+.icn48_node{ background-position: -1666px -1666px;} 
+.icn48_notation_composer{ background-position: -1666px -1764px;} 
+.icn48_notation_composer2{ background-position: -1666px -1862px;} 
+.icn48_notation_composer3{ background-position: -1764px 0;} 
+.icn48_notepad{ background-position: -1764px -98px;} 
+.icn48_ntsc_bars{ background-position: -1764px -196px;} 
+.icn48_nuclear_power_-plant{ background-position: -1764px -294px;} 
+.icn48_nurse{ background-position: -1764px -392px;} 
+.icn48_operator{ background-position: -1764px -490px;} 
+.icn48_operator2{ background-position: -1764px -588px;} 
+.icn48_organizational_chart{ background-position: -1764px -686px;} 
+.icn48_osi_model{ background-position: -1764px -784px;} 
+.icn48_osi_model2{ background-position: -1764px -882px;} 
+.icn48_palette{ background-position: -1764px -980px;} 
+.icn48_password{ background-position: -1764px -1078px;} 
+.icn48_password2{ background-position: -1764px -1176px;} 
+.icn48_paste{ background-position: -1764px -1274px;} 
+.icn48_paste2{ background-position: -1764px -1372px;} 
+.icn48_pause{ background-position: -1764px -1470px;} 
+.icn48_payment{ background-position: -1764px -1568px;} 
+.icn48_paypal{ background-position: -1764px -1666px;} 
+.icn48_paypal2{ background-position: -1764px -1764px;} 
+.icn48_pen{ background-position: -1764px -1862px;} 
+.icn48_pen_drive{ background-position: -1862px 0;} 
+.icn48_pencil{ background-position: -1862px -98px;} 
+.icn48_phone{ background-position: -1862px -196px;} 
+.icn48_phone_book{ background-position: -1862px -294px;} 
+.icn48_photo_album{ background-position: -1862px -392px;} 
+.icn48_photoshop{ background-position: -1862px -490px;} 
+.icn48_piggybank{ background-position: -1862px -588px;} 
+.icn48_ping{ background-position: -1862px -686px;} 
+.icn48_piracy{ background-position: -1862px -784px;} 
+.icn48_piracy2{ background-position: -1862px -882px;} 
+.icn48_pizza{ background-position: -1862px -980px;} 
+.icn48_plane{ background-position: -1862px -1078px;} 
+.icn48_plasma{ background-position: -1862px -1176px;} 
+.icn48_play{ background-position: -1862px -1274px;} 
+.icn48_play_pause{ background-position: -1862px -1372px;} 
+.icn48_playlist{ background-position: -1862px -1470px;} 
+.icn48_playlist2{ background-position: -1862px -1568px;} 
+.icn48_polygon{ background-position: -1862px -1666px;} 
+.icn48_pop-up{ background-position: -1862px -1764px;} 
+.icn48_preview{ background-position: -1862px -1862px;} 
+.icn48_preview2{ background-position: -1960px 0;} 
+.icn48_previous{ background-position: -1960px -98px;} 
+.icn48_print{ background-position: -1960px -196px;} 
+.icn48_printer{ background-position: -1960px -294px;} 
+.icn48_product{ background-position: -1960px -392px;} 
+.icn48_product_in_process{ background-position: -1960px -490px;} 
+.icn48_progress_bar{ background-position: -1960px -588px;} 
+.icn48_protocol{ background-position: -1960px -686px;} 
+.icn48_protocol1{ background-position: -1960px -784px;} 
+.icn48_protocol2{ background-position: -1960px -882px;} 
+.icn48_proxy_server{ background-position: -1960px -980px;} 
+.icn48_purchase{ background-position: -1960px -1078px;} 
+.icn48_purse{ background-position: -1960px -1176px;} 
+.icn48_pyramid{ background-position: -1960px -1274px;} 
+.icn48_quarantine{ background-position: -1960px -1372px;} 
+.icn48_radio{ background-position: -1960px -1470px;} 
+.icn48_radio_microphone{ background-position: -1960px -1568px;} 
+.icn48_random{ background-position: -1960px -1666px;} 
+.icn48_raster{ background-position: -1960px -1764px;} 
+.icn48_raw_material{ background-position: -1960px -1862px;} 
+.icn48_record{ background-position: -2058px 0;} 
+.icn48_rectangle{ background-position: -2058px -98px;} 
+.icn48_red_crescent{ background-position: -2058px -196px;} 
+.icn48_red_cross{ background-position: -2058px -294px;} 
+.icn48_red_eye{ background-position: -2058px -392px;} 
+.icn48_reflect{ background-position: -2058px -490px;} 
+.icn48_refresh{ background-position: -2058px -588px;} 
+.icn48_refund{ background-position: -2058px -686px;} 
+.icn48_refund2{ background-position: -2058px -784px;} 
+.icn48_reload{ background-position: -2058px -882px;} 
+.icn48_remote_control{ background-position: -2058px -980px;} 
+.icn48_repeat{ background-position: -2058px -1078px;} 
+.icn48_repeater{ background-position: -2058px -1176px;} 
+.icn48_resize{ background-position: -2058px -1274px;} 
+.icn48_rewind{ background-position: -2058px -1372px;} 
+.icn48_ringtone{ background-position: -2058px -1470px;} 
+.icn48_rotate{ background-position: -2058px -1568px;} 
+.icn48_round{ background-position: -2058px -1666px;} 
+.icn48_rounded_rectangle{ background-position: -2058px -1764px;} 
+.icn48_router{ background-position: -2058px -1862px;} 
+.icn48_ruler_square{ background-position: -2156px 0;} 
+.icn48_safety_box{ background-position: -2156px -98px;} 
+.icn48_safety_box_open{ background-position: -2156px -196px;} 
+.icn48_salary{ background-position: -2156px -294px;} 
+.icn48_salesman{ background-position: -2156px -392px;} 
+.icn48_satellite{ background-position: -2156px -490px;} 
+.icn48_satellite_dish{ background-position: -2156px -588px;} 
+.icn48_scissors{ background-position: -2156px -686px;} 
+.icn48_screen_zoom_in{ background-position: -2156px -784px;} 
+.icn48_screen_zoom_out{ background-position: -2156px -882px;} 
+.icn48_secure_connection{ background-position: -2156px -980px;} 
+.icn48_security{ background-position: -2156px -1078px;} 
+.icn48_selection_custom_shape{ background-position: -2156px -1176px;} 
+.icn48_selection_elliptical{ background-position: -2156px -1274px;} 
+.icn48_selection_polygonal{ background-position: -2156px -1372px;} 
+.icn48_selection_rectangular{ background-position: -2156px -1470px;} 
+.icn48_semi-trailer_truck{ background-position: -2156px -1568px;} 
+.icn48_send_box{ background-position: -2156px -1666px;} 
+.icn48_send_box2{ background-position: -2156px -1764px;} 
+.icn48_send_container{ background-position: -2156px -1862px;} 
+.icn48_send_crate{ background-position: -2254px 0;} 
+.icn48_send_envelope{ background-position: -2254px -98px;} 
+.icn48_send_package{ background-position: -2254px -196px;} 
+.icn48_serial-number{ background-position: -2254px -294px;} 
+.icn48_server{ background-position: -2254px -392px;} 
+.icn48_sharpen{ background-position: -2254px -490px;} 
+.icn48_shear{ background-position: -2254px -588px;} 
+.icn48_shinto_temple{ background-position: -2254px -686px;} 
+.icn48_ship{ background-position: -2254px -784px;} 
+.icn48_shopping_basket{ background-position: -2254px -882px;} 
+.icn48_shopping_cart{ background-position: -2254px -980px;} 
+.icn48_shrimp3{ background-position: -2254px -1078px;} 
+.icn48_silver{ background-position: -2254px -1176px;} 
+.icn48_silver1{ background-position: -2254px -1274px;} 
+.icn48_silver2{ background-position: -2254px -1372px;} 
+.icn48_silver3{ background-position: -2254px -1470px;} 
+.icn48_slot_machine{ background-position: -2254px -1568px;} 
+.icn48_smiley{ background-position: -2254px -1666px;} 
+.icn48_smiley_angry{ background-position: -2254px -1764px;} 
+.icn48_smiley_confused{ background-position: -2254px -1862px;} 
+.icn48_smiley_grin{ background-position: -2352px 0;} 
+.icn48_smiley_in_love{ background-position: -2352px -98px;} 
+.icn48_smiley_sad{ background-position: -2352px -196px;} 
+.icn48_smiley_sleeping{ background-position: -2352px -294px;} 
+.icn48_smiley_waiting{ background-position: -2352px -392px;} 
+.icn48_smiley_wink{ background-position: -2352px -490px;} 
+.icn48_sms{ background-position: -2352px -588px;} 
+.icn48_sniffer{ background-position: -2352px -686px;} 
+.icn48_socket{ background-position: -2352px -784px;} 
+.icn48_software{ background-position: -2352px -882px;} 
+.icn48_solar_power_-plant2{ background-position: -2352px -980px;} 
+.icn48_space_evenly_horizontal{ background-position: -2352px -1078px;} 
+.icn48_space_evenly_vertical{ background-position: -2352px -1176px;} 
+.icn48_spam{ background-position: -2352px -1274px;} 
+.icn48_spam2{ background-position: -2352px -1372px;} 
+.icn48_speaker{ background-position: -2352px -1470px;} 
+.icn48_speaker_left_channel{ background-position: -2352px -1568px;} 
+.icn48_speaker_right_channel{ background-position: -2352px -1666px;} 
+.icn48_speaker_stereo{ background-position: -2352px -1764px;} 
+.icn48_speech_balloon{ background-position: -2352px -1862px;} 
+.icn48_sphere{ background-position: -2450px 0;} 
+.icn48_spiral{ background-position: -2450px -98px;} 
+.icn48_sponge{ background-position: -2450px -196px;} 
+.icn48_spray{ background-position: -2450px -294px;} 
+.icn48_spreadsheet{ background-position: -2450px -392px;} 
+.icn48_spyware{ background-position: -2450px -490px;} 
+.icn48_spyware2{ background-position: -2450px -588px;} 
+.icn48_square{ background-position: -2450px -686px;} 
+.icn48_stamp{ background-position: -2450px -784px;} 
+.icn48_stamped_document{ background-position: -2450px -882px;} 
+.icn48_stapler{ background-position: -2450px -980px;} 
+.icn48_star{ background-position: -2450px -1078px;} 
+.icn48_stats_bar_chart{ background-position: -2450px -1176px;} 
+.icn48_stats_line_chart{ background-position: -2450px -1274px;} 
+.icn48_stats_pie_chart{ background-position: -2450px -1372px;} 
+.icn48_stop{ background-position: -2450px -1470px;} 
+.icn48_subnet{ background-position: -2450px -1568px;} 
+.icn48_subnet2{ background-position: -2450px -1666px;} 
+.icn48_sun{ background-position: -2450px -1764px;} 
+.icn48_swimming{ background-position: -2450px -1862px;} 
+.icn48_switch{ background-position: -2548px 0;} 
+.icn48_switch_off{ background-position: -2548px -98px;} 
+.icn48_switch_on{ background-position: -2548px -196px;} 
+.icn48_symmetric_network{ background-position: -2548px -294px;} 
+.icn48_synagogue{ background-position: -2548px -392px;} 
+.icn48_synagogue2{ background-position: -2548px -490px;} 
+.icn48_tablet{ background-position: -2548px -588px;} 
+.icn48_tax{ background-position: -2548px -686px;} 
+.icn48_technical_hammer{ background-position: -2548px -784px;} 
+.icn48_technical_screwdriver{ background-position: -2548px -882px;} 
+.icn48_technical_wrench{ background-position: -2548px -980px;} 
+.icn48_teddy_bear{ background-position: -2548px -1078px;} 
+.icn48_terminal{ background-position: -2548px -1176px;} 
+.icn48_terminal2{ background-position: -2548px -1274px;} 
+.icn48_timeframe{ background-position: -2548px -1372px;} 
+.icn48_timer{ background-position: -2548px -1470px;} 
+.icn48_traffic_lights{ background-position: -2548px -1568px;} 
+.icn48_trash_can{ background-position: -2548px -1666px;} 
+.icn48_treasure_chest{ background-position: -2548px -1764px;} 
+.icn48_treasure_chest1{ background-position: -2548px -1862px;} 
+.icn48_treasure_chest2{ background-position: -2646px 0;} 
+.icn48_tree{ background-position: -2646px -98px;} 
+.icn48_trojan{ background-position: -2646px -196px;} 
+.icn48_trojan2{ background-position: -2646px -294px;} 
+.icn48_trophy{ background-position: -2646px -392px;} 
+.icn48_truck{ background-position: -2646px -490px;} 
+.icn48_upload{ background-position: -2646px -588px;} 
+.icn48_ups{ background-position: -2646px -686px;} 
+.icn48_usb{ background-position: -2646px -784px;} 
+.icn48_usb2{ background-position: -2646px -882px;} 
+.icn48_user{ background-position: -2646px -980px;} 
+.icn48_user_awake{ background-position: -2646px -1078px;} 
+.icn48_user_sleep{ background-position: -2646px -1176px;} 
+.icn48_user_woman{ background-position: -2646px -1274px;} 
+.icn48_video{ background-position: -2646px -1372px;} 
+.icn48_video_compress{ background-position: -2646px -1470px;} 
+.icn48_video_convert{ background-position: -2646px -1568px;} 
+.icn48_video_convert2{ background-position: -2646px -1666px;} 
+.icn48_video_cut{ background-position: -2646px -1764px;} 
+.icn48_video_effects{ background-position: -2646px -1862px;} 
+.icn48_videocamera{ background-position: -2744px 0;} 
+.icn48_virus{ background-position: -2744px -98px;} 
+.icn48_visa{ background-position: -2744px -196px;} 
+.icn48_voip{ background-position: -2744px -294px;} 
+.icn48_vpn{ background-position: -2744px -392px;} 
+.icn48_wallet{ background-position: -2744px -490px;} 
+.icn48_wallet2{ background-position: -2744px -588px;} 
+.icn48_wan{ background-position: -2744px -686px;} 
+.icn48_wap{ background-position: -2744px -784px;} 
+.icn48_warehouse{ background-position: -2744px -882px;} 
+.icn48_watchman{ background-position: -2744px -980px;} 
+.icn48_wave_amplify_amplitude{ background-position: -2744px -1078px;} 
+.icn48_wave_amplify_frequency{ background-position: -2744px -1176px;} 
+.icn48_wave_cut{ background-position: -2744px -1274px;} 
+.icn48_wave_high_frequency{ background-position: -2744px -1372px;} 
+.icn48_wave_low_frequency{ background-position: -2744px -1470px;} 
+.icn48_wave_reduce_amplitude{ background-position: -2744px -1568px;} 
+.icn48_wave_reduce_frequency{ background-position: -2744px -1666px;} 
+.icn48_wave_stereo{ background-position: -2744px -1764px;} 
+.icn48_webcam{ background-position: -2744px -1862px;} 
+.icn48_weight{ background-position: -2842px 0;} 
+.icn48_weight2{ background-position: -2842px -98px;} 
+.icn48_weight_gram{ background-position: -2842px -196px;} 
+.icn48_weight_kilogram{ background-position: -2842px -294px;} 
+.icn48_weight_ounce{ background-position: -2842px -392px;} 
+.icn48_weight_pound{ background-position: -2842px -490px;} 
+.icn48_weights{ background-position: -2842px -588px;} 
+.icn48_white_list{ background-position: -2842px -686px;} 
+.icn48_white_list_folder{ background-position: -2842px -784px;} 
+.icn48_width{ background-position: -2842px -882px;} 
+.icn48_wifi{ background-position: -2842px -980px;} 
+.icn48_window{ background-position: -2842px -1078px;} 
+.icn48_windows{ background-position: -2842px -1176px;} 
+.icn48_wire_transfer{ background-position: -2842px -1274px;} 
+.icn48_withdrawal{ background-position: -2842px -1372px;} 
+.icn48_wizard{ background-position: -2842px -1470px;} 
+.icn48_world{ background-position: -2842px -1568px;} 
+.icn48_zoom{ background-position: -2842px -1666px;} 
+.icn48_zoom_in{ background-position: -2842px -1764px;} 
+.icn48_zoom_out{ background-position: -2842px -1862px;}
+
+/* 72px icons */
+[class^="icn72_"],
+[class*=" icn72_"]{
+	background: url(../img/icn72.png) no-repeat top left;
+	width: 72px;
+	height: 72px;
+	display: inline-block;
+}
+.icn72black{
+	background-image: url(../img/icn72black.png);
+}
+.icn72white{
+	background-image: url(../img/icn72white.png);
+}
+.icn72gray{
+	background-image: url(../img/icn72gray.png);
+}
+.icn72_3d{ background-position: 0 0;  } 
+.icn72_abacus{ background-position: 0 -82px;  } 
+.icn72_access_point{ background-position: 0 -164px;  } 
+.icn72_add{ background-position: 0 -246px;  } 
+.icn72_address_book{ background-position: 0 -328px;  } 
+.icn72_administrator{ background-position: 0 -410px;  } 
+.icn72_adobe{ background-position: 0 -492px;  } 
+.icn72_agent{ background-position: 0 -574px;  } 
+.icn72_aim{ background-position: 0 -656px;  } 
+.icn72_airbrush{ background-position: 0 -738px;  } 
+.icn72_alarm{ background-position: 0 -820px;  } 
+.icn72_alien{ background-position: 0 -902px;  } 
+.icn72_alien2{ background-position: 0 -984px;  } 
+.icn72_alien_gray{ background-position: 0 -1066px;  } 
+.icn72_align_horizontal_bottom{ background-position: 0 -1148px;  } 
+.icn72_align_horizontal_center{ background-position: 0 -1230px;  } 
+.icn72_align_horizontal_top{ background-position: 0 -1312px;  } 
+.icn72_align_vertical_center{ background-position: 0 -1394px;  } 
+.icn72_align_vertical_left{ background-position: 0 -1476px;  } 
+.icn72_align_vertical_right{ background-position: 0 -1558px;  } 
+.icn72_animation{ background-position: 0 -1640px;  } 
+.icn72_anonymous{ background-position: 0 -1722px;  } 
+.icn72_antenna{ background-position: 0 -1804px;  } 
+.icn72_antenna2{ background-position: 0 -1886px;  } 
+.icn72_arrow_bidirectional{ background-position: 0 -1968px;  } 
+.icn72_arrow_down{ background-position: -82px 0;  } 
+.icn72_arrow_left{ background-position: -82px -82px;  } 
+.icn72_arrow_right{ background-position: -82px -164px;  } 
+.icn72_arrow_up{ background-position: -82px -246px;  } 
+.icn72_arrowhead_down{ background-position: -82px -328px;  } 
+.icn72_arrowhead_left{ background-position: -82px -410px;  } 
+.icn72_arrowhead_right{ background-position: -82px -492px;  } 
+.icn72_arrowhead_up{ background-position: -82px -574px;  } 
+.icn72_asymmetric_network{ background-position: -82px -656px;  } 
+.icn72_atm{ background-position: -82px -738px;  } 
+.icn72_atm_euro{ background-position: -82px -820px;  } 
+.icn72_atm_pound{ background-position: -82px -902px;  } 
+.icn72_atm_yen{ background-position: -82px -984px;  } 
+.icn72_attachment{ background-position: -82px -1066px;  } 
+.icn72_audio_compress{ background-position: -82px -1148px;  } 
+.icn72_audio_console{ background-position: -82px -1230px;  } 
+.icn72_audio_equalizer{ background-position: -82px -1312px;  } 
+.icn72_audio_fade{ background-position: -82px -1394px;  } 
+.icn72_audio_knob{ background-position: -82px -1476px;  } 
+.icn72_audio_knob2{ background-position: -82px -1558px;  } 
+.icn72_audio_volume_bars{ background-position: -82px -1640px;  } 
+.icn72_audio_volume_slider{ background-position: -82px -1722px;  } 
+.icn72_audio_wave{ background-position: -82px -1804px;  } 
+.icn72_backup{ background-position: -82px -1886px;  } 
+.icn72_backup2{ background-position: -82px -1968px;  } 
+.icn72_backup_server{ background-position: -164px 0;  } 
+.icn72_balance{ background-position: -164px -82px;  } 
+.icn72_ball_baseball{ background-position: -164px -164px;  } 
+.icn72_ball_basketball{ background-position: -164px -246px;  } 
+.icn72_ball_beach{ background-position: -164px -328px;  } 
+.icn72_ball_billard{ background-position: -164px -410px;  } 
+.icn72_ball_bowling{ background-position: -164px -492px;  } 
+.icn72_ball_football{ background-position: -164px -574px;  } 
+.icn72_ball_football2{ background-position: -164px -656px;  } 
+.icn72_ball_tennis{ background-position: -164px -738px;  } 
+.icn72_ball_volleyball{ background-position: -164px -820px;  } 
+.icn72_band_aid{ background-position: -164px -902px;  } 
+.icn72_bank{ background-position: -164px -984px;  } 
+.icn72_bank2{ background-position: -164px -1066px;  } 
+.icn72_bank_euro{ background-position: -164px -1148px;  } 
+.icn72_bank_euro2{ background-position: -164px -1230px;  } 
+.icn72_bank_pound{ background-position: -164px -1312px;  } 
+.icn72_bank_pound2{ background-position: -164px -1394px;  } 
+.icn72_bank_transaction{ background-position: -164px -1476px;  } 
+.icn72_bank_yen{ background-position: -164px -1558px;  } 
+.icn72_bank_yen2{ background-position: -164px -1640px;  } 
+.icn72_barcode{ background-position: -164px -1722px;  } 
+.icn72_bell{ background-position: -164px -1804px;  } 
+.icn72_bezier{ background-position: -164px -1886px;  } 
+.icn72_bill{ background-position: -164px -1968px;  } 
+.icn72_bill2{ background-position: -246px 0;  } 
+.icn72_binoculars{ background-position: -246px -82px;  } 
+.icn72_binoculars2{ background-position: -246px -164px;  } 
+.icn72_bit{ background-position: -246px -246px;  } 
+.icn72_black_list{ background-position: -246px -328px;  } 
+.icn72_black_list_folder{ background-position: -246px -410px;  } 
+.icn72_blu-ray_disk{ background-position: -246px -492px;  } 
+.icn72_blur{ background-position: -246px -574px;  } 
+.icn72_bomb{ background-position: -246px -656px;  } 
+.icn72_book{ background-position: -246px -738px;  } 
+.icn72_bookmark{ background-position: -246px -820px;  } 
+.icn72_bread{ background-position: -246px -902px;  } 
+.icn72_briefcase{ background-position: -246px -984px;  } 
+.icn72_brightness{ background-position: -246px -1066px;  } 
+.icn72_broadband{ background-position: -246px -1148px;  } 
+.icn72_broken_link{ background-position: -246px -1230px;  } 
+.icn72_broken_link2{ background-position: -246px -1312px;  } 
+.icn72_brush{ background-position: -246px -1394px;  } 
+.icn72_brush_wide{ background-position: -246px -1476px;  } 
+.icn72_buddhist_temple{ background-position: -246px -1558px;  } 
+.icn72_buddhist_temple2{ background-position: -246px -1640px;  } 
+.icn72_building{ background-position: -246px -1722px;  } 
+.icn72_burn_disk{ background-position: -246px -1804px;  } 
+.icn72_bus{ background-position: -246px -1886px;  } 
+.icn72_byte{ background-position: -246px -1968px;  } 
+.icn72_cabinet{ background-position: -328px 0;  } 
+.icn72_calculator{ background-position: -328px -82px;  } 
+.icn72_calculator_buttons{ background-position: -328px -164px;  } 
+.icn72_calendar{ background-position: -328px -246px;  } 
+.icn72_calendar_month{ background-position: -328px -328px;  } 
+.icn72_calendar_year{ background-position: -328px -410px;  } 
+.icn72_camera{ background-position: -328px -492px;  } 
+.icn72_cancel{ background-position: -328px -574px;  } 
+.icn72_cartoon{ background-position: -328px -656px;  } 
+.icn72_cashbox{ background-position: -328px -738px;  } 
+.icn72_cat{ background-position: -328px -820px;  } 
+.icn72_cd_catalogue{ background-position: -328px -902px;  } 
+.icn72_cd_disk{ background-position: -328px -984px;  } 
+.icn72_certificate{ background-position: -328px -1066px;  } 
+.icn72_certificate1{ background-position: -328px -1148px;  } 
+.icn72_certificate2{ background-position: -328px -1230px;  } 
+.icn72_chat_emoticon{ background-position: -328px -1312px;  } 
+.icn72_chat_exclamation{ background-position: -328px -1394px;  } 
+.icn72_chatroom{ background-position: -328px -1476px;  } 
+.icn72_check{ background-position: -328px -1558px;  } 
+.icn72_check2{ background-position: -328px -1640px;  } 
+.icn72_checkmark{ background-position: -328px -1722px;  } 
+.icn72_chopsticks_bowl{ background-position: -328px -1804px;  } 
+.icn72_chroma_key{ background-position: -328px -1886px;  } 
+.icn72_church{ background-position: -328px -1968px;  } 
+.icn72_church2{ background-position: -410px 0;  } 
+.icn72_clapperboard{ background-position: -410px -82px;  } 
+.icn72_clip{ background-position: -410px -164px;  } 
+.icn72_clipboard{ background-position: -410px -246px;  } 
+.icn72_clock{ background-position: -410px -328px;  } 
+.icn72_close{ background-position: -410px -410px;  } 
+.icn72_cloud{ background-position: -410px -492px;  } 
+.icn72_cocktail{ background-position: -410px -574px;  } 
+.icn72_coffee{ background-position: -410px -656px;  } 
+.icn72_coffee1{ background-position: -410px -738px;  } 
+.icn72_coin_dollar{ background-position: -410px -820px;  } 
+.icn72_coin_euro{ background-position: -410px -902px;  } 
+.icn72_coin_pound{ background-position: -410px -984px;  } 
+.icn72_coin_silhouette{ background-position: -410px -1066px;  } 
+.icn72_coin_yen{ background-position: -410px -1148px;  } 
+.icn72_coinstack{ background-position: -410px -1230px;  } 
+.icn72_color{ background-position: -410px -1312px;  } 
+.icn72_company{ background-position: -410px -1394px;  } 
+.icn72_company2{ background-position: -410px -1476px;  } 
+.icn72_connect2{ background-position: -410px -1558px;  } 
+.icn72_contract{ background-position: -410px -1640px;  } 
+.icn72_contract2{ background-position: -410px -1722px;  } 
+.icn72_contrast{ background-position: -410px -1804px;  } 
+.icn72_cookie{ background-position: -410px -1886px;  } 
+.icn72_copy{ background-position: -410px -1968px;  } 
+.icn72_copy2{ background-position: -492px 0;  } 
+.icn72_corel{ background-position: -492px -82px;  } 
+.icn72_couple{ background-position: -492px -164px;  } 
+.icn72_credit_card{ background-position: -492px -246px;  } 
+.icn72_credit_card2{ background-position: -492px -328px;  } 
+.icn72_crop{ background-position: -492px -410px;  } 
+.icn72_cross{ background-position: -492px -492px;  } 
+.icn72_cupcake{ background-position: -492px -574px;  } 
+.icn72_currency_sign_{ background-position: -492px -656px;  } 
+.icn72_currency_sign_baht{ background-position: -492px -738px;  } 
+.icn72_currency_sign_denar{ background-position: -492px -820px;  } 
+.icn72_currency_sign_dinar{ background-position: -492px -902px;  } 
+.icn72_currency_sign_dollar{ background-position: -492px -984px;  } 
+.icn72_currency_sign_dollar2{ background-position: -492px -1066px;  } 
+.icn72_currency_sign_euro{ background-position: -492px -1148px;  } 
+.icn72_currency_sign_peso{ background-position: -492px -1230px;  } 
+.icn72_currency_sign_pound{ background-position: -492px -1312px;  } 
+.icn72_currency_sign_rial2{ background-position: -492px -1394px;  } 
+.icn72_currency_sign_ruble{ background-position: -492px -1476px;  } 
+.icn72_currency_sign_rupee{ background-position: -492px -1558px;  } 
+.icn72_currency_sign_yen{ background-position: -492px -1640px;  } 
+.icn72_currency_sign_yen2{ background-position: -492px -1722px;  } 
+.icn72_currency_sign_yuan{ background-position: -492px -1804px;  } 
+.icn72_cutter{ background-position: -492px -1886px;  } 
+.icn72_debt{ background-position: -492px -1968px;  } 
+.icn72_delete{ background-position: -574px 0;  } 
+.icn72_deposit{ background-position: -574px -82px;  } 
+.icn72_dial{ background-position: -574px -164px;  } 
+.icn72_diary{ background-position: -574px -246px;  } 
+.icn72_dimensions{ background-position: -574px -328px;  } 
+.icn72_disconnect2{ background-position: -574px -410px;  } 
+.icn72_diskette{ background-position: -574px -492px;  } 
+.icn72_dispatch{ background-position: -574px -574px;  } 
+.icn72_dispatch_order{ background-position: -574px -656px;  } 
+.icn72_distribute_horizontal_center{ background-position: -574px -738px;  } 
+.icn72_distribute_horizontal_left{ background-position: -574px -820px;  } 
+.icn72_distribute_horizontal_right{ background-position: -574px -902px;  } 
+.icn72_distribute_vertical_bottom{ background-position: -574px -984px;  } 
+.icn72_distribute_vertical_center{ background-position: -574px -1066px;  } 
+.icn72_distribute_vertical_top{ background-position: -574px -1148px;  } 
+.icn72_document{ background-position: -574px -1230px;  } 
+.icn72_document1{ background-position: -574px -1312px;  } 
+.icn72_document2{ background-position: -574px -1394px;  } 
+.icn72_document3{ background-position: -574px -1476px;  } 
+.icn72_document4{ background-position: -574px -1558px;  } 
+.icn72_dodge{ background-position: -574px -1640px;  } 
+.icn72_dog{ background-position: -574px -1722px;  } 
+.icn72_door{ background-position: -574px -1804px;  } 
+.icn72_door2{ background-position: -574px -1886px;  } 
+.icn72_download{ background-position: -574px -1968px;  } 
+.icn72_drawing_board{ background-position: -656px 0;  } 
+.icn72_dreamweaver{ background-position: -656px -82px;  } 
+.icn72_dropper{ background-position: -656px -164px;  } 
+.icn72_dvd_disk{ background-position: -656px -246px;  } 
+.icn72_earphones{ background-position: -656px -328px;  } 
+.icn72_edit{ background-position: -656px -410px;  } 
+.icn72_eject{ background-position: -656px -492px;  } 
+.icn72_ellipse{ background-position: -656px -574px;  } 
+.icn72_encrypt{ background-position: -656px -656px;  } 
+.icn72_envelope{ background-position: -656px -738px;  } 
+.icn72_envelope2{ background-position: -656px -820px;  } 
+.icn72_envelope_open{ background-position: -656px -902px;  } 
+.icn72_envelope_open2{ background-position: -656px -984px;  } 
+.icn72_eolic_power_-plant2{ background-position: -656px -1066px;  } 
+.icn72_eraser{ background-position: -656px -1148px;  } 
+.icn72_eye_closed{ background-position: -656px -1230px;  } 
+.icn72_eye_open{ background-position: -656px -1312px;  } 
+.icn72_factory{ background-position: -656px -1394px;  } 
+.icn72_fast_forward{ background-position: -656px -1476px;  } 
+.icn72_fax{ background-position: -656px -1558px;  } 
+.icn72_file{ background-position: -656px -1640px;  } 
+.icn72_file_format_ai{ background-position: -656px -1722px;  } 
+.icn72_file_format_bmp{ background-position: -656px -1804px;  } 
+.icn72_file_format_gif{ background-position: -656px -1886px;  } 
+.icn72_file_format_ico{ background-position: -656px -1968px;  } 
+.icn72_file_format_jpg{ background-position: -738px 0;  } 
+.icn72_file_format_png{ background-position: -738px -82px;  } 
+.icn72_file_format_psd{ background-position: -738px -164px;  } 
+.icn72_file_format_swf{ background-position: -738px -246px;  } 
+.icn72_file_format_tga{ background-position: -738px -328px;  } 
+.icn72_file_format_tiff{ background-position: -738px -410px;  } 
+.icn72_file_transfer{ background-position: -738px -492px;  } 
+.icn72_file_transfer2{ background-position: -738px -574px;  } 
+.icn72_fill{ background-position: -738px -656px;  } 
+.icn72_film_reel{ background-position: -738px -738px;  } 
+.icn72_fingerprint{ background-position: -738px -820px;  } 
+.icn72_fingerprint2{ background-position: -738px -902px;  } 
+.icn72_fingerprint_reader{ background-position: -738px -984px;  } 
+.icn72_fingerprint_reader2{ background-position: -738px -1066px;  } 
+.icn72_firewal{ background-position: -738px -1148px;  } 
+.icn72_fireworks{ background-position: -738px -1230px;  } 
+.icn72_first{ background-position: -738px -1312px;  } 
+.icn72_flash{ background-position: -738px -1394px;  } 
+.icn72_flashlight{ background-position: -738px -1476px;  } 
+.icn72_flip_horizontal{ background-position: -738px -1558px;  } 
+.icn72_flip_vertical{ background-position: -738px -1640px;  } 
+.icn72_flowchart{ background-position: -738px -1722px;  } 
+.icn72_flower{ background-position: -738px -1804px;  } 
+.icn72_folder{ background-position: -738px -1886px;  } 
+.icn72_frames{ background-position: -738px -1968px;  } 
+.icn72_frames2{ background-position: -820px 0;  } 
+.icn72_games_card_clubs{ background-position: -820px -82px;  } 
+.icn72_games_card_diamonds{ background-position: -820px -164px;  } 
+.icn72_games_card_hearts{ background-position: -820px -246px;  } 
+.icn72_games_card_spades{ background-position: -820px -328px;  } 
+.icn72_games_control{ background-position: -820px -410px;  } 
+.icn72_games_control2{ background-position: -820px -492px;  } 
+.icn72_games_dice{ background-position: -820px -574px;  } 
+.icn72_gateway{ background-position: -820px -656px;  } 
+.icn72_gateway2{ background-position: -820px -738px;  } 
+.icn72_gear{ background-position: -820px -820px;  } 
+.icn72_geothermal_power_plant3{ background-position: -820px -902px;  } 
+.icn72_gift{ background-position: -820px -984px;  } 
+.icn72_gold{ background-position: -820px -1066px;  } 
+.icn72_gold1{ background-position: -820px -1148px;  } 
+.icn72_gold2{ background-position: -820px -1230px;  } 
+.icn72_gold3{ background-position: -820px -1312px;  } 
+.icn72_gradient_angle{ background-position: -820px -1394px;  } 
+.icn72_gradient_diamond{ background-position: -820px -1476px;  } 
+.icn72_gradient_linear{ background-position: -820px -1558px;  } 
+.icn72_gradient_radial{ background-position: -820px -1640px;  } 
+.icn72_gradient_reflected{ background-position: -820px -1722px;  } 
+.icn72_group{ background-position: -820px -1804px;  } 
+.icn72_hamburger{ background-position: -820px -1886px;  } 
+.icn72_hand_handshake{ background-position: -820px -1968px;  } 
+.icn72_hand_point{ background-position: -902px 0;  } 
+.icn72_hand_share{ background-position: -902px -82px;  } 
+.icn72_hand_smudge{ background-position: -902px -164px;  } 
+.icn72_hand_thumbsdown{ background-position: -902px -246px;  } 
+.icn72_hand_thumbsup{ background-position: -902px -328px;  } 
+.icn72_hanger{ background-position: -902px -410px;  } 
+.icn72_hard_disk2{ background-position: -902px -492px;  } 
+.icn72_hard_hat{ background-position: -902px -574px;  } 
+.icn72_headset{ background-position: -902px -656px;  } 
+.icn72_heart{ background-position: -902px -738px;  } 
+.icn72_height{ background-position: -902px -820px;  } 
+.icn72_help{ background-position: -902px -902px;  } 
+.icn72_history{ background-position: -902px -984px;  } 
+.icn72_history2{ background-position: -902px -1066px;  } 
+.icn72_history3{ background-position: -902px -1148px;  } 
+.icn72_home{ background-position: -902px -1230px;  } 
+.icn72_hourglass{ background-position: -902px -1312px;  } 
+.icn72_hub{ background-position: -902px -1394px;  } 
+.icn72_hydroelectric_power_-plant{ background-position: -902px -1476px;  } 
+.icn72_icecream{ background-position: -902px -1558px;  } 
+.icn72_id{ background-position: -902px -1640px;  } 
+.icn72_illustrator{ background-position: -902px -1722px;  } 
+.icn72_info{ background-position: -902px -1804px;  } 
+.icn72_intranet{ background-position: -902px -1886px;  } 
+.icn72_inventory{ background-position: -902px -1968px;  } 
+.icn72_inventory2{ background-position: -984px 0;  } 
+.icn72_inventory_category{ background-position: -984px -82px;  } 
+.icn72_invoice{ background-position: -984px -164px;  } 
+.icn72_ip{ background-position: -984px -246px;  } 
+.icn72_ipod{ background-position: -984px -328px;  } 
+.icn72_isdn{ background-position: -984px -410px;  } 
+.icn72_isp{ background-position: -984px -492px;  } 
+.icn72_key{ background-position: -984px -574px;  } 
+.icn72_kiss{ background-position: -984px -656px;  } 
+.icn72_lan_cable{ background-position: -984px -738px;  } 
+.icn72_lan_port{ background-position: -984px -820px;  } 
+.icn72_last{ background-position: -984px -902px;  } 
+.icn72_lcd{ background-position: -984px -984px;  } 
+.icn72_lightbulb_off{ background-position: -984px -1066px;  } 
+.icn72_lightbulb_on{ background-position: -984px -1148px;  } 
+.icn72_lightwave{ background-position: -984px -1230px;  } 
+.icn72_link{ background-position: -984px -1312px;  } 
+.icn72_link2{ background-position: -984px -1394px;  } 
+.icn72_list{ background-position: -984px -1476px;  } 
+.icn72_list2{ background-position: -984px -1558px;  } 
+.icn72_loan{ background-position: -984px -1640px;  } 
+.icn72_location{ background-position: -984px -1722px;  } 
+.icn72_lock{ background-position: -984px -1804px;  } 
+.icn72_lock_open{ background-position: -984px -1886px;  } 
+.icn72_log{ background-position: -984px -1968px;  } 
+.icn72_lollipop{ background-position: -1066px 0;  } 
+.icn72_mac_address{ background-position: -1066px -82px;  } 
+.icn72_mask{ background-position: -1066px -164px;  } 
+.icn72_mastercard{ background-position: -1066px -246px;  } 
+.icn72_match_height{ background-position: -1066px -328px;  } 
+.icn72_match_width{ background-position: -1066px -410px;  } 
+.icn72_match_width_and_height{ background-position: -1066px -492px;  } 
+.icn72_meeting_software{ background-position: -1066px -574px;  } 
+.icn72_messenger{ background-position: -1066px -656px;  } 
+.icn72_microphone{ background-position: -1066px -738px;  } 
+.icn72_midi_keyboard{ background-position: -1066px -820px;  } 
+.icn72_mobile{ background-position: -1066px -902px;  } 
+.icn72_money_bag_dollar{ background-position: -1066px -984px;  } 
+.icn72_money_bag_euro{ background-position: -1066px -1066px;  } 
+.icn72_money_bag_pound{ background-position: -1066px -1148px;  } 
+.icn72_money_bag_yen{ background-position: -1066px -1230px;  } 
+.icn72_monitor{ background-position: -1066px -1312px;  } 
+.icn72_monument{ background-position: -1066px -1394px;  } 
+.icn72_moon{ background-position: -1066px -1476px;  } 
+.icn72_mosque{ background-position: -1066px -1558px;  } 
+.icn72_mosque2{ background-position: -1066px -1640px;  } 
+.icn72_motion_blur{ background-position: -1066px -1722px;  } 
+.icn72_mouse{ background-position: -1066px -1804px;  } 
+.icn72_move{ background-position: -1066px -1886px;  } 
+.icn72_music_beamed_note{ background-position: -1066px -1968px;  } 
+.icn72_music_eighth_note{ background-position: -1148px 0;  } 
+.icn72_music_library{ background-position: -1148px -82px;  } 
+.icn72_network{ background-position: -1148px -164px;  } 
+.icn72_network_card{ background-position: -1148px -246px;  } 
+.icn72_network_monitor{ background-position: -1148px -328px;  } 
+.icn72_network_software{ background-position: -1148px -410px;  } 
+.icn72_next{ background-position: -1148px -492px;  } 
+.icn72_node{ background-position: -1148px -574px;  } 
+.icn72_notation_composer{ background-position: -1148px -656px;  } 
+.icn72_notation_composer2{ background-position: -1148px -738px;  } 
+.icn72_notation_composer3{ background-position: -1148px -820px;  } 
+.icn72_notepad{ background-position: -1148px -902px;  } 
+.icn72_ntsc_bars{ background-position: -1148px -984px;  } 
+.icn72_nuclear_power_-plant{ background-position: -1148px -1066px;  } 
+.icn72_nurse{ background-position: -1148px -1148px;  } 
+.icn72_operator{ background-position: -1148px -1230px;  } 
+.icn72_operator2{ background-position: -1148px -1312px;  } 
+.icn72_organizational_chart{ background-position: -1148px -1394px;  } 
+.icn72_osi_model{ background-position: -1148px -1476px;  } 
+.icn72_osi_model2{ background-position: -1148px -1558px;  } 
+.icn72_palette{ background-position: -1148px -1640px;  } 
+.icn72_password{ background-position: -1148px -1722px;  } 
+.icn72_password2{ background-position: -1148px -1804px;  } 
+.icn72_paste{ background-position: -1148px -1886px;  } 
+.icn72_paste2{ background-position: -1148px -1968px;  } 
+.icn72_pause{ background-position: -1230px 0;  } 
+.icn72_payment{ background-position: -1230px -82px;  } 
+.icn72_paypal{ background-position: -1230px -164px;  } 
+.icn72_paypal2{ background-position: -1230px -246px;  } 
+.icn72_pen{ background-position: -1230px -328px;  } 
+.icn72_pen_drive{ background-position: -1230px -410px;  } 
+.icn72_pencil{ background-position: -1230px -492px;  } 
+.icn72_phone{ background-position: -1230px -574px;  } 
+.icn72_phone_book{ background-position: -1230px -656px;  } 
+.icn72_photo_album{ background-position: -1230px -738px;  } 
+.icn72_photoshop{ background-position: -1230px -820px;  } 
+.icn72_piggybank{ background-position: -1230px -902px;  } 
+.icn72_ping{ background-position: -1230px -984px;  } 
+.icn72_piracy{ background-position: -1230px -1066px;  } 
+.icn72_piracy2{ background-position: -1230px -1148px;  } 
+.icn72_pizza{ background-position: -1230px -1230px;  } 
+.icn72_plane{ background-position: -1230px -1312px;  } 
+.icn72_plasma{ background-position: -1230px -1394px;  } 
+.icn72_play{ background-position: -1230px -1476px;  } 
+.icn72_play_pause{ background-position: -1230px -1558px;  } 
+.icn72_playlist{ background-position: -1230px -1640px;  } 
+.icn72_playlist2{ background-position: -1230px -1722px;  } 
+.icn72_polygon{ background-position: -1230px -1804px;  } 
+.icn72_pop-up{ background-position: -1230px -1886px;  } 
+.icn72_preview{ background-position: -1230px -1968px;  } 
+.icn72_preview2{ background-position: -1312px 0;  } 
+.icn72_previous{ background-position: -1312px -82px;  } 
+.icn72_print{ background-position: -1312px -164px;  } 
+.icn72_printer{ background-position: -1312px -246px;  } 
+.icn72_product{ background-position: -1312px -328px;  } 
+.icn72_product_in_process{ background-position: -1312px -410px;  } 
+.icn72_progress_bar{ background-position: -1312px -492px;  } 
+.icn72_protocol{ background-position: -1312px -574px;  } 
+.icn72_protocol1{ background-position: -1312px -656px;  } 
+.icn72_protocol2{ background-position: -1312px -738px;  } 
+.icn72_proxy_server{ background-position: -1312px -820px;  } 
+.icn72_purchase{ background-position: -1312px -902px;  } 
+.icn72_purse{ background-position: -1312px -984px;  } 
+.icn72_pyramid{ background-position: -1312px -1066px;  } 
+.icn72_quarantine{ background-position: -1312px -1148px;  } 
+.icn72_radio{ background-position: -1312px -1230px;  } 
+.icn72_radio_microphone{ background-position: -1312px -1312px;  } 
+.icn72_random{ background-position: -1312px -1394px;  } 
+.icn72_raster{ background-position: -1312px -1476px;  } 
+.icn72_raw_material{ background-position: -1312px -1558px;  } 
+.icn72_record{ background-position: -1312px -1640px;  } 
+.icn72_rectangle{ background-position: -1312px -1722px;  } 
+.icn72_red_crescent{ background-position: -1312px -1804px;  } 
+.icn72_red_cross{ background-position: -1312px -1886px;  } 
+.icn72_red_eye{ background-position: -1312px -1968px;  } 
+.icn72_reflect{ background-position: -1394px 0;  } 
+.icn72_refresh{ background-position: -1394px -82px;  } 
+.icn72_refund{ background-position: -1394px -164px;  } 
+.icn72_refund2{ background-position: -1394px -246px;  } 
+.icn72_reload{ background-position: -1394px -328px;  } 
+.icn72_remote_control{ background-position: -1394px -410px;  } 
+.icn72_repeat{ background-position: -1394px -492px;  } 
+.icn72_repeater{ background-position: -1394px -574px;  } 
+.icn72_resize{ background-position: -1394px -656px;  } 
+.icn72_rewind{ background-position: -1394px -738px;  } 
+.icn72_ringtone{ background-position: -1394px -820px;  } 
+.icn72_rotate{ background-position: -1394px -902px;  } 
+.icn72_round{ background-position: -1394px -984px;  } 
+.icn72_rounded_rectangle{ background-position: -1394px -1066px;  } 
+.icn72_router{ background-position: -1394px -1148px;  } 
+.icn72_ruler_square{ background-position: -1394px -1230px;  } 
+.icn72_safety_box{ background-position: -1394px -1312px;  } 
+.icn72_safety_box_open{ background-position: -1394px -1394px;  } 
+.icn72_salary{ background-position: -1394px -1476px;  } 
+.icn72_salesman{ background-position: -1394px -1558px;  } 
+.icn72_satellite{ background-position: -1394px -1640px;  } 
+.icn72_satellite_dish{ background-position: -1394px -1722px;  } 
+.icn72_scissors{ background-position: -1394px -1804px;  } 
+.icn72_screen_zoom_in{ background-position: -1394px -1886px;  } 
+.icn72_screen_zoom_out{ background-position: -1394px -1968px;  } 
+.icn72_secure_connection{ background-position: -1476px 0;  } 
+.icn72_security{ background-position: -1476px -82px;  } 
+.icn72_selection_custom_shape{ background-position: -1476px -164px;  } 
+.icn72_selection_elliptical{ background-position: -1476px -246px;  } 
+.icn72_selection_polygonal{ background-position: -1476px -328px;  } 
+.icn72_selection_rectangular{ background-position: -1476px -410px;  } 
+.icn72_semi-trailer_truck{ background-position: -1476px -492px;  } 
+.icn72_send_box{ background-position: -1476px -574px;  } 
+.icn72_send_box2{ background-position: -1476px -656px;  } 
+.icn72_send_container{ background-position: -1476px -738px;  } 
+.icn72_send_crate{ background-position: -1476px -820px;  } 
+.icn72_send_envelope{ background-position: -1476px -902px;  } 
+.icn72_send_package{ background-position: -1476px -984px;  } 
+.icn72_serial-number{ background-position: -1476px -1066px;  } 
+.icn72_server{ background-position: -1476px -1148px;  } 
+.icn72_sharpen{ background-position: -1476px -1230px;  } 
+.icn72_shear{ background-position: -1476px -1312px;  } 
+.icn72_shinto_temple{ background-position: -1476px -1394px;  } 
+.icn72_ship{ background-position: -1476px -1476px;  } 
+.icn72_shopping_basket{ background-position: -1476px -1558px;  } 
+.icn72_shopping_cart{ background-position: -1476px -1640px;  } 
+.icn72_shrimp3{ background-position: -1476px -1722px;  } 
+.icn72_silver{ background-position: -1476px -1804px;  } 
+.icn72_silver1{ background-position: -1476px -1886px;  } 
+.icn72_silver2{ background-position: -1476px -1968px;  } 
+.icn72_silver3{ background-position: -1558px 0;  } 
+.icn72_slot_machine{ background-position: -1558px -82px;  } 
+.icn72_smiley{ background-position: -1558px -164px;  } 
+.icn72_smiley_angry{ background-position: -1558px -246px;  } 
+.icn72_smiley_confused{ background-position: -1558px -328px;  } 
+.icn72_smiley_grin{ background-position: -1558px -410px;  } 
+.icn72_smiley_in_love{ background-position: -1558px -492px;  } 
+.icn72_smiley_sad{ background-position: -1558px -574px;  } 
+.icn72_smiley_sleeping{ background-position: -1558px -656px;  } 
+.icn72_smiley_waiting{ background-position: -1558px -738px;  } 
+.icn72_smiley_wink{ background-position: -1558px -820px;  } 
+.icn72_sms{ background-position: -1558px -902px;  } 
+.icn72_sniffer{ background-position: -1558px -984px;  } 
+.icn72_socket{ background-position: -1558px -1066px;  } 
+.icn72_software{ background-position: -1558px -1148px;  } 
+.icn72_solar_power_-plant2{ background-position: -1558px -1230px;  } 
+.icn72_space_evenly_horizontal{ background-position: -1558px -1312px;  } 
+.icn72_space_evenly_vertical{ background-position: -1558px -1394px;  } 
+.icn72_spam{ background-position: -1558px -1476px;  } 
+.icn72_spam2{ background-position: -1558px -1558px;  } 
+.icn72_speaker{ background-position: -1558px -1640px;  } 
+.icn72_speaker_left_channel{ background-position: -1558px -1722px;  } 
+.icn72_speaker_right_channel{ background-position: -1558px -1804px;  } 
+.icn72_speaker_stereo{ background-position: -1558px -1886px;  } 
+.icn72_speech_balloon{ background-position: -1558px -1968px;  } 
+.icn72_sphere{ background-position: -1640px 0;  } 
+.icn72_spiral{ background-position: -1640px -82px;  } 
+.icn72_sponge{ background-position: -1640px -164px;  } 
+.icn72_spray{ background-position: -1640px -246px;  } 
+.icn72_spreadsheet{ background-position: -1640px -328px;  } 
+.icn72_spyware{ background-position: -1640px -410px;  } 
+.icn72_spyware2{ background-position: -1640px -492px;  } 
+.icn72_square{ background-position: -1640px -574px;  } 
+.icn72_stamp{ background-position: -1640px -656px;  } 
+.icn72_stamped_document{ background-position: -1640px -738px;  } 
+.icn72_stapler{ background-position: -1640px -820px;  } 
+.icn72_star{ background-position: -1640px -902px;  } 
+.icn72_stats_bar_chart{ background-position: -1640px -984px;  } 
+.icn72_stats_line_chart{ background-position: -1640px -1066px;  } 
+.icn72_stats_pie_chart{ background-position: -1640px -1148px;  } 
+.icn72_stop{ background-position: -1640px -1230px;  } 
+.icn72_subnet{ background-position: -1640px -1312px;  } 
+.icn72_subnet2{ background-position: -1640px -1394px;  } 
+.icn72_sun{ background-position: -1640px -1476px;  } 
+.icn72_swimming{ background-position: -1640px -1558px;  } 
+.icn72_switch{ background-position: -1640px -1640px;  } 
+.icn72_switch_off{ background-position: -1640px -1722px;  } 
+.icn72_switch_on{ background-position: -1640px -1804px;  } 
+.icn72_symmetric_network{ background-position: -1640px -1886px;  } 
+.icn72_synagogue{ background-position: -1640px -1968px;  } 
+.icn72_synagogue2{ background-position: -1722px 0;  } 
+.icn72_tablet{ background-position: -1722px -82px;  } 
+.icn72_tax{ background-position: -1722px -164px;  } 
+.icn72_technical_hammer{ background-position: -1722px -246px;  } 
+.icn72_technical_screwdriver{ background-position: -1722px -328px;  } 
+.icn72_technical_wrench{ background-position: -1722px -410px;  } 
+.icn72_teddy_bear{ background-position: -1722px -492px;  } 
+.icn72_terminal{ background-position: -1722px -574px;  } 
+.icn72_terminal2{ background-position: -1722px -656px;  } 
+.icn72_timeframe{ background-position: -1722px -738px;  } 
+.icn72_timer{ background-position: -1722px -820px;  } 
+.icn72_traffic_lights{ background-position: -1722px -902px;  } 
+.icn72_trash_can{ background-position: -1722px -984px;  } 
+.icn72_treasure_chest{ background-position: -1722px -1066px;  } 
+.icn72_treasure_chest1{ background-position: -1722px -1148px;  } 
+.icn72_treasure_chest2{ background-position: -1722px -1230px;  } 
+.icn72_tree{ background-position: -1722px -1312px;  } 
+.icn72_trojan{ background-position: -1722px -1394px;  } 
+.icn72_trojan2{ background-position: -1722px -1476px;  } 
+.icn72_trophy{ background-position: -1722px -1558px;  } 
+.icn72_truck{ background-position: -1722px -1640px;  } 
+.icn72_upload{ background-position: -1722px -1722px;  } 
+.icn72_ups{ background-position: -1722px -1804px;  } 
+.icn72_usb{ background-position: -1722px -1886px;  } 
+.icn72_usb2{ background-position: -1722px -1968px;  } 
+.icn72_user{ background-position: -1804px 0;  } 
+.icn72_user_awake{ background-position: -1804px -82px;  } 
+.icn72_user_sleep{ background-position: -1804px -164px;  } 
+.icn72_user_woman{ background-position: -1804px -246px;  } 
+.icn72_video{ background-position: -1804px -328px;  } 
+.icn72_video_compress{ background-position: -1804px -410px;  } 
+.icn72_video_convert{ background-position: -1804px -492px;  } 
+.icn72_video_convert2{ background-position: -1804px -574px;  } 
+.icn72_video_cut{ background-position: -1804px -656px;  } 
+.icn72_video_effects{ background-position: -1804px -738px;  } 
+.icn72_videocamera{ background-position: -1804px -820px;  } 
+.icn72_virus{ background-position: -1804px -902px;  } 
+.icn72_visa{ background-position: -1804px -984px;  } 
+.icn72_voip{ background-position: -1804px -1066px;  } 
+.icn72_vpn{ background-position: -1804px -1148px;  } 
+.icn72_wallet{ background-position: -1804px -1230px;  } 
+.icn72_wallet2{ background-position: -1804px -1312px;  } 
+.icn72_wan{ background-position: -1804px -1394px;  } 
+.icn72_wap{ background-position: -1804px -1476px;  } 
+.icn72_warehouse{ background-position: -1804px -1558px;  } 
+.icn72_watchman{ background-position: -1804px -1640px;  } 
+.icn72_wave_amplify_amplitude{ background-position: -1804px -1722px;  } 
+.icn72_wave_amplify_frequency{ background-position: -1804px -1804px;  } 
+.icn72_wave_cut{ background-position: -1804px -1886px;  } 
+.icn72_wave_high_frequency{ background-position: -1804px -1968px;  } 
+.icn72_wave_low_frequency{ background-position: -1886px 0;  } 
+.icn72_wave_reduce_amplitude{ background-position: -1886px -82px;  } 
+.icn72_wave_reduce_frequency{ background-position: -1886px -164px;  } 
+.icn72_wave_stereo{ background-position: -1886px -246px;  } 
+.icn72_webcam{ background-position: -1886px -328px;  } 
+.icn72_weight{ background-position: -1886px -410px;  } 
+.icn72_weight2{ background-position: -1886px -492px;  } 
+.icn72_weight_gram{ background-position: -1886px -574px;  } 
+.icn72_weight_kilogram{ background-position: -1886px -656px;  } 
+.icn72_weight_ounce{ background-position: -1886px -738px;  } 
+.icn72_weight_pound{ background-position: -1886px -820px;  } 
+.icn72_weights{ background-position: -1886px -902px;  } 
+.icn72_white_list{ background-position: -1886px -984px;  } 
+.icn72_white_list_folder{ background-position: -1886px -1066px;  } 
+.icn72_width{ background-position: -1886px -1148px;  } 
+.icn72_wifi{ background-position: -1886px -1230px;  } 
+.icn72_window{ background-position: -1886px -1312px;  } 
+.icn72_windows{ background-position: -1886px -1394px;  } 
+.icn72_wire_transfer{ background-position: -1886px -1476px;  } 
+.icn72_withdrawal{ background-position: -1886px -1558px;  } 
+.icn72_wizard{ background-position: -1886px -1640px;  } 
+.icn72_world{ background-position: -1886px -1722px;  } 
+.icn72_zoom{ background-position: -1886px -1804px;  } 
+.icn72_zoom_in{ background-position: -1886px -1886px;  } 
+.icn72_zoom_out{ background-position: -1886px -1968px;  }
+
+/*Social icons 16px*/
+[class^="sicon_"],
+[class*=" sicon_"]{
+	background: url(../img/sicon.png) no-repeat top left;
+	width: 16px;
+	height: 16px;
+	margin: 2px;
+	padding: 0;
+	display: inline-block;
+}
+.sicon_500px{ background-position: 0 0; } 
+.sicon_AddThis{ background-position: 0 -26px; } 
+.sicon_Behance{ background-position: 0 -52px; } 
+.sicon_Blogger{ background-position: 0 -78px; } 
+.sicon_Delicious{ background-position: 0 -104px; } 
+.sicon_DeviantART{ background-position: 0 -130px; } 
+.sicon_Digg{ background-position: 0 -156px; } 
+.sicon_Dopplr{ background-position: 0 -182px; } 
+.sicon_Dribbble{ background-position: 0 -208px; } 
+.sicon_Evernote{ background-position: 0 -234px; } 
+.sicon_FaceBook{ background-position: 0 -260px; } 
+.sicon_Flickr{ background-position: 0 -286px; } 
+.sicon_Forrst{ background-position: 0 -312px; } 
+.sicon_GitHub{ background-position: 0 -338px; } 
+.sicon_Google{ background-position: 0 -364px; } 
+.sicon_Grooveshark{ background-position: 0 -390px; } 
+.sicon_Instagram{ background-position: 0 -416px; } 
+.sicon_Lastfm{ background-position: 0 -442px; } 
+.sicon_LinkedIn{ background-position: 0 -468px; } 
+.sicon_Mail{ background-position: 0 -494px; } 
+.sicon_MySpace{ background-position: 0 -520px; } 
+.sicon_Path{ background-position: 0 -546px; } 
+.sicon_PayPal{ background-position: 0 -572px; } 
+.sicon_Picasa{ background-position: 0 -598px; } 
+.sicon_Posterous{ background-position: 0 -624px; } 
+.sicon_RSS{ background-position: 0 -650px; } 
+.sicon_Reddit{ background-position: 0 -676px; } 
+.sicon_ShareThis{ background-position: 0 -702px; } 
+.sicon_Skype{ background-position: 0 -728px; } 
+.sicon_SoundCloud{ background-position: 0 -754px; } 
+.sicon_Spotify{ background-position: 0 -780px; } 
+.sicon_Stumbleupon{ background-position: 0 -806px; } 
+.sicon_Tumblr{ background-position: 0 -832px; } 
+.sicon_Twitter{ background-position: 0 -858px; } 
+.sicon_Viddler{ background-position: 0 -884px; } 
+.sicon_Vimeo{ background-position: 0 -910px; } 
+.sicon_Virb{ background-position: 0 -936px; } 
+.sicon_Windows{ background-position: 0 -962px; } 
+.sicon_WordPress{ background-position: 0 -988px; } 
+.sicon_Youtube{ background-position: 0 -1014px; } 
+.sicon_Zerply{ background-position: 0 -1040px; } 
+
+/*Social icons 32px*/
+[class^="sicon32_"],
+[class*=" sicon32_"]{
+	background: url(../img/sicon32.png) no-repeat top left;
+	width: 32px;
+	height: 32px;
+	margin: 2px;
+	padding: 0;
+	display: inline-block;
+}
+.sicon32_500px{ background-position: 0 0;  } 
+.sicon32_AddThis{ background-position: 0 -42px;  } 
+.sicon32_Behance{ background-position: 0 -84px;  } 
+.sicon32_Blogger{ background-position: 0 -126px;  } 
+.sicon32_Deliciou{ background-position: 0 -168px;  } 
+.sicon32_DeviantART{ background-position: 0 -210px;  } 
+.sicon32_Digg{ background-position: 0 -252px;  } 
+.sicon32_Dopplr{ background-position: 0 -294px;  } 
+.sicon32_Dribbble{ background-position: 0 -336px;  } 
+.sicon32_Evernote{ background-position: 0 -378px;  } 
+.sicon32_Facebook{ background-position: 0 -420px;  } 
+.sicon32_Flickr{ background-position: 0 -462px;  } 
+.sicon32_Forrst{ background-position: 0 -504px;  } 
+.sicon32_GitHub{ background-position: 0 -546px;  } 
+.sicon32_Google{ background-position: 0 -588px;  } 
+.sicon32_Grooveshark{ background-position: 0 -630px;  } 
+.sicon32_Instagram{ background-position: 0 -672px;  } 
+.sicon32_Lastfm{ background-position: 0 -714px;  } 
+.sicon32_LinkedIn{ background-position: 0 -756px;  } 
+.sicon32_Mail{ background-position: 0 -798px;  } 
+.sicon32_MySpace{ background-position: 0 -840px;  } 
+.sicon32_Path{ background-position: 0 -882px;  } 
+.sicon32_Paypal{ background-position: 0 -924px;  } 
+.sicon32_Picasa{ background-position: 0 -966px;  } 
+.sicon32_Posterous{ background-position: 0 -1008px;  } 
+.sicon32_RSS{ background-position: 0 -1050px;  } 
+.sicon32_Reddit{ background-position: 0 -1092px;  } 
+.sicon32_ShareThis{ background-position: 0 -1134px;  } 
+.sicon32_Skype{ background-position: 0 -1176px;  } 
+.sicon32_Soundcloud{ background-position: 0 -1218px;  } 
+.sicon32_Spotify{ background-position: 0 -1260px;  } 
+.sicon32_StumbleUpon{ background-position: 0 -1302px;  } 
+.sicon32_Tumblr{ background-position: 0 -1344px;  } 
+.sicon32_Twitter{ background-position: 0 -1386px;  } 
+.sicon32_Viddler{ background-position: 0 -1428px;  } 
+.sicon32_Vimeo{ background-position: 0 -1470px;  } 
+.sicon32_Virb{ background-position: 0 -1512px;  } 
+.sicon32_Windows{ background-position: 0 -1554px;  } 
+.sicon32_WordPress{ background-position: 0 -1596px;  } 
+.sicon32_YouTube{ background-position: 0 -1638px;  } 
+.sicon32_Zerply{ background-position: 0 -1680px;  } 
