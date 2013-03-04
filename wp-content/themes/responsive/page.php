@@ -23,7 +23,7 @@ if (!defined('ABSPATH'))
         <div id="content" class="grid col-620">
 	    <!-- halaman about-us -->
 	    <?php if (is_page('about-us')) : ?>
-		<h1 class="heading-title">About Us</h1>
+		<h1 class="header">About Us</h1>
 		<div class="content-about">
 		<div class="desc-about">
 		<p> <b>Kuassa</b> is a software developer specializing on guitar amplification and audio processing. Our root is coming from passion to create great tools for every musician's creative process. As musicians ourselves, we believe that straight outstanding tonal quality are more important than anything else, including tons of features that might won't be that useful or may distracts you from your main objective: creating great music. 
@@ -394,7 +394,7 @@ if (!defined('ABSPATH'))
 	    </div>
 	    <div class="container_12 line">
 		    <div class="slider">
-			    <div class="slider clearfix">
+			    <div class="slider little clearfix">
 					<ul class="carousel" id="my-carousel">
 					    <li class="ic_container">
 						<a href="">
@@ -494,7 +494,7 @@ if (!defined('ABSPATH'))
 	    </script>
 	    
 	    <div id="content">
-	    <h1 class="heading-title">TECHNICAL SUPPORT</h1>
+	    <h1 class="header">TECHNICAL SUPPORT</h1>
 	      <!-- support-->
 	      <div class="content-support">
 		  <div class="left-column">
@@ -569,7 +569,7 @@ if (!defined('ABSPATH'))
             <?php if (is_page('product')): ?>
             <!-- product list -->
             <div class="heading">
-		<h1 class="heading-title">Product List</h1>
+		<h1 class="header">Product List</h1>
 	    </div>
             <div class="content-product-list">
                 <div class="all-product">
@@ -784,8 +784,8 @@ if (!defined('ABSPATH'))
                         <span class="prod_description">PRODUCT DESCRIPTION</span>
                         <div class="bottom_column">
                             <span class="price">$139.00</span>
+			    <button class="button buy">BUY</button>
                             <button class="button try ">TRY</button>
-                            <button class="button buy">BUY</button>
                         </div>
                     </div>
 		    <div class="clearfix"></div>
@@ -804,6 +804,7 @@ if (!defined('ABSPATH'))
                     </div>
                     <div class="overview_detail" id="block_column">
                         <h2>Overview</h2>
+			<div class="clear"></div>
                         <p>
                             Kuassa, Inc. has once again entered the world of guitar amplification software with Kuassa Amplifikation Creme, featuring ultra-precise digitally engineered head and matching cabinets with built-in overdrive section consisting three kinds of legendary overdrive pedals built right to the amp giving you a full control of harmonically-rich distortion crammed with intense dynamics.
                         </p>
@@ -811,24 +812,31 @@ if (!defined('ABSPATH'))
                             Kuassa Amplifikation Creme are truly a must-have addition for all Amplifikation One fans. Distinguished by its darker, fuller, and heavier tonal character discovered on High-Gain or Metal guitar amplifiers, Kuassa Amplifikation Creme‘s three amp types and channels can give you a sonic arsenal from sparkling clean tones to searing guitar riffs, able to match the sound quality of high-end tube powered guitar amplifiers.
                         </p>
                         <h2>Requirements</h2>
-                        <p></p>
+			<div class="clear"></div>
+			    <p>&nbsp;</p>
+			<div class="clear"></div>
                         <h2>Key Features</h2>
-                        <p>Kuassa, Inc. has once again entered the world of guitar amplification software with Kuassa Amplifikation Creme, featuring ultra-precise digitally engineered head and matching cabinets with built-in overdrive section consisting three kinds of legendary overdrive pedals built right to the amp giving you a full control of harmonically-rich distortion crammed with intense dynamics.</p>
+			<div class="clear"></div>
+			    <p>Kuassa, Inc. has once again entered the world of guitar amplification software with Kuassa Amplifikation Creme, featuring ultra-precise digitally engineered head and matching cabinets with built-in overdrive section consisting three kinds of legendary overdrive pedals built right to the amp giving you a full control of harmonically-rich distortion crammed with intense dynamics.</p>
+			<div class="clear"></div>
                     </div>
                     <div class="interface" id="block_column">
                         <h2>Interface </h2><span class="description_heading">hover on image for descriptions</span>
+			<div class="clear"></div>
                         <div class="simulator">
                             ini bagian simulator
                         </div>
                     </div>
                     <div class="video_product" id="block_column">
 		      <h2>Video </h2>
+		      <div class="clear"></div>
                         <div class="post_video">
                             <iframe width="560" height="315" src="http://www.youtube.com/embed/UFvCriG2wTM" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="audio_sample" id="block_column">
 		      <h2>Audio Samples</h2>
+		      <div class="clear"></div>
                         <div class="sound_cloud post_audio">
                             <iframe width="100%" class="clearfix" scrolling="no" height="350" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F543627&amp;color=951E25&amp;auto_play=false&amp;show_artwork=true"></iframe>
 			    <div class="clear"></div>
@@ -836,6 +844,7 @@ if (!defined('ABSPATH'))
                     </div>
                     <div class="what_the_say" id="block_column">
 		      <h2>What They Say </h2>
+		      <div class="clear"></div>
                         <ul class="fade">
                             <li>
                                 <span>Keren</span>
@@ -852,7 +861,7 @@ if (!defined('ABSPATH'))
             </div>
             <div class="container_12 line">
                 <div class="slider">
-                    <div class="slider clearfix">
+                    <div class="slider little clearfix">
                         <ul class="carousel" id="my-carousel">
                             <li class="ic_container">
                                 <a href="">
@@ -933,7 +942,7 @@ if (!defined('ABSPATH'))
             
 	    <!-- halaman download -->
 	    <?php if (is_page('downloads')) : ?>
-		<h1>Downloads</h1>
+		<h1 class="header">Downloads</h1>
 		<div class="heading">
 		<h2 class="list-heading">Trial Versions</h2>
 		</div>
@@ -1137,7 +1146,7 @@ if (!defined('ABSPATH'))
 	    <!-- end of halaman download -->
 	    <!-- halaman download detail -->
             <?php if (is_page('download-detail')) : ?>
-                <h1>Downloads \ Amplifikation One</h1>
+                <h1 class="header">Downloads \ Amplifikation One</h1>
                 <div class="download_detail line">
                                 <div class="left_content line ">
                                                 <div class="header_img line">
@@ -1173,7 +1182,7 @@ if (!defined('ABSPATH'))
                                         </div>
                                 </div>
                                 <div class="right_content line">
-                                        <div class="grid_12 download_column line">
+                                        <div class="download_column line">
                                                 <h2>Download Version</h2>
                                                 <span class="note">By downloading the file you agree to the terms and agreements.</span>
                                         </div>
@@ -1440,7 +1449,7 @@ if (!defined('ABSPATH'))
 	    </div>
 	    <div class="container_12 line">
 		    <div class="slider">
-			    <div class="slider clearfix">
+			    <div class="slider little clearfix">
 					<ul class="carousel" id="my-carousel">
 					    <li class="ic_container">
 						<a href="">

@@ -38,6 +38,38 @@
 	font-style: normal;
 }
 @font-face {
+	font-family: 'avenir-pro';
+	src: local('☺'), url('AvenirNextLTPro.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'avenir-demi';
+	src: local('☺'), url('AvenirNextLTPro-Demi.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'avenir-condensed';
+	src: local('☺'), url('AvenirNextLTPro-MediumCondensed.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'avenir-bold';
+	src: local('☺'), url('AvenirNextLTPro-Bold.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'californian';
+	src: local('☺'), url('Californian-FB.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
 	font-family: "Novecento";
 	src: local('☺'), url('Novecentowide-Medium.otf') format('opentype');
 	font-weight: normal;

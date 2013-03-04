@@ -43,6 +43,13 @@
     font-size: 18px;
     font-family: 'segoeuil';
 }
+/* buat yang column 4 atau lebih */
+.little .ic_caption h2{
+    font-size: 125%;
+}
+.little .ic_caption span{
+    font-size: 90%;
+}
 .ic_caption h3{
     padding:0px 5px 5px 5px;
     margin:0px;
@@ -58,6 +65,9 @@
 }
 .ic_caption span , .list_caption span {
     color: #F7941D;
+    line-height: 10px;
+    font-family: 'avenir';
+    font-size: 90%;
 }
 span.category{
     float: left;

@@ -50,7 +50,7 @@ if ( !defined('ABSPATH')) exit;
 						</div>
 						<div class="content clearfix">
 							<div class="top"> <!-- ini buat bagian tanggal sama twitter-->
-							<div class="social_share line grid_1">
+							<div class="social_share line grid_1 clearfix">
 								<ul class="listing line">
 									<li class="fb list">
 											<span class="logo"><img src="<?php echo get_template_directory_uri().'/images/icon/mini_share/mini_fb.png'; ?>"></span>
@@ -70,6 +70,7 @@ if ( !defined('ABSPATH')) exit;
 									</li>
 								</ul>
 							</div>
+							<div class="clear"></div>
 							<p class="sign">By <span class="author"><a href="">Dave Tech</a> on Jan 26, 2013 at 6.00pm</span>
 								<span class="twitter">@teulbujur</span>
 							</p>
@@ -93,7 +94,11 @@ if ( !defined('ABSPATH')) exit;
 									<div id="respond">
 									
 									<div class="sign_fb">
-										<h3 id="reply-title">POST A NEW COMMENT</h3><span class="button">Sign in with Facebook</span>
+										<h3 id="reply-title">POST A NEW COMMENT</h3><span class="fb">
+										<div class="sc-button-toolbar">
+										    <button class="sc-button-facebook sc-button g-opacity-transition facebookButton sc-button-medium">Sign in with Facebook</button>
+										</div>
+										</span>
 									</div>
 									<form id="commentform" method="post" action="http://localhost/wordpress-3.5.1/wp-comments-post.php">
 									    <div class="image_comment">
@@ -242,7 +247,7 @@ if ( !defined('ABSPATH')) exit;
 	</div>
 	<div class="container_12 line">
 		<div class="slider">
-				<div class="slider clearfix">
+				<div class="slider little clearfix">
 					<ul class="carousel" id="my-carousel">
 					    <li class="ic_container">
 						<a href="">

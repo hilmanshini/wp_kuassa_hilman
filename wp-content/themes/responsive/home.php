@@ -153,7 +153,9 @@ get_header('special');
                             <span class="category">Interview</span>
                             <span class="comments">1 Comments</span>
                         </div>
-                        <h2>Ludovico Reale</h2>
+			<div class="bottom">
+			    <h2>Ludovico Reale</h2>
+			</div>
                     </div>
                 </a>
             </li>
@@ -165,7 +167,9 @@ get_header('special');
                             <span class="category">Interview</span>
                             <span class="comments">1 Comments</span>
                         </div>
-                        <h2>Dimitar Berbatov</h2>
+			<div class="bottom">
+			    <h2>Dimitar Berbatov</h2>
+			</div>
                     </div>
                 </a>
             </li>
@@ -178,7 +182,9 @@ get_header('special');
                             <span class="category">Interview</span>
                             <span class="comments">1 Comments</span>
                         </div>
-                        <h2>Tim Carter</h2>
+			<div class="bottom">
+			    <h2>Tim Carter</h2>
+			</div>
                     </div>
                 </a>
             </li>
@@ -191,7 +197,9 @@ get_header('special');
                             <span class="category">Interview</span>
                             <span class="comments">1 Comments</span>
                         </div>
-                        <h2>Ludovico Reale</h2>
+			<div class="bottom">
+			    <h2>Ludovico Reale</h2>
+			</div>
                     </div>
                 </a>
             </li>
