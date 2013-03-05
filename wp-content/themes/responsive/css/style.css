@@ -119,7 +119,8 @@ border-bottom:1px solid #222
 }  
 .layout_boxed .container_header .container_12,.layout_wide .container_header .container_12,.layout_wide .container_middle .container_12,.layout_wide .container_footer .container_12,.layout_wide .container_null .container_12{ 
 max-width:1100px; 
-margin:0 auto
+margin:0 auto;
+position: relative;
 }
 .main_menu_place .container_12 {
 width: 100%;
@@ -169,7 +170,8 @@ padding:0
 }  
 .main_menu_place{ 
 background:#fff; 
-border-bottom:1px solid #ccc
+border-bottom:1px solid #ccc;
+position: relative;
 }  
 
 .page_title{ 
@@ -374,7 +376,8 @@ border-left: thin solid #C2C2C2;
 border-right: thin solid #C2C2C2;
 display: block;
 z-index: 999999;
-position: relative;
+position: absolute;
+right: 0;
 }
 /* head right panel */
 #right-panel > ul {
