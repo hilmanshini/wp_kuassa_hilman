@@ -3925,7 +3925,7 @@ span.prod_description{
 }
 
 .sc-button-facebook, .sc-button-facebook:hover, .sc-button-facebook:focus, .sc-button-facebook:visited {
-    background-color: #264285;
+    background-color: #4872AD;
     background-image: linear-gradient(to bottom, #5b7eb4, #3366a5);
     border-color: #264285;
     box-shadow: none;
@@ -3933,7 +3933,7 @@ span.prod_description{
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
 }
 .sc-button-facebook:hover, .sc-button-facebook:focus, .sc-button-facebook:visited {
-    background-color: #264285;
+    background-color: #4672AC;
     background-image: linear-gradient(to bottom, #5b7eb4, #3366a5);
     border-color: #264285;
     box-shadow: 0 1px 1px rgba(255, 255, 255, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.3);
