@@ -181,6 +181,17 @@ $(function(){
 	
 });
 
+$(document).ready(function(){
+
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 57) {
+			$('.product_title').addClass("box_fixed");
+		} else {
+			$('.product_title').removeClass("box_fixed");
+		}
+	});
+
+});
 
 
 /* =========================================== Responsive footer */

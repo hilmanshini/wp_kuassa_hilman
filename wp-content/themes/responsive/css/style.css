@@ -3682,6 +3682,10 @@ img.product-img{
     min-height: auto;
     margin-bottom: 20px;
 }
+.box_fixed{
+    position: fixed !important;
+    z-index: 999999999;
+}
 .product_detail .product_title:before, .product_detail .product_title:after {
     content: "";
     background: black;
