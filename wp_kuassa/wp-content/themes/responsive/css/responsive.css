@@ -1,0 +1,499 @@
+/*---------------------------------------------------------
+Responsive menu */
+.selectnav { 
+	display: block;
+	width: 250px;
+	margin: 8px auto 9px;
+	padding: 8px;
+	height: auto;
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #444!important;
+	display: none;/*First, this should be hidden*/
+}
+/* my menu responsive */
+
+@media screen and (max-width: 1200px) {
+	/*---------------------------------------------------------
+	************************ TEMPLATE *************************
+	---------------------------------------------------------*/
+	/*---------------------------------------------------------
+	Remove body background(because it is not visible on screens up to 1200px;) */
+	body{
+		background: #3C4B63;
+	}
+	/*---------------------------------------------------------
+	Layout and margins */
+	.layout_boxed {
+		position: relative;
+		bottom: 0;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		overflow: hidden;
+	}
+	.layout_boxed .container_header,
+	.layout_boxed .container_middle,
+	.layout_boxed .container_footer,
+	.layout_boxed .container_null
+	{
+		border-left: 0;
+		border-right: 0;
+	}
+	.layout_boxed .container_header{
+		margin-top: 0;
+		border-top: 0;
+	}
+	.layout_boxed .container_footer{		
+		position: relative;
+		bottom: 0;
+		margin-bottom: 0;
+		border-left: 0;
+		border-right: 0;
+		border-bottom: 0;
+		overflow: hidden;
+	}
+	#horizontal {
+		width: 64%;
+	}
+	#nav li{
+		margin: 0 18px;
+	}
+}
+@media screen and (max-width: 1110px) {
+	/* navigation */
+	#horizontal {
+		width: 64%;
+	}
+	#nav li{
+		margin: 0 17px;
+	}
+}
+@media screen and (max-width: 1095px){
+	#horizontal {
+		width: 62%;
+	}
+	#nav li{
+		margin: 0 14px;
+	}
+}
+@media screen and (max-width: 1050px){
+	#horizontal {
+		width: 62%;
+	}
+	#nav li{
+		margin: 0 13px;
+	}
+}
+@media screen and (max-width: 1030px){
+	#horizontal {
+		width: 60%;
+	}
+	#nav li{
+		margin: 0 10px;
+	}
+}
+@media screen and (max-width: 1000px){
+	#horizontal {
+		width: 58%;
+	}
+	#nav li{
+		margin: 0 8px;
+	}
+}
+@media screen and (max-width: 980px){
+	#horizontal {
+		width: 57%;
+	}
+	#nav li{
+		margin: 0 5.5px;
+	}
+}
+@media screen and (max-width: 940px){
+	#horizontal {
+		width: 55%;
+	}
+	#nav li{
+		margin: 0 3px;
+		font-size: 98%;
+		color: #fff;
+	}
+}
+@media screen and (max-width: 890px){
+	#horizontal {
+		width: 53%;
+	}
+	#nav li{
+		margin: 0 3.5px;
+		font-size: 92%;
+		color: #fff;
+	}
+}
+@media screen and (max-width: 880px){
+	#horizontal {
+		width: 53%;
+	}
+	#nav li{
+		margin: 0 3px;
+		font-size: 90%;
+		color: #fff;
+	}
+}
+@media screen and (max-width: 870px){
+	#horizontal {
+		width: 53%;
+	}
+	#nav li{
+		font-size: 88%;
+		color: #fff;
+	}
+}
+@media screen and (max-width: 870px){
+	#horizontal {
+		width: 53%;
+	}
+	#nav li{
+		font-size: 88%;
+		color: #fff;
+	}
+}
+@media screen and (max-width: 860px){
+	#horizontal {
+		width: auto;
+		background: none;
+	}
+	#nav li{
+		font-size: 85%;
+		color: #fff;
+	}
+}
+@media screen and (max-width: 840px){
+	#horizontal {
+		width: auto;
+		background: none;
+	}
+	#nav li{
+		font-size: 80%;
+		color: #fff;
+		margin: 0 1.5px;
+	}
+}
+@media screen and (max-width: 960px) {
+	/*---------------------------------------------------------
+	************************ TEMPLATE *************************
+	---------------------------------------------------------*/
+	.module_h_blog_posts,
+	.grid_6.module_h_blog_posts{
+		width: 98%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+
+}
+
+@media screen and (max-width: 780px) {
+	/*---------------------------------------------------------
+	************************ TEMPLATE *************************
+	---------------------------------------------------------*/
+	.container_12 .grid_item{
+		width: 47.5%;
+		display: inline-block;
+	}
+	.clear780
+	{
+		background: none;
+		border: 0;
+		clear: both;
+		display: block;
+		float: none;
+		font-size: 0;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+	/*---------------------------------------------------------
+	Homepage */	
+	.container_12 .grid_3.x1_grid_item{
+		width: 23%;
+		display: inline-block;
+	}
+	.container_12 .grid_item.home_last_post{
+		width: 98%;
+		display: block;
+	}
+	.container_12 .grid_item.home_last_post .hl_img,
+	.container_12 .grid_item.home_last_post .hl_content{
+		width: 49%;
+		float: left;
+		display: inline-block;
+	}
+	.container_12 .grid_item.home_last_post .hl_content{
+		margin-left: 2%;
+	}
+	.grid_8.module_h_blog_posts_all,
+	.grid_8.module_posts_all{
+		width: 100%;
+	}
+	
+	/*---------------------------------------------------------
+	Responsive menu */
+	.js #nav { display: none; }
+	.js .selectnav { display: block; }
+	
+	/*---------------------------------------------------------
+	Image caption */
+	.img_wrap_in .img_wrap_caption{
+		background: transparent;
+		filter: alpha(opacity=100);
+		opacity: 1;
+	}
+	.img_wrap_in .img_wrap_caption h2,
+	.img_wrap_in .img_wrap_caption h3,
+	.img_wrap_in .img_wrap_caption p
+	{
+		display: none;
+	}
+	.img_wrap_in .img_wrap_caption .cmore, 
+	.img_wrap_in .img_wrap_caption .czoom, 
+	.img_wrap_in .img_wrap_caption .cplay, 
+	.img_wrap_in .img_wrap_caption .clink{
+		filter: alpha(opacity=100);
+		opacity: 1;
+		transform: translateY(0);
+		-ms-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		-o-transform: translateY(0);
+		-moz-transform: translateY(0);
+	}
+	/*---------------------------------------------------------
+	Price Box */
+	.price_box.pb4col .pb_column {
+		width: 50%;
+	}
+	/*---------------------------------------------------------
+	Slider */
+	.flex-caption{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 720px) {	
+	/*---------------------------------------------------------
+	************************** GRID ***************************
+	---------------------------------------------------------*/
+	.container_12 .grid_1,
+	.container_12 .grid_2,
+	.container_12 .grid_3,
+	.container_12 .grid_4,
+	.container_12 .grid_5,
+	.container_12 .grid_6,
+	.container_12 .grid_7,
+	.container_12 .grid_8,
+	.container_12 .grid_9,
+	.container_12 .grid_10,
+	.container_12 .grid_11,
+	.container_12 .grid_12
+	{
+		margin-left: 1%;
+		margin-right: 1%;
+		width: 98%;
+	}
+	.alpha,
+	.omega {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.align_center,
+	.align_right {
+		text-align: left;
+	}
+	
+	/*---------------------------------------------------------
+	************************ TEMPLATE *************************
+	---------------------------------------------------------*/
+	/*---------------------------------------------------------
+	Grids */
+	.container_12 .block_service1,
+	.container_12 .grid_item
+	{
+		width: 48%;
+		display: inline-block;
+	}
+	/*---------------------------------------------------------
+	Footer */
+	.footer_mini_right{
+		float: none;
+	}
+	ul.footer_mini_menu li{
+		margin: 0 10px 0 0;
+	}
+	.footer_responsive_block{
+		display: block;
+	}
+	.footer_inner_min{
+		display: none;
+	}
+	/*---------------------------------------------------------
+	Sidebar */
+	.sidebar_responsive_block{
+		display: block;
+	}
+	.right_side,
+	.left_side{
+		display: none;
+	}
+	/*---------------------------------------------------------
+	Blog related items */
+	.container_12 .brp_item{
+		width: 48%;
+	}
+	/* --------------------------------------------------------
+	Comment list */
+	.container_12 .comment_avatar, 
+	.container_12 .comment_content
+	{
+		display: inline-block;
+		float: left!important;
+	}
+	.container_12 .comment_avatar{
+		width: 20%;
+	}
+	.container_12 .comment_content{
+		width: 76%;
+	}
+	/* --------------------------------------------------------
+	Comment form */
+	.commform_row  input.span4{
+		width: 60%;
+	}
+	/*---------------------------------------------------------
+	Price Box */
+	.price_box.pb3col .pb_column {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	/*---------------------------------------------------------
+	************************ TEMPLATE *************************
+	---------------------------------------------------------*/
+	/*-------------------------------------------------------*/
+	.container_12 .grid_3.x1_grid_item{
+		width: 31%;
+	}
+	
+	/*---------------------------------------------------------
+	Logo */
+	.head_logo{
+		float:none;
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.head_logo img{
+		float:none;
+		display: block;
+		margin: 0 auto;
+	}
+	/*---------------------------------------------------------
+	Head search */
+	.pull-right.head_search,
+	.head_search{
+		float:none;
+		display: block;
+		width: 248px;
+		margin: 0 auto;
+	}
+	/*---------------------------------------------------------
+	Blog */
+	.post_headtype{
+		float: left;
+	}
+	.post_head{
+		width: auto;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	/*---------------------------------------------------------
+	************************ TEMPLATE *************************
+	---------------------------------------------------------*/
+	/*---------------------------------------------------------
+	Home */
+	.container_12 .grid_item.home_last_post{
+		width: 98%;
+		display: block;
+	}
+	.container_12 .grid_item.home_last_post .hl_img,
+	.container_12 .grid_item.home_last_post .hl_content{
+		width: 100%;
+		float: none;
+		display: block;
+	}
+	.container_12 .grid_item.home_last_post .hl_content{
+		margin-left: 0;
+	}
+	/*---------------------------------------------------------
+	Blog related items */
+	.container_12 .brp_item{
+		margin-left: 1%;
+		margin-right: 1%;
+		width: 98%;
+	}
+	/*---------------------------------------------------------
+	Price Box */
+	.price_box.pb3col .pb_column {
+		width: 100%;
+	}
+	.price_box.pb4col .pb_column {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 320px) {
+	/*---------------------------------------------------------
+	************************ TEMPLATE *************************
+	---------------------------------------------------------*/
+	/*---------------------------------------------------------
+	Grids */
+	.container_12 .block_service1,
+	.container_12 .grid_item{
+		width: auto;
+		display: block;
+		float: none;
+	}
+	.container_12 .grid_3.x1_grid_item{
+		width: 47.5%;
+	}
+	/*---------------------------------------------------------
+	Responsive menu */
+	.selectnav { width: auto; }
+}
+
+/* my menu responsive */
+
+/* navi menu */
+p.mobile-nav{ 
+padding:0; 
+margin:0; 
+display: none;
+float: left;
+}
+.mobile li {
+display: block;
+width: 45%;
+border-bottom : solid thin #fff;
+padding: 10px 0;
+}
+@media screen and (max-width: 768px) {
+	p.mobile-nav{
+		display: block;
+		width: 30%;
+		line-height: 46px;
+		border: solid thin #f00;
+		float: left;
+	}
+}

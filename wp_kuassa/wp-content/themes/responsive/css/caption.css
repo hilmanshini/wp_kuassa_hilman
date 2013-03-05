@@ -1,0 +1,112 @@
+.ic_container{
+    position:relative;
+    width: 100%;
+    overflow: hidden !important;
+}
+.overlay{
+    opacity:0.3;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+.ic_caption p{
+    padding:5px;
+    margin:0px;
+    font-size:14px;
+    padding-left: 15px;
+}
+.ic_caption{
+    position:absolute;    
+    overflow:hidden;
+    margin:0px;
+    padding:13px 21px;
+    left:0px;
+    right:0px;
+    overflow: hidden !important;
+    bottom: 0px;
+    background: url('../images/black_opacity.png') top left;
+    color: #fff;
+    height: 35%;
+    text-transform: uppercase;
+}
+.ic_category{
+    text-transform:uppercase;
+    font-size:11px;
+    letter-spacing:3px;
+    padding:5px;
+    margin-top:15px !important;
+    color: #ff6300;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'segoeuil';
+}
+.ic_caption h3{
+    padding:0px 5px 5px 5px;
+    margin:0px;
+    font-size:18px;
+    text-align: center;
+}
+.ic_text{
+    padding:5px;
+    margin:0px;
+    text-align:justify;
+    font-size:11px;
+
+}
+.ic_caption span , .list_caption span {
+    color: #F7941D;
+}
+span.category{
+    float: left;
+    width: 45%;
+}
+span.comments{
+    float: right;
+    width: 45%;
+    text-align: right;
+}
+/* banner top */
+.banner_top{
+    position: relative;
+    width: 100%;
+    overflow: hidden !important;
+    color: #fff;
+}
+.caption_img{
+    position:absolute;    
+    overflow:hidden;
+    margin:0px;
+    padding:10px 27px;
+    left:0;
+    right:0;
+    cursor:default;
+    overflow: hidden !important;
+    bottom: 0;
+    top: 0;
+    color: #fff;
+    text-align: center;
+}
+.content_fill{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+/* kuassa community */
+.list_caption{
+    position:absolute;    
+    overflow:hidden;
+    margin:0px;
+    padding:10px 27px;
+    left:0px;
+    right:0px;
+    overflow: hidden !important;
+    bottom: 0px;
+    background: url('../images/black_opacity.png') top left;
+    color: #fff;
+    height: 90px;
+    text-transform: uppercase;
+}
